@@ -1,0 +1,183 @@
+#+title: Learn English from Fresh Words
+#+author: Buce-Ithon
+#+date: <2026-07-14 周二>
+
+* sheet
+
+Typically a "sheet" is *a flat, broad, and thin piece of material or a broad expanse of something*.
+
+- *Paper*: A single piece of paper for writing or printing.
+- *Bedding*: A large, thin rectangular piece of cloth used as part of bed linen (like a flat or fitted sheet).
+- *Material*: A thin, flat layer of a solid substance like glass, metal or ice.
+- *Computing & Business*: A digital document, often called a spreadsheet (e.g. in Google Sheets or Microsoft Excel), used for storing, organizing, and calculating data in rows and columns.
+
+** Specific terms:
+
+- Check out a *Balance Sheet* to see a financial summary of a company's assets, liabilities and equity.
+- Create and manage your own tables using *Google Sheets*.
+
+* minute
+
+1. Time (Pronounced /MIN_it/)
+   - *60 seconds*
+   - *Short moment*: A very brief period of time.
+2. Size (Pronounced /my-NEWT/)
+   - *Extremely small*: Tiny or microscopic in size.
+   - *Insignificant*: Very little importance.
+   - *Detailed*: Marked by close attension to tiny details (e.g. "minute examination").
+
+* conversation
+
+*An interactive, verbal or written exchange of ideas, thoughts, feelings and information between 2 or more people.* It requires active participation - both speaking and listening.
+
+** Key Elements of a Conversation
+
+- *Turn-taking*: Participants alternate between listening and speaking.
+- *Information Exchange*: The goal is usually to convey news, solve problems or simply share experience.
+- *Medium*: Face-to-face, over the phone or digitally through text and messaging apps.
+
+** Types of Conversations
+
+Conversations can range from casual to highly structured:
+
+- *Small Talk*: Light, casual conversation used to break the ice or discuss impersonal topics like the wheather.
+- *Discussion*: A more serious exchange of ideas to explore an issue or to make a decision.
+- *Heart-to-Heart*: An intimate, personal exchange where individuals share deep feelings and trust.
+- *Debate*: A highly structured, formal argument where different viewpoints systematically defined.
+
+** Etymology
+
+The word originates from the Latin /conversatio/, which combines /con-/ ("together") and /versare/ ("to turn"). Historically, it literally meant "turning together" and originally referred to general social behavior or how individuals lived their lives together.
+
+* verbatim
+/və(ː)ˈbeɪtɪm/
+
+*Word-for-word, using exactly the same words as were originally spoken or written.* It ensures the information is reproduced precisely with no alterations.
+
+** Usage Examples:
+
+- *Adverb*: "The reporter wrote down the president's speech *verbatim*."
+- *Adjective*: "The lawyer provided a *verbatim* transcript of the court hearing."
+
+** Etymology
+
+The term drives from Medieval Latin /verbātim/, which combines the Latin word /verbum/ (meaning "word") with an adverbail suffix meaning "by the" or "in".
+
+** Common Synonyms
+
+- Word for word
+- Exactly
+- Precisely
+- Directly
+
+** Common question
+
+Q1: Is "literally" a synonyms of verbatim?
+A1: No. They have different meanings and distinct uses.
+- The Difference
+  - *Verbatim*: Means coping or repeating words *exactly as spoken or written* (word-for-word).
+  - *Literally*: Means something happened *exactly in a strict sense*, without exaggeration or metaphor.
+- Examples Contrast
+  - "Copy this *verbatim*." (Use the exact same words).
+  - "I am *literally* freezing." (Your body temperature is actually dropping; you are not using a figure of speech).
+- Cross-Over Exception
+  They only overlap in very specific contexts regarding translation or interpretation:
+  - A "*leteral* translation" can mean a "*verbatim* translation" (translating word-for-word instead of for overall meaning).
+
+* correspond
+
+*To communicate with someone in writing (such as via email or letters) or to match and be similiar to something else.*
+
+1. To Match or Be Equivalent
+   This describes situations where two things share a similar nature, quantity or structure.
+   - *Example usage*: "The numbers on the answer key *correspond* to the question on the test."
+   - *Example usage*: "Her version of the event didn't *correspond* with the witness's statement."
+2. To Communicate in Writing
+   This refers to the act of exchanging message or letters, usually over a long period of distance.
+   - *Example usage*: "They *correspond* regularly through email."
+   - *Example usage*: "He *correspond* with several experts in the field."
+
+* introverted
+
+*Describes a personality trait characterized by a focus on internal thoughts, feelings and mood rather than seeking eternal [[stimulation][stimulation]].* Introverts typically recharge their energy through solitude and quiet environments, often finding large social gathering draining.
+
+** The Science of Energy
+
+In psychology - a framework popularized by Carl Jung - the distinction between introverts and extroverts comes down to how you process and regain energy.
+
+- *Introverts* gain energy from their internal world. After engaging in heavy social interaction, they usually need to retreat to a quiet environment to mentally recharge.
+- *Extroverts* gain energey from outside world and are stimulated by social interactions.
+
+** Common Traits
+
+Introverts often share several behavioral and mental characteristics:
+
+- Deep Focus: They prefer concentrating on a few projects or ideas in-depth rather than multitasking across many.
+- Quality Relationships: They generally favor close, intimate friendships over large social networks.
+- Observation: They tend to think things through internally before speaking or taking actions.
+
+** Common Misconceptions
+
+- Myth: Introversion is the same as shyness or anti-social behavior. Shyness involves a fear of social judgement, whereas introversion simply [[dictate][dictates]] how much social stimulation one can handle before needing a break.
+- Myth: Introverts cannot be leaders or public speakers. Many introverts are highly [[charismatic][charismatic]], confident and effective leaders, though they may still prefer one-to-one meeting over crowdwd networking events.
+
+* stimulation
+
+*Stimulation* refers to *the act of arousing, encouraging, or exciting an individual, organism, or system to increased activity, energy, or development*.
+
+It can refer to anything that _provokes_ a physical, mental, or emotional response.
+
+** Sensory and Physical
+
+The activation of nerve receptors or the senses via external factors like light, sound or touch. For instance, visual stimulation can catch a child's interest, while muscle or nerve stimulation relates to raising physiological activity in the body.
+
+** Cognitive and Mental
+
+Activities or experiences that challenge and engage the mind. People might read a complex book or engage in a challenging debate to get the mental or intellectual stimulation they _crave_.
+
+** Economic and Biological
+
+The encouragement of development or the causing of activity. In biology, it can mean promoting the function of a body part (like stimulating the ovaries). In economics, a government might use policies (such as a cut in interest rates) to stimulate market growth.
+
+** Sexual
+
+Mutual touching or fondling meant to _evoke_ sexual interest or arousal before _intercourse_.
+
+* dictate
+
+The word "*dictate*" means *to speak words aloud for another person or a recording device to write down, or to issue authoritative commands and lay down rules*. It can also refer to a guiding principle or requirement.
+
+** Key Meanings and Uses
+
+*** 1. To give orders or _prescribe_ with authority
+You use this when someone _asserts_ control or forces terms onto others. 
+- *Example:* The landlord tried to *dictate* the terms of the _lease_.
+
+*** 2. To state aloud for transcription
+This refers to verbally speaking text so that a secretary or a digital device can _transcribe_ it. 
+- *Example:* The executive *dictated* a memo to her assistant before the meeting.
+
+*** 3. To make something necessary
+Situations or conditions can also "dictate" an outcome, effectively determining what must happen. 
+- *Example:* Local climate will *dictate* the types of crops you can grow.
+
+*** 4. As a Noun
+As a noun (pronounced /DIK-tate/), it refers to an authoritative command, guiding principle, or rule. 
+- *Example:* She acted according to the *dictates* of her conscience.
+
+* charismatic
+/ˌkarɪzˈmatɪk/
+
+Being *charismatic* means *possessing a _compelling_, magnetic charm or personal magnetism that effortlessly attracts, inspires, and influences others*. Charismatic individuals are typically highly confident, persuasive, and energetic, drawing people in and making them feel uniquely valued or engaged in conversation.
+
+** Key Characteristics of a Charismatic Personality
+- *Magnetic Appeal:* An innate ability to command a room and leave a lasting impression.
+- *Exceptional Communication:* The skill to _articulate_ ideas passionately and persuade others effectively.
+- *Empathy and Warmth:* The capacity to make others feel completely comfortable and connected.
+- *High Confidence:* A strong sense of self-assurance that naturally inspires trust and followership.
+
+** Other Contexts and Meanings
+Beyond general personality traits, the term has a few distinct applications:
+- *Theology & Religion:* In Christianity, it refers to a movement or denomination emphasizing direct _divine_ inspiration and spiritual "gifts," such as miraculous healing or speaking in tongues.
+- *Leadership Studies:* In political science and management, it describes a leadership style where a leader uses their charm and communication skills to drive teams or nations toward bold goals.
+

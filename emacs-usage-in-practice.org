@@ -1,0 +1,154 @@
+#+title: Emacs Usage In Practice
+#+author: Buce-Ithon
+#+date: [2026-07-14 ÖÜ¶þ]
+
+* Emacs Line Wrapping Guide
+
+** Soft Wrap (Visual Line Mode)
+This method wraps text at the window edge on *word boundaries* without modifying your actual file. This is the recommended choice for writing prose or markdown.
+
+- **Current buffer:** Run =M-x visual-line-mode=.
+- **All buffers permanently:** Add =(global-visual-line-mode t)= to your Emacs initialization file (=~/.emacs= or =~/.emacs.d/init.el=).
+- **Text modes only:** Add =(add-hook 'text-mode-hook 'visual-line-mode)= to your configuration file.
+
+** Hard Wrap (Auto Fill Mode)
+This method automatically inserts a *physical newline character* as you type once you cross a specific column threshold.
+
+- **Toggle mode:** Run =M-x auto-fill-mode=.
+- **Set line length:** Press =C-x f= (or run =M-x set-fill-column=) and type a number to define the maximum width (e.g., =80=).
+- **Wrap a paragraph manually:** Press =M-q= (or run =M-x fill-paragraph=) to wrap an existing block of text.
+
+** Disable Wrapping Entirely (Truncation)
+If you want long lines to extend off-screen rather than wrapping, you can force Emacs to truncate them. This is ideal for reading source code or wide data logs.
+
+- **Current buffer:** Run =M-x toggle-truncate-lines=.
+- **All buffers permanently:** Add =(setq-default truncate-lines t)= to your Emacs initialization file.
+
+** References
+- [[https://gnu.huihoo.com/emacs/26.3/Visual-Line-Mode.html][GNU Emacs Manual - Visual Line Mode]]
+- [[https://emacsdocs.org/docs/emacs/Auto-Fill][Emacs Docs - Auto Fill Mode]]
+- [[http://xahlee.info/emacs/emacs/emacs_long_line_wrap.html][Xah Lee Web Guide - Emacs: Visual Line Mode]]
+- [[https://forum.systemcrafters.net/t/using-auto-fill-mode-vs-visual-line-mode/275][System Crafters - Auto Fill vs Visual Line Mode]]
+
+* How to Save *scratch* Buffer to a File
+
+** Option 1: Evil Mode Ex Command
+1. Press ~ESC~ to enter Normal state.
+2. Type =:w ~/path/to/your/file.org= and press ~Enter~.
+
+** Option 2: Standard Emacs Command
+1. Press ~M-x~.
+2. Type =write-file= and press ~Enter~.
+3. Specify your desired file path and filename.
+
+** References
+- [[https://emacs.stackexchange.com/questions/20/re-open-scratch-buffer][Emacs Stack Exchange: Re-open *scratch* buffer]]
+- [[https://www.reddit.com/r/emacs/comments/ibwzcu/weekly_tipstricketc_thread/][Reddit: Emacs Weekly Tips/Tricks Thread]]
+- [[https://stackoverflow.com/questions/3215866/how-to-force-emacs-to-save-even-if-it-thinks-no-changes-need-to-be-saved][Stack Overflow: Force Emacs to Save Buffer]]
+- [[https://www.john2x.com/emacs.html][John's Emacs Config]]
+
+* How to add date in org mode in emacs?
+
+** Introduction
+To add a date in Emacs Org mode, you use *timestamps*. 
+The easiest way to insert them is through built-in keyboard shortcuts that open a mini-buffer date-selection prompt.
+
+** Core Commands for Adding Dates
+- *~C-c .~* :: Inserts an *active timestamp* (e.g., =<2026-07-14 Tue>=). Active timestamps appear in your global Org Agenda.
+- *~C-c !~* :: Inserts an *inactive timestamp* (e.g., =[2026-07-14 Tue]=). Inactive timestamps do not clutter your agenda.
+- *~C-c C-s~* :: Inserts a =SCHEDULED:= tag with a date to plan when you will start a task.
+- *~C-c C-d~* :: Inserts a =DEADLINE:= tag with a date to log when a task must be finished.
+
+** Using the Date Picker Prompt
+When you execute any of these commands, Emacs opens a prompt at the bottom of the screen. 
+You can select a date using three different methods:
+
+*** Fast Keyboard Shorthand
+Instead of typing a full date, you can type relative syntax into the prompt and hit =Enter=:
+- =+1d= or =+2w= :: Adds a date 1 day or 2 weeks into the future.
+- =Fri= or =Monday= :: Jumps to the upcoming Friday or Monday.
+- =10 jun 15:00= :: Explicitly sets both a specific date and time.
+
+*** Calendar Navigation
+Use =Shift= + =Arrow Keys= to move the cursor day-by-day or week-by-week inside the interactive calendar display, then press =Enter= to select.
+
+*** Include Time Automatically
+If you want a timestamp to include hours and minutes (e.g., =<2026-07-14 Tue 13:00>=), pass a prefix argument by typing *~C-u~* before the command (for example, =C-u C-c .=).
+
+* Org Mode Linking and Visibility Guide
+
+** Linking Words in Org Mode
+In an Org mode file, you can link words using the standard =[[link][description]]= syntax. The *link* points to your destination, and the *description* is the specific text displayed in your document.
+
+*** 1. Link to a Web Page
+You can read more on the [[https://orgmode.org][Org Mode]] website.
+
+*** 2. Link to Another Heading in the Same File
+Check out the [[My Custom ID][important section]] of this document.
+
+** Important Section
+:PROPERTIES:
+:CUSTOM_ID: My Custom ID
+:END:
+This is the section being linked to.
+
+*** 3. Create a Custom Word Target (Anchor)
+You can learn about this feature in the [[Specific Concept][glossary]].
+
+<<Specific Concept>> This is the specific text I want to link to.
+
+*** 4. Link to an External File
+Open my [[file:~/Documents/notes.org][notes file]].
+
+*** Emacs Shortcut (Interactive Method)
+1. Type the words you want to use as your description.
+2. Highlight those words.
+3. Press =C-c C-l= to run ~org-insert-link~.
+4. Enter your link target in the minibuffer and press =Enter=.
+
+** Unfolding a Reference
+To unfold or follow a reference link in Org mode, place your cursor on the link and use the standard open command.
+
+*** Keyboard Shortcuts
+- *Follow link*: Press =C-c C-o= (runs ~org-open-at-point~).
+- *Mouse click*: Press =Ctrl= + =Left Click= on the link.
+
+*** Unfold Hidden Link Syntax
+- *Toggle link visibility*: Press =M-x org-toggle-link-display=.
+- *Show raw text*: This switches between hiding and showing the brackets and target paths globally.
+
+*** Unfold a Target Heading
+- *Unfold target*: Press =TAB= on the heading after following the link to expand it.
+
+* How to Change Headings in Org Mode?
+
+** Change Heading Level (Promote or Demote)
+*** =M-Left= (Meta + Left Arrow)
+   Promote the current heading line up by one level.
+*** =M-Right= (Meta + Right Arrow)
+   Demote the current heading line down by one level.
+*** =M-S-Left= (Meta + Shift + Left Arrow)
+   Promote the *entire subtree* (the heading and all its sub-headings).
+*** =M-S-Right= (Meta + Shift + Right Arrow)
+   Demote the *entire subtree*.
+
+** Reorder Headings (Move Up or Down)
+*** =M-Up= (Meta + Up Arrow)
+   Move the current heading or subtree above the previous heading.
+*** =M-Down= (Meta + Down Arrow)
+   Move the current heading or subtree below the next heading.
+
+** Convert Headings to Lists (and Vice Versa)
+*** =C-c -= (Ctrl + c + hyphen)
+   Turn the current heading line into a plain list item.
+*** =C-c *= (Ctrl + c + asterisk)
+   Turn a plain list item back into an Org heading.
+
+** Move a Heading to a Different File or Section
+*** =C-c C-w= (Ctrl + c + Ctrl + w)
+   Refile the current heading and its contents to a different headline or completely separate Org file.
+
+** Edit Text via Programmatic Command
+*** =M-x org-edit-headline=
+   Allows you to rename the text of the title cleanly without resetting any existing TODO states, priorities, or tags.
+

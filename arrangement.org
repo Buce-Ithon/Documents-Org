@@ -1,0 +1,23 @@
+#+TITLE: MY ARRANGEMENT & TODO
+#+AUTHOR: Buth-Ithon
+
+* 2026年5月
+** 2026-05-25 MON [1/5]
+*** DONE LearnCPP.Chapter-O:  Bit Manipulation (optional chapter)
+CLOSED: [2026-05-26 周二 13:25] DEADLINE: <2026-05-26 周二> SCHEDULED: <2026-05-25 周一>
+
+* 2026年7月
+** 2026-07-14 MON [0/4]
+*** TODO LearnCPP.Chapter-7:  Scope, Duration, and Linkage
+DEADLINE: <2026-07-18 周六> SCHEDULED: <2026-07-14 周二>
+*** TODO LearnCPP.Chapter-8:  Control Flow
+DEADLINE: <2026-07-18 周六> SCHEDULED: <2026-07-14 周二>
+*** TODO LearnCPP.Chapter-9:  Error Detection and Handling
+DEADLINE: <2026-07-18 周六> SCHEDULED: <2026-07-14 周二>
+*** TODO LearnCPP.Chapter-10: Type Conversion, Type Aliases, and Type Deduction
+DEADLINE: <2026-07-18 周六> SCHEDULED: <2026-07-14 周二>
+
+* 长期项目与任务池
+** 2026-5 [0/1]
+*** TODO LearnCPP.com finished -> Basic C++ knowledges
+SCHEDULED: <2026-05-25 周一>
