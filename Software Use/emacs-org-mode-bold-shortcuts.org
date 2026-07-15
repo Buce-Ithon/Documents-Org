@@ -1,0 +1,29 @@
+#+title: Emacs Org-Mode Bold Shortcut
+#+author: Buce-Ithon
+#+date: <2026-07-15 周三>
+
+* Emacs Org-Mode Bold Shortcut
+
+The default keyboard shortcut to format text as bold in Emacs Org-Mode is *~C-c C-x C-f~ followed by typing ~*~*. 
+
+** How to Use the Built-In Shortcut
+1. Select the region of text you want to make bold.
+2. Press *~C-c C-x C-f~* (this invokes the =org-emphasize= command).
+3. Look at the prompt at the bottom of the screen and type *~*~*.
+
+** Quick Syntax Alternative
+Because the built-in shortcut requires multiple keystrokes, most users prefer to just *wrap the text manually in asterisks (~*~)*. For example:
+#+begin_src org
+This is *bold* text.
+#+end_src
+
+** Custom =Ctrl+B= Configuration
+If you prefer a seamless, traditional shortcut like =Ctrl+B= (=C-b= in Emacs), you can map it to automatically apply the bold markup. Add the following snippet to your Emacs initialization file (~~/.emacs~ or ~init.el~):
+
+#+begin_src elisp
+(with-eval-after-load 'org
+  (define-key org-mode-map (kbd "C-b") 
+    (lambda () 
+      (interactive) 
+      (org-emphasize ?*))))
+#+end_src

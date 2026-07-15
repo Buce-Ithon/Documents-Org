@@ -99,7 +99,7 @@ A1: No. They have different meanings and distinct uses.
 
 * introverted
 
-*Describes a personality trait characterized by a focus on internal thoughts, feelings and mood rather than seeking eternal [[stimulation][stimulation]].* Introverts typically recharge their energy through solitude and quiet environments, often finding large social gathering draining.
+Describes *a personality trait characterized by a focus on internal thoughts, feelings and mood rather than seeking eternal [[stimulation][stimulation]]*. Introverts typically recharge their energy through solitude and quiet environments, often finding large social gathering draining.
 
 ** The Science of Energy
 
@@ -118,7 +118,7 @@ Introverts often share several behavioral and mental characteristics:
 
 ** Common Misconceptions
 
-- Myth: Introversion is the same as shyness or anti-social behavior. Shyness involves a fear of social judgement, whereas introversion simply [[dictate][dictates]] how much social stimulation one can handle before needing a break.
+- Myth: Introversion is the same as shyness or anti-social behavior. Shyness [[involve][involves]] a fear of social judgement, whereas introversion simply [[dictate][dictates]] how much social stimulation one can handle before needing a break.
 - Myth: Introverts cannot be leaders or public speakers. Many introverts are highly [[charismatic][charismatic]], confident and effective leaders, though they may still prefer one-to-one meeting over crowdwd networking events.
 
 * stimulation
@@ -137,7 +137,7 @@ Activities or experiences that challenge and engage the mind. People might read 
 
 ** Economic and Biological
 
-The encouragement of development or the causing of activity. In biology, it can mean promoting the function of a body part (like stimulating the ovaries). In economics, a government might use policies (such as a cut in interest rates) to stimulate market growth.
+The encouragement of development or the causing of activity. In biology, it can mean promoting the function of a body part (like stimulating the _ovaries_). In economics, a government might use policies (such as a cut in interest rates) to stimulate market growth.
 
 ** Sexual
 
@@ -181,3 +181,34 @@ Beyond general personality traits, the term has a few distinct applications:
 - *Theology & Religion:* In Christianity, it refers to a movement or denomination emphasizing direct _divine_ inspiration and spiritual "gifts," such as miraculous healing or speaking in tongues.
 - *Leadership Studies:* In political science and management, it describes a leadership style where a leader uses their charm and communication skills to drive teams or nations toward bold goals.
 
+* involve
+
+The verb "*involve*" means *to include or contain something as a necessary part, consequence, or feature*. It often refers to drawing someone into an activity, situation, or consequence (e.g., "The job involves travel" or "The accident involved two cars").
+
+** Core Applications
+The meaning of "*involve*" generally splits into three distinct applications:
+
+- *To require or entail:* It indicates that a process necessitates a specific action or condition. For example, "Building a house involves planning and hard work." 
+- *To include as a participant:* It means drawing a person or group into an activity or event. For example, "The teacher likes to involve all students in classroom discussions."
+- *To relate or affect:* It shows that a person, thing, or circumstance is concerned or caught up in a situation. For example, "The scandal involved several high-ranking officials."
+
+** Involve vs. Include
+Users online often discuss the difference between *involve* and *include*. While "include" simply means listing components as part of a whole, "involve" implies a deeper, more active, or complex connection where the elements are necessary or tangled together in the activity.
+
+* essay
+
+An *essay* is *a short piece of non-fiction writing that presents an argument, analyzes a topic, or expresses the author's personal point of view*. Derived from the French word /essai/ (meaning "a trial" or "an attempt"), it typically features an introduction, supporting evidence, and a conclusion.
+
+** Key Types of Essays
+- *Expository:* Requires the writer to investigate an idea, evaluate evidence, and present the idea clearly.
+- *Persuasive (Argumentative):* Makes a specific claim about a topic and uses evidence and logic to convince the reader.
+- *Narrative:* Tells a story, often drawn from personal experience, to make a broader point.
+- *Descriptive:* Focuses on painting a picture of a person, place, or object using _sensory_ details.
+
+** Historical Context
+The concept was pioneered by the French writer *Michel de Montaigne* in the 16th century. He coined the term to describe his writings as "attempts" to put his thoughts and reflections into words. 
+
+** Usage Examples
+- *Academic:* "The students were required to submit a 1,000-word *essay* on the French Revolution."
+- *Literary:* "She published a brilliant *essay* exploring the themes of _mortality_ in modern poetry."
+- *Verb (Formal/ _Archaic_):* "He decided to *essay* a challenging climb up the north face of the mountain."

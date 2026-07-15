@@ -1,0 +1,28 @@
+#+title: How to Close the *Messages* Buffer in Emacs
+#+author: Buce-Ithon
+#+date: [2026-07-15 周三]
+
+To close or hide the =*Messages*= buffer in Emacs, you can use different methods depending on whether you want to close its visible window, completely kill the buffer, or permanently disable it.
+
+* 1. Close the Visible Window (Keep the Buffer Open)
+If the =*Messages*= buffer is taking up screen space and you just want to hide its window, use one of these commands:
+- *~C-x 0~* :: Closes the window your cursor is currently in. Move your cursor to the =*Messages*= window first.
+- *~C-x 1~* :: Keeps only your current window open and closes all others (including =*Messages*=).
+- *~q~* :: Buries the buffer and closes the window automatically if you are actively inside certain transient or special buffers.
+
+* 2. Kill the Buffer Entirely
+If you want to fully close and remove the =*Messages*= buffer from Emacs' memory:
+- *~C-x k~* :: Type this shortcut, type =*Messages*= if prompted, and press *~RET~*.
+- *~M-x kill-buffer~* :: Alternatively, call the command by name via =M-x=, select =*Messages*=, and press *~RET~*.
+
+/Note: Emacs automatically recreates this buffer the next time a system message or log is generated./
+
+* 3. Permanently Disable the Buffer
+If you want to prevent Emacs from logging messages and stop the =*Messages*= buffer from reopening entirely, add the following lines to your Emacs initialization file (e.g., =~/.emacs= or =~/.emacs.d/init.el=):
+
+#+BEGIN_SRC elisp
+(setq-default message-log-max nil)
+(kill-buffer "*Messages*")
+#+END_SRC
+
+Setting =message-log-max= to =nil= forces the log size to zero and completely disables background message logging.
