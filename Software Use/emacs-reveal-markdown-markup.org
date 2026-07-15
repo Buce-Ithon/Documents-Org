@@ -1,0 +1,32 @@
+#+TITLE: Emacs: Revealing Source Code in Org-mode and Markdown-mode
+#+AUTHOR: Buce-Ithon
+#+DATE: [2026-07-15 周三]
+
+* Introduction
+This document outlines how to reveal raw syntax and markup source code in Emacs for both *Org-mode* files and *Markdown-mode* files.
+
+* 1. For Org-Mode
+Org-mode natively hides brackets around links and can conceal formatting markers (like =*= for bold). Use the following commands to toggle them on or off.
+
+** Reveal Raw Link Syntax
+By default, Org-mode hides the descriptive link syntax (e.g., displaying =[[https://google.com][Google]]= as just a clickable blue [[https://google.com][Google]]).
+- *Command:* =M-x org-toggle-link-display=
+
+** Reveal Hidden Text Formatting (Bold, Italics, etc.)
+If Org-mode is hiding your formatting markup (e.g., rendering =*bold*= as just *bold* without the asterisks):
+1. Run: =M-x set-variable=
+2. Enter variable name: =org-hide-emphasis-markers=
+3. Set its value to: =nil= (to show markers) or =t= (to hide them)
+4. Refresh the buffer by running: =M-x revert-buffer=
+
+* 2. For Markdown-Mode
+If you are working inside a Markdown file (=.md=) and Emacs is hiding the syntax elements (like =**=, =_=, or link brackets), you can use these methods:
+
+** Toggle Markup Folding
+Markdown-mode has a built-in toggle to hide or show raw markdown syntax.
+- *Command:* =M-x markdown-toggle-markup-folding=
+- *Keyboard Shortcut:* =C-c C-x C-f=
+
+** Switch from "View" Mode to "Edit" Mode
+If you are currently trapped in =markdown-view-mode= (a read-only preview mode that masks markdown syntax):
+- Press *=e=* (or run =M-x markdown-mode=) to switch back to the standard editing mode, which fully displays your raw Markdown source code.

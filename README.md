@@ -4,11 +4,11 @@ My personal org-mode documents repository for daily life management, language le
 
 # Contents
 
-- [Daily life management](Daily life management)
-- [Language learning](Language learning)
-- [Technical content](Technical content)
-- [Software use](Software use)
-- [Misc](Misc)
+- [Daily life management](#Daily-life-management)
+- [Language learning](#Language-learning)
+- [Technical content](#Technical-content)
+- [Software use](#Software-use)
+- [Misc](#Misc)
 
 ## Daily life management
 
@@ -24,7 +24,7 @@ This section is not yet complete.
 
 ## Software use
 
-[emacs-usage-in-practice.org](./emacs-usage-in-practice.org)
+[Software Use/emacs-usage-in-practice.org](<./Software use/emacs-usage-in-practice.org>)
 
 ## Misc
 
