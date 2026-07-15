@@ -1,0 +1,51 @@
+#+title: Resolving Incorrect Coding System (Garbled Text) When Emacs Opens Org Documents
+#+author: Buce-Ithon
+#+date: [2026-07-15 周三]
+
+* Resolving Incorrect Coding System (Garbled Text) When Emacs Opens Org Documents
+
+** Symptoms and Root Cause Analysis
+As shown by the symptoms, Chinese characters in the document (such as the date section) turned into strange, garbled text like "呾�Ŭ". This is a classic case of **encoding misidentification**.
+
+- **Root Cause**: In a Windows environment, Emacs naturally tends to use the system's native encoding (such as GBK/CP936) to parse text.
+- **Triggering Factor**: If an originally UTF-8 encoded Org document contains very few Chinese characters (e.g., only the day of the week in a date timestamp), Emacs might fail to detect the UTF-8 signature due to the small sample size. Consequently, it incorrectly falls back to GBK to read the UTF-8 text, resulting in garbled text.
+
+** Solutions
+
+*** Temporary Fix: Force Reload Current File with UTF-8
+If you only need a quick fix for the buffer you are currently editing without restarting Emacs, you can execute this directly:
+1. Press the shortcut =M-x= (or press =:= / =M-x= if you are using Evil mode or Doom Emacs).
+2. Type =revert-buffer-with-coding-system= and press Enter.
+3. Type =utf-8= at the prompt and press Enter.
+
+The garbled text in the current buffer will be corrected instantly.
+
+*** Permanent Fix: Prioritize UTF-8 in Configuration
+To completely prevent similar misidentifications in the future, it is highly recommended to add the following settings to your Emacs configuration file (such as =init.el= or Doom Emacs's =config.el=) to force UTF-8 as the preferred global encoding:
+
+#+begin_src elisp
+(set-language-environment "UTF-8")
+(set-default-coding-systems 'utf-8)
+(set-buffer-file-coding-system 'utf-8)
+(set-clipboard-coding-system 'utf-8)
+(set-file-name-coding-system 'utf-8)
+(set-keyboard-coding-system 'utf-8)
+(set-terminal-coding-system 'utf-8)
+(set-selection-coding-system 'utf-8)
+
+;; Force Emacs to prefer utf-8 above all other coding systems
+(prefer-coding-system 'utf-8)
+#+end_src
+
+*** File-Specific Hardcoding Method
+If you want to ensure that this specific file opens correctly in any vanilla Emacs environment without modifying global configurations, you can explicitly specify the encoding on the **very first line** using a file local variable.
+
+Modify the first line of your file to:
+#+begin_src text
+# -*- coding: utf-8 -*-
+#+title: Learn English from Fresh Words
+#+author: Buce-Ithon
+#+date: <2026-07-14 Tuesday>
+#+end_src
+
+This way, every time Emacs reads this file, it will strictly follow the first-line declaration and force-load it using the =utf-8= encoding.
