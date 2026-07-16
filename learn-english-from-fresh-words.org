@@ -235,3 +235,78 @@ In business, social, or academic contexts, impact denotes the profound influence
 *** Medical and Dental
 In health, the word can also describe the lodging or wedging of one body part firmly against another, such as an *impacted wisdom tooth*.
 
+
+* engage
+
+*To participate in, connect with, or commit to something.* It is a versatile verb used *to describe capturing attention, hiring someone's services, starting a conflict, or locking mechanical parts together.* 
+
+** Usage Contexts
+The exact meaning depends on how the word is used in a sentence:
+
+*** To participate or involve oneself
+To take part in an activity, often followed by "in" or "with" (e.g., /"to engage in a debate"/ or /"to engage with an audience"/).
+
+*** To attract and hold interest
+To captivate or occupy someone's attention (e.g., /"The teacher engaged the students with a story"/).
+
+*** To hire or secure services
+To employ someone (e.g., /"to engage a lawyer"/). 
+
+*** To interlock or mesh
+To lock mechanical gears or parts together.
+
+*** To enter into conflict
+In military or formal contexts, to attack or begin fighting (e.g., /"to engage the enemy"/).
+
+
+* patent
+
+A "*patent*" is *an intellectual property right granted by a government to an inventor*. It gives the owner the exclusive legal right to exclude others from making, using, selling, or importing the invention for a limited period, typically 20 years, in exchange for publicly disclosing how the invention works.
+
+** Key Concepts
+*** The Quid Pro Quo
+A patent is essentially a bargain between the inventor and the public.
+- *The Inventor's Benefit:* Receives a temporary monopoly to profit from their work.
+- *The Public's Benefit:* Detailed blueprints and instructions are published.
+- *The Goal:* Ensures that once the patent expires, the technology enters the public domain, allowing others to freely use and improve upon it.
+
+*** Types of Patents
+Patents are generally categorized into three main types:
+1. *Utility Patents:* Protect how a product functions, works, or is manufactured (e.g., new machinery, chemical formulas, or software).
+2. *Design Patents:* Protect the aesthetic or ornamental appearance of a functional item (e.g., the shape of a smartphone or a unique shoe design).
+3. *Plant Patents:* Safeguard new, asexually reproduced plant varieties.
+
+** Requirements for Patentability
+Not all ideas can be patented. To qualify for a utility patent, an invention must meet three strict criteria:
+
+- *Novel:* It must be entirely new and not previously known or published anywhere in the world.
+- *Useful:* It must have a practical application and actually perform its intended purpose.
+- *Non-obvious:* It must involve a creative step that would not be obvious to someone with ordinary skill in that particular field of technology.
+
+** Related Terminology
+- *Patent Pending:* A phrase used by inventors or companies while a patent application is actively under review. It serves as a warning to competitors that a patent may soon be granted.
+- *Infringement:* The unauthorized making, using, or selling of a patented invention during the life of the patent. Patent holders can take legal action to stop this and seek damages.
+- *Patent Troll (Non-Practicing Entity):* A colloquial term for a person or company that buys the rights to a patent with the sole intent of suing others for infringement, rather than actually manufacturing or developing the product themselves.
+
+#+TITLE: Definition and Meaning of "Campaign"
+#+AUTHOR: AI Collaborator
+#+DATE: <2026-07-16 Thu>
+
+* campaign
+
+A *campaign* is *a planned, coordinated series of actions designed to achieve a specific goal*. It typically involves a set of activities intended to promote a cause, influence public opinion, sell a product, or achieve a military objective.
+
+** Key Contexts and Fields
+
+*** Politics
+A series of organized activities, such as rallies, debates, and advertisements, by a candidate or party to win an election.
+
+*** Business & Marketing
+A coordinated advertising effort to promote a specific product, service, or brand over a set period of time.
+
+*** Social & Environmental
+An organized effort—such as petitions, protests, or awareness drives—to bring about social change or influence government policy.
+
+*** Military
+A connected series of operations aimed at achieving a single, large-scale objective within a specific time and geographic area.
+

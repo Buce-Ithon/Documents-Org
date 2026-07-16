@@ -1,0 +1,46 @@
+#+TITLE: Quick Heading Navigation in Emacs Org Mode with Evil
+#+AUTHOR: Buce-Ithon
+#+DATE: [2026-07-16 周四]
+
+To quickly jump between headings in Org mode while using Evil mode, use one of the following methods. Ensure you are in *Normal state* unless specified otherwise.
+
+* The Vim Way: Motion Keys
+If you use the =evil-org-mode= package (standard in Doom Emacs or Spacemacs), use these Vim-style structural movements:
+- gj :: Jump to the *next heading* at the same level.
+- gk :: Jump to the *previous heading* at the same level.
+- gh :: Jump to the *parent heading* (up one level).
+- gl :: Jump to the *first child heading* (down one level).
+
+* The Vanilla Emacs Way: Standard Keybindings
+These native Org mode keys work everywhere without extra packages:
+- C-c C-n :: Move to the next visible heading.
+- C-c C-p :: Move to the previous visible heading.
+- C-c C-f :: Move to the next visible heading of the /same level/.
+- C-c C-b :: Move to the previous visible heading of the /same level/.
+- C-c C-u :: Move backward to the parent heading.
+
+* The Interactive Way: Outline Navigation
+For jumping across large distances or deeply nested hierarchies:
+- M-x org-goto :: Opens an interactive menu of all headings. Type to filter or use arrows to choose. Often bound to =C-c C-j=.
+
+* The Speed Way: Org Speed Keys
+If your cursor is at the *very beginning of a headline* (on the leading asterisks =*=), you can use single-letter keys.
+
+First, enable it in your configuration:
+#+BEGIN_SRC elisp
+(setq org-use-speed-commands t)
+#+END_SRC
+
+Then, place your cursor on the asterisks and press:
+- n :: Jump to the *next heading*.
+- p :: Jump to the *previous heading*.
+
+* Custom Configuration Alternative
+To remap standard Vim paragraph jumps (=}= and ={=) to jump between headlines instead, add this to your config:
+
+#+BEGIN_SRC elisp
+(with-eval-after-load 'org
+  (evil-define-key 'normal org-mode-map
+    (kbd "}") #'org-next-visible-heading
+    (kbd "{") #'org-previous-visible-heading))
+#+END_SRC
