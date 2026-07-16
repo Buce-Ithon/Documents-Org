@@ -235,7 +235,6 @@ In business, social, or academic contexts, impact denotes the profound influence
 *** Medical and Dental
 In health, the word can also describe the lodging or wedging of one body part firmly against another, such as an *impacted wisdom tooth*.
 
-
 * engage
 
 *To participate in, connect with, or commit to something.* It is a versatile verb used *to describe capturing attention, hiring someone's services, starting a conflict, or locking mechanical parts together.* 
@@ -257,7 +256,6 @@ To lock mechanical gears or parts together.
 
 *** To enter into conflict
 In military or formal contexts, to attack or begin fighting (e.g., /"to engage the enemy"/).
-
 
 * patent
 
@@ -309,4 +307,100 @@ An organized effort—such as petitions, protests, or awareness drives—to brin
 
 *** Military
 A connected series of operations aimed at achieving a single, large-scale objective within a specific time and geographic area.
+
+* reform
+
+*Reform* means to *make improvements by changing the structure, character, or behavior of something*. It involves removing faults, correcting abuses, or [[amend][amending]] [[flaw][flaws]] to create a better, fairer, or more efficient system. It can apply to organizations, laws, or an individual's personal habits.
+
+** Common Usages
+*** As a verb (Systemic)
+   To amend or improve a system or law.
+   /Example: "The government plans to reform the tax system."/
+*** As a verb (Personal)
+   To change one's own behavior or habits for the better.
+   /Example: "He reformed after years of struggling with addiction."/
+*** As a noun
+   A specific change or campaign aimed at improvement.
+   /Example: "The university introduced new admissions reforms."/
+
+** Synonyms
+  - *Amend:* To make minor changes, usually to a law or document.
+  - *Rectify:* To put something right that is wrong or unjust.
+  - *Revise:* To re-examine and make necessary alterations.
+
+* amend
+
+*Amend* is a formal verb that means to *change, modify, or improve a piece of writing, a statement, or a law*. The goal of amending something is usually to correct a mistake, update information, or make the original text more accurate.
+
+*** Core Definitions
+   - *To alter a legal document*: Changing the wording of laws, contracts, or constitutions through a formal process.
+   - *To correct or improve*: Modifying written or spoken text to remove faults.
+   - *To improve behavior*: An older or more formal usage meaning to reform one's own conduct ("to amend one's ways").
+
+*** Common Examples
+   - *Law*: "The country's constitution was *amended* to allow women to vote."
+   - *Business*: "The terms of the contract were *amended* to extend the deadline."
+   - *Speech*: "He said he stole the money - or rather, borrowed it, he *amended*."
+
+*** "Amend" vs. "Emend"
+   While they sound similar and both mean "to change for the better," they are used in different contexts:
+   - *Amend (with an 'A')*: The general term used for changing laws, contracts, plans, or behaviors.
+   - *Emend (with an 'E')*: A very specific term used almost exclusively for editing or correcting typos and errors in a text or manuscript.
+
+*** Idiom: "To Make Amends"
+   When turned into the plural noun phrase *make amends*, the meaning shifts to *actively repairing a relationship or correcting a mistake* after causing harm. It goes beyond a simple apology to include actions that fix the bad situation.
+   - *Example*: "He tried to *make amends* for his rudeness by buying her flowers."
+
+* flaw
+
+A *flaw* is an *imperfection, defect, or weakness that prevents something from being perfect, complete, or fully functional*. It can refer to a physical crack in an object, an error in a plan or argument, or an undesirable trait in a person's character. 
+
+** Understanding through examples
+- *Object:* "A microscopic *flaw* in the glass caused the crystal vase to shatter."
+- *Logic:* "There is a fatal *flaw* in your reasoning."
+- *Character:* "He has his *flaws*, but he remains a loyal friend."
+
+* gender
+
+"*Gender*" refers to *the socially constructed roles, behaviors, expressions, and identities of girls, women, boys, men, and gender-diverse people*. It determines how we are perceived and expected to act, influencing our opportunities and societal power dynamics.
+
+** Gender vs. Sex
+While *sex* categorizes people by biological traits (like chromosomes and reproductive organs), *gender* relates to the behavioral, cultural, and psychological traits associated with those categories.
+
+** Key Dimensions of Gender
+To fully understand the meaning of gender, it is often broken down into three related concepts:
+
+- *Gender Identity:* A person's deeply felt, internal sense of being male, female, a combination of both, or neither. This may or may not align with the sex they were assigned at birth.
+- *Gender Expression:* The way a person publicly presents their gender in society through behavior, clothing, hairstyles, voice, or body characteristics.
+- *Gender Roles:* The societal norms, tasks, and behaviors that a culture deems appropriate for men, women, or other identities. Because these are social constructs, they change over time and vary across cultures.
+
+** Other Contexts
+Beyond sociology and psychology, the word "*gender*" is used in other fields:
+
+- *Grammar:* In languages like Spanish or French, gender refers to the classification of nouns and pronouns into categories such as masculine, feminine, or neuter.
+
+
+* agriculture
+"*Agriculture*" is *the science, art, and business of cultivating soil, producing crops, and raising livestock*. It primarily involves growing plants and animals to provide food, fiber, fuel, and other raw materials essential for human life.
+
+The term comes from the Latin words /ager/ (field) and /cultura/ (cultivation or growing). While it historically refers specifically to farming, the field encompasses several distinct branches and areas of focus.
+
+** Key Branches of Agriculture
+*** Crop Production (Agronomy & Horticulture)
+The growing of field crops (like wheat and corn) and produce (fruits and vegetables).
+
+*** Livestock & Animal Husbandry
+The raising, breeding, and management of animals for meat, dairy, fiber (like wool), and labor.
+
+*** Fisheries & Aquaculture
+Cultivating fish and aquatic plants for food.
+
+*** Forestry
+The science of planting, managing, and caring for forests and timber.
+
+** The Modern Agricultural Sector
+Beyond the physical act of farming, agriculture encompasses the entire economic and social sector that supports it, including:
+- Agricultural research
+- Food processing
+- Global supply chains that distribute produce to consumers
 
