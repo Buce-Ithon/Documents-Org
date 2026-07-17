@@ -404,3 +404,151 @@ Beyond the physical act of farming, agriculture encompasses the entire economic 
 - Food processing
 - Global supply chains that distribute produce to consumers
 
+* yield
+
+** /verb/ (PRODUCE)
+*to supply or produce something positive such as a profit, an amount of food or information*:
+- an attempt to yield increased profits
+- The investigation yielded some unexpected results.
+- Favourable weather yielded a good crop.
+
+** /noun/ (PRODUCE/PROCEEDS)
+*an amount of something positive, such as food or profit, that is produced or supplied*:
+- Crop yields have risen steadily.
+- Yields on gas and electricity shares are consistently high.
+
+** /verb/ (GIVE UP)
+*to give up the control of or responsibility for something, often because you have been forced to*:
+- They were forced to yield (up) their land to the occupying forces.
+- Despite renewed pressure to give up the occupied territory, they will not yield.
+
+** /verb/ (BEND/BREAK)
+*to bend or break under pressure*:
+- His legs began to yield under the sheer weight of his body.
+
+** /verb/ (STOP)
+*to stop in order to allow other vehicles to go past, especially before you drive onto a bigger road*:
+- yield to something
+
+** References
+- https://dictionary.cambridge.org/dictionary/english/yield
+
+* eliminate
+
+To "*eliminate*" means *to completely remove, get rid of, or exclude something*. It is an action verb used in several specific contexts:
+
+- *Removal*: To take something out or put an end to it (e.g., /eliminate errors in a report/ or /eliminate fatty foods from a diet/).
+- *Competition*: To defeat an opponent so they are knocked out of a tournament.
+- *Consideration*: To dismiss someone or something as a possible suspect or option.
+- *Biology*: To expel waste matter from a living body.
+- *Mathematics*: To remove an unknown variable from simultaneous equations.
+
+* impose
+
+To "*impose*" means *to force or enforce something—such as a rule, penalty, or one's own will—upon someone else*. It also means to take unfair advantage of or to inconvenience someone, such as _obtruding_ on their time or hospitality.
+
+** Etymology
+The verb comes from the Middle French *imposer*, which derives from the Latin *imponere*, literally meaning "to put upon" (from *in-* meaning "on" + *ponere* meaning "to put"). 
+
+** Core Meanings & Usage Examples
+
+*** 1. Enforcing rules, laws, or penalties
+To apply or establish something by authority, often forcing someone to accept or comply.
+- *Examples:* "The government decided to /impose/ a new tax on imported luxury goods." "The referee was forced to /impose/ a strict penalty."
+
+*** 2. Forcing presence or will
+To inflict one's own beliefs, tastes, or presence on unwilling individuals.
+- *Examples:* "Parents should be careful not to /impose/ their own career goals on their children." 
+
+*** 3. Taking advantage of someone (Imposing on)
+To intrude upon someone’s time, kindness, or good nature, expecting them to do favors when it is inconvenient. 
+- *Examples:* "I’d love to crash at your place for the weekend, but I don't want to /impose/." 
+
+** Synonyms
+- *Inflict:* To bring about or cause (something unpleasant).
+- *Levy:* To officially charge and collect a payment (e.g., taxes or fines).
+- *Intrude:* To enter uninvited or take liberties with someone's time.
+
+* loan
+
+A "*loan*" is *a financial transaction where one party (the lender) advances money or assets to another party (the borrower)*. In return, the borrower agrees to pay back the original amount (the principal) over time, usually along with an additional fee called *interest*.
+
+** Key Components of a Loan
+*** Principal
+The original amount of money borrowed.
+*** Interest
+The cost of borrowing the money, usually calculated as a percentage of the principal.
+*** Term/Tenure
+The length of time you have to repay the loan in full.
+*** Collateral
+An asset (such as a car or home) that a borrower pledges to guarantee the loan.
+
+** Common Types of Loans
+*** Secured Loans
+Backed by collateral. If you fail to repay, the lender can seize the asset. 
+**** Examples
+- Mortgages (for purchasing property)
+- Auto loans
+*** Unsecured Loans
+Not backed by an asset. Lenders evaluate your creditworthiness to determine approval and interest rates.
+**** Examples
+- Personal loans
+- Credit cards
+*** Fixed-Rate Loans
+The interest rate remains the same for the entire life of the loan.
+*** Variable-Rate Loans
+The interest rate can change over time based on market conditions.
+
+* contract
+
+A "*contract*" is *a legally binding agreement between two or more parties that outlines specific rights, duties, and obligations*. It typically involves an exchange of value (like goods, services, or money) and provides legal remedies if the terms are _breached_.
+
+** Key Elements of a Valid Contract
+To be legally enforceable, an agreement usually requires the following core components:
+*** Offer
+A clear proposal to enter into a specific deal.
+*** Acceptance
+Unconditional agreement to the exact terms of the offer.
+*** Consideration
+Something of value exchanged between the parties (e.g., money, services, or a promise not to do something).
+*** Intent
+Both parties must intend for the agreement to be recognized by law.
+*** Capacity
+Parties must be of legal age, sober, and mentally competent.
+*** Legality
+The contract must be for a lawful purpose.
+
+** Types of Contracts
+- Express Contract :: The terms are clearly stated, either verbally or in writing.
+- Implied Contract :: The agreement is formed by the actions and conduct of the parties rather than their explicit words (e.g., ordering food at a restaurant implies you will pay for it).
+- Unilateral Contract :: One party makes a promise in exchange for a specific action from the other party (e.g., a reward for a lost pet).
+- Bilateral Contract :: Both parties exchange promises to perform (e.g., a standard employment agreement).
+
+** What Happens if a Contract is Broken?
+If one party fails to fulfill their obligations without a legal excuse, it is known as a *breach of contract*. The injured party can pursue legal remedies, which may include:
+1. *Damages*: Financial compensation for the losses suffered.
+2. *Specific Performance*: A court order requiring the breaching party to complete the task they originally promised.
+3. *Rescission*: Canceling the contract entirely and returning both parties to their pre-contract state.
+
+* extend
+
+*Extend* broadly means *to stretch out, prolong in time, or increase in scope, space, or meaning*. It applies to physical space (stretching a limb or boundary), time (lengthening a deadline), or reach (expanding a company's offerings). 
+
+** Examples by Category
+
+*** 1. Physical Space & Distance
+- *Meaning:* To stretch outward, straighten, or reach across a physical area.
+- *Usage:* "He extended his hand to greet her," or "The hiking trail extends for 10 miles."
+
+*** 2. Time & Duration
+- *Meaning:* To prolong or delay a deadline.
+- *Usage:* "The manager extended the project deadline by two weeks."
+
+*** 3. Scope & Reach
+- *Meaning:* To broaden the application, influence, or range of something.
+- *Usage:* "The airline extended its flight routes to include new international hubs," or "These policies extend to all employees."
+
+*** 4. Offerings & Services
+- *Meaning:* To grant, _bestow_, or make available.
+- *Usage:* "Please extend a warm welcome to our guest," or "The bank decided to extend a line of credit."
+
