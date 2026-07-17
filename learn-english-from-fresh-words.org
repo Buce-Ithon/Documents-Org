@@ -552,3 +552,25 @@ If one party fails to fulfill their obligations without a legal excuse, it is kn
 - *Meaning:* To grant, _bestow_, or make available.
 - *Usage:* "Please extend a warm welcome to our guest," or "The bank decided to extend a line of credit."
 
+
+* trim
+
+"*Trim*" is *a versatile word that usually means to make something neat by cutting away excess, or to decorate and adjust*. Depending on the context, its specific meaning shifts across different fields.
+
+** Meanings by Context
+*** Daily Life
+- *Verb*: To clip or cut small amounts (e.g., getting a hair trim, trimming a hedge, or cutting fat off meat).
+- *Adjective*: Describes someone who is physically fit or something that is neat and orderly.
+
+*** Home Improvement
+Refers to the finishing materials in a room, such as baseboards, crown molding, and door or window casings.
+
+*** Aviation
+An adjustment mechanism on an aircraft (like the trim wheel) that balances the controls so the pilot doesn't have to constantly hold the yoke or stick.
+
+*** Technology & Computing
+- *Programming*: Refers to the =String.prototype.trim()= method, which removes whitespace from both ends of a string.
+- *Hardware*: Refers to the SSD (Solid State Drive) TRIM command that cleans up deleted data blocks to maintain drive speed.
+
+*** Sailing
+To adjust a sail's angle in relation to the wind, or to balance the cargo on a boat so it sits level in the water.
