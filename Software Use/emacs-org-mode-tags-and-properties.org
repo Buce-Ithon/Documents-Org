@@ -1,0 +1,35 @@
+#+TITLE: Org-mode Headings: Tags and Properties
+#+AUTHOR: Buce-Ithon
+#+DATE: [2026-07-18 周六]
+
+* Introduction
+In Emacs Org-mode, tags and properties are metadata used to label, organize, and query headlines (headings). Tags are ideal for quick, simple labels (like categories or contexts), while properties store structured, key-value pairs (like database fields).
+
+* Tags                                                                 :learn:
+Tags are used to group, filter, and search your headlines. 
+
+- *Syntax:* Written at the end of the headline, enclosed in single colons (e.g., =:work:urgent:=).
+- *Inheritance:* If you tag a parent heading, all subheadings automatically inherit that tag.
+- *Special Tags:* Some tags have built-in behaviors, such as =:noexport:= (excludes the heading when exporting) or =:archive:= (archives the heading).
+- *How to add:* Press ~C-c C-c~ on a headline to open the fast tag selection interface.
+
+* Properties
+Properties are structured key-value pairs that let you add specific metadata to a headline.
+
+- *Syntax:* Defined inside a =:PROPERTIES:= and =:END:= drawer directly beneath a headline.
+- *Usage:* Often used for storing project variables, database values, or export options (e.g., =:LOCATION: Office=, =:PRIORITY: A=, =:ID: 12345=).
+- *How to add:* Press ~C-c C-x p~ (~org-set-property~) to quickly assign a key-value pair to the current entry.
+
+** Example Structure
+*** Project Alpha                                                      :work:
+    :PROPERTIES:
+    :DEADLINE:  <2026-07-25 Fri>
+    :STATUS:    In Progress
+    :END:
+    This heading has the tag "work" and custom properties for a deadline and status.
+
+* Searching and Filtering
+You can leverage both tags and properties to find information quickly across your Org files.
+
+- *Global Searches:* Use ~C-c \~ in any buffer to highlight or create a sparse tree of headlines matching your tag/property queries.
+- *Advanced Queries:* You can combine tags, Todo keywords, and property values (e.g., finding =+work+STATUS="In Progress"=) using standard boolean operators.

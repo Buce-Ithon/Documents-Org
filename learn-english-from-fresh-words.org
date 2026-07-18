@@ -574,3 +574,80 @@ An adjustment mechanism on an aircraft (like the trim wheel) that balances the c
 
 *** Sailing
 To adjust a sail's angle in relation to the wind, or to balance the cargo on a boat so it sits level in the water.
+
+* liberal
+
+** Adjective
+   adjective: *liberal*; adjective: *Liberal*
+
+   1. *willing to respect or accept behavior or opinions different from one's own; open to new ideas*.
+      - (in a political context) favoring policies that are socially progressive and promote social welfare.
+	- SYNONYMS :: progressive, forward-looking, forward-thinking, progressivist
+      - THEOLOGY :: regarding many traditional beliefs as dispensable, invalidated by modern thought, or liable to change.
+   2. *relating to or denoting a political and social philosophy that promotes individual rights, civil liberties, democracy, and free enterprise*.
+      - SYNONYMS :: tolerant, unprejudiced, unbigoted, broad-minded, open-minded
+   3. *relating to a Liberal party or (in the UK) the Liberal Democrat Party*.
+   4. *given, used, or occurring in generous amounts*.
+      - SYNONYMS :: abundant, copious, ample, plentiful, generous, lavish
+      - (of a person) giving generously.
+	- "Sam was too *liberal with* the wine"
+	- SYNONYMS :: generous, magnanimous, openhanded, unsparing, unstinting
+   5. *(of education) concerned with broadening a person's general knowledge and experience, rather than with technical or professional training*.
+      - SYNONYMS :: wide-ranging, broad-based, general, humanistic
+   6. *(especially of an interpretation of a law) broadly construed or understood; not strictly literal or exact*.
+      - SYNONYMS :: flexible, broad, loose, rough, nonrestrictive, free
+
+** Noun
+   noun: *liberal*; plural noun: *liberals*; noun: *Liberal*; plural noun: *Liberals*
+
+   1. *a supporter of policies that are socially progressive and promote social welfare*.
+      - "she dissented from the decision, joined by the court's liberals"
+   2. *a supporter of a political and social philosophy that promotes individual rights, civil liberties, democracy, and free enterprise*.
+   3. *a supporter or member of a Liberal party or (in the UK) the Liberal Democrat Party*.
+
+** Etymology
+*** Derivation Flow
+    - LATIN: *liber* (free (man)) -> LATIN: *liberalis* \
+      => OLD FRENCH \
+      => ENGLISH: *liberal arts* -> ENGLISH: *liberal* (Middle English)
+
+*** Etymology Note
+    Middle English: via Old French from Latin /liberalis/, from /liber/ 'free (man)'. The original sense was 'suitable for a free man', hence 'suitable for a gentleman' (one not tied to a trade), surviving in /liberal arts/. Another early sense 'generous' (compare with *liberal* (sense 4 of the adjective)) gave rise to an obsolete meaning 'free from restraint', leading to *liberal* (sense 1 of the adjective) (late 18th century).
+
+* cognitive
+
+"*Cognitive*" relates to *the mental processes involved in acquiring knowledge, processing information, and understanding the world*. It encompasses conscious and unconscious activities like thinking, memory, learning, perception, attention, and decision-making.
+
+** Core Fields of Study
+*** Cognitive Psychology
+This branch of psychology examines internal mental states, focusing on how people perceive, process, and store information. It explores how we interpret our senses, form memories, and solve problems.
+
+*** Cognitive Development
+The study of how a person's intellectual abilities and thought processes change as they grow, notably theorized by developmental psychologists like Jean Piaget.
+
+*** Cognitive Function
+A term often used in healthcare and neurology to describe an individual's mental capabilities, such as reasoning, focus, and language skills.
+
+** Practical Application
+In practical terms, whenever your brain is working to interpret a sight, learn a new skill, focus on a conversation, or make a choice, it is engaging in a *cognitive process*.
+
+* neglect
+"*Neglect*" means *failing to give enough care, attention, or effort to someone or something, usually due to carelessness or a lapse in responsibility*. It can function as both a verb (the action of ignoring or failing to do something) and a noun (the resulting state of being uncared for).
+
+** Key Usages and Forms
+*** Verb (to neglect)
+To fail to look after someone or something, or to forget to do a required task.
+- /Example:/ "He *neglected* his garden, and it became overgrown."
+- /Example:/ "She *neglected* to lock the front door."
+
+*** Verb (neglect to do)
+To fail to do something, often accidentally or due to forgetfulness.
+- /Example:/ "I *neglected to* inform them of the change in schedule."
+
+*** Noun (neglect)
+The state of being ignored or the act of leaving something in disrepair.
+- /Example:/ "The old building collapsed after years of *neglect*."
+
+** Related Contexts
+- *Legal and Medical:* In caregiving and legal contexts, neglect is a severe issue where someone responsible for a dependent fails to provide basic necessities (like food, medical care, or supervision).
+- *Common Synonyms:* Disregard, ignore, overlook, abandon, or slack on.
