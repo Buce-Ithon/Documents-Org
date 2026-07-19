@@ -1,0 +1,2445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2026-07-19 周日 15:57 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Learn English from Fresh Words</title>
+<meta name="author" content="Buce-Ithon" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Learn English from Fresh Words</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgfa8a3d0">1. sheet</a>
+<ul>
+<li><a href="#org6c7e911">1.1. Specific terms:</a></li>
+</ul>
+</li>
+<li><a href="#org21c491b">2. minute</a></li>
+<li><a href="#orgf635dbe">3. conversation</a>
+<ul>
+<li><a href="#org8ee0a92">3.1. Key Elements of a Conversation</a></li>
+<li><a href="#org759099c">3.2. Types of Conversations</a></li>
+<li><a href="#orgb3700c0">3.3. Etymology</a></li>
+</ul>
+</li>
+<li><a href="#org3ea953b">4. verbatim</a>
+<ul>
+<li><a href="#org36bd813">4.1. Usage Examples:</a></li>
+<li><a href="#org5b0d6fb">4.2. Etymology</a></li>
+<li><a href="#org763f366">4.3. Common Synonyms</a></li>
+<li><a href="#org671f631">4.4. Common question</a></li>
+</ul>
+</li>
+<li><a href="#orgd6e45a9">5. correspond</a></li>
+<li><a href="#org8160abe">6. introverted</a>
+<ul>
+<li><a href="#org6f6b5c7">6.1. The Science of Energy</a></li>
+<li><a href="#orga181e46">6.2. Common Traits</a></li>
+<li><a href="#orgacd13e5">6.3. Common Misconceptions</a></li>
+</ul>
+</li>
+<li><a href="#orgedc7206">7. stimulation</a>
+<ul>
+<li><a href="#orgfdb656a">7.1. Sensory and Physical</a></li>
+<li><a href="#org5828d79">7.2. Cognitive and Mental</a></li>
+<li><a href="#orgfd6480f">7.3. Economic and Biological</a></li>
+<li><a href="#org521d3d4">7.4. Sexual</a></li>
+</ul>
+</li>
+<li><a href="#org2389df8">8. dictate</a>
+<ul>
+<li><a href="#org1d0e0f5">8.1. Key Meanings and Uses</a>
+<ul>
+<li><a href="#org7ced3b1">8.1.1. 1. To give orders or <span class="underline">prescribe</span> with authority</a></li>
+<li><a href="#org06595f1">8.1.2. 2. To state aloud for transcription</a></li>
+<li><a href="#orge5ef97e">8.1.3. 3. To make something necessary</a></li>
+<li><a href="#org5651e2e">8.1.4. 4. As a Noun</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org2eb98d0">9. charismatic</a>
+<ul>
+<li><a href="#org8742b36">9.1. Key Characteristics of a Charismatic Personality</a></li>
+<li><a href="#org1927fb6">9.2. Other Contexts and Meanings</a></li>
+</ul>
+</li>
+<li><a href="#orgddc675c">10. involve</a>
+<ul>
+<li><a href="#org6f6d022">10.1. Core Applications</a></li>
+<li><a href="#org6e0e68a">10.2. Involve vs. Include</a></li>
+</ul>
+</li>
+<li><a href="#orgac2d9d5">11. essay</a>
+<ul>
+<li><a href="#org998aead">11.1. Key Types of Essays</a></li>
+<li><a href="#orga8b7bc8">11.2. Historical Context</a></li>
+<li><a href="#org188788a">11.3. Usage Examples</a></li>
+</ul>
+</li>
+<li><a href="#orgdad8c6e">12. impact</a>
+<ul>
+<li><a href="#org5d96809">12.1. Core Meanings by Context</a>
+<ul>
+<li><a href="#org29d1c04">12.1.1. Physical Impact (Collision)</a></li>
+<li><a href="#org6f7a81a">12.1.2. Influence or Effect (Figurative)</a></li>
+<li><a href="#org8814be4">12.1.3. Medical and Dental</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org90485a0">13. engage</a>
+<ul>
+<li><a href="#org40f573b">13.1. Usage Contexts</a>
+<ul>
+<li><a href="#org92c16d0">13.1.1. To participate or involve oneself</a></li>
+<li><a href="#org26c87a5">13.1.2. To attract and hold interest</a></li>
+<li><a href="#org4dafb91">13.1.3. To hire or secure services</a></li>
+<li><a href="#org8ff9f53">13.1.4. To interlock or mesh</a></li>
+<li><a href="#orgbf5db2a">13.1.5. To enter into conflict</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org60b03f2">14. patent</a>
+<ul>
+<li><a href="#orga281f4c">14.1. Key Concepts</a>
+<ul>
+<li><a href="#orgb07a304">14.1.1. The Quid Pro Quo</a></li>
+<li><a href="#org3ac1bab">14.1.2. Types of Patents</a></li>
+</ul>
+</li>
+<li><a href="#org135c252">14.2. Requirements for Patentability</a></li>
+<li><a href="#org6407419">14.3. Related Terminology</a></li>
+</ul>
+</li>
+<li><a href="#org886a8eb">15. campaign</a>
+<ul>
+<li><a href="#org9103a2f">15.1. Key Contexts and Fields</a>
+<ul>
+<li><a href="#org327d744">15.1.1. Politics</a></li>
+<li><a href="#org1ddcd40">15.1.2. Business &amp; Marketing</a></li>
+<li><a href="#org47a0e3a">15.1.3. Social &amp; Environmental</a></li>
+<li><a href="#orgc5bcc1b">15.1.4. Military</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org00e10bd">16. reform</a>
+<ul>
+<li><a href="#org9e96bf5">16.1. Common Usages</a>
+<ul>
+<li><a href="#orgd033f5a">16.1.1. As a verb (Systemic)</a></li>
+<li><a href="#org2fe5f04">16.1.2. As a verb (Personal)</a></li>
+<li><a href="#org8cd1f99">16.1.3. As a noun</a></li>
+</ul>
+</li>
+<li><a href="#orgd293888">16.2. Synonyms</a></li>
+</ul>
+</li>
+<li><a href="#org214169f">17. amend</a>
+<ul>
+<li>
+<ul>
+<li><a href="#orgee8881f">17.0.1. Core Definitions</a></li>
+<li><a href="#orgc52a909">17.0.2. Common Examples</a></li>
+<li><a href="#org64ec382">17.0.3. "Amend" vs. "Emend"</a></li>
+<li><a href="#org74f61c3">17.0.4. Idiom: "To Make Amends"</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org1b5e732">18. flaw</a>
+<ul>
+<li><a href="#org036d21b">18.1. Understanding through examples</a></li>
+</ul>
+</li>
+<li><a href="#org4f5f2e4">19. gender</a>
+<ul>
+<li><a href="#orgafae2ed">19.1. Gender vs. Sex</a></li>
+<li><a href="#orgbdff7f6">19.2. Key Dimensions of Gender</a></li>
+<li><a href="#orgca52c2c">19.3. Other Contexts</a></li>
+</ul>
+</li>
+<li><a href="#org04f0b54">20. agriculture</a>
+<ul>
+<li><a href="#orgdd97273">20.1. Key Branches of Agriculture</a>
+<ul>
+<li><a href="#orgafc0d92">20.1.1. Crop Production (Agronomy &amp; Horticulture)</a></li>
+<li><a href="#org2c66d20">20.1.2. Livestock &amp; Animal Husbandry</a></li>
+<li><a href="#org1735853">20.1.3. Fisheries &amp; Aquaculture</a></li>
+<li><a href="#orga30d5f1">20.1.4. Forestry</a></li>
+</ul>
+</li>
+<li><a href="#org561ee44">20.2. The Modern Agricultural Sector</a></li>
+</ul>
+</li>
+<li><a href="#org5116091">21. yield</a>
+<ul>
+<li><a href="#org18dea9c">21.1. <i>verb</i> (PRODUCE)</a></li>
+<li><a href="#orga0664bb">21.2. <i>noun</i> (PRODUCE/PROCEEDS)</a></li>
+<li><a href="#org7070435">21.3. <i>verb</i> (GIVE UP)</a></li>
+<li><a href="#org13177ab">21.4. <i>verb</i> (BEND/BREAK)</a></li>
+<li><a href="#orgafd1865">21.5. <i>verb</i> (STOP)</a></li>
+<li><a href="#orgc7b35bf">21.6. References</a></li>
+</ul>
+</li>
+<li><a href="#org55424cc">22. eliminate</a></li>
+<li><a href="#orgffaac2b">23. impose</a>
+<ul>
+<li><a href="#orgae58f02">23.1. Etymology</a></li>
+<li><a href="#orgf3e2e8d">23.2. Core Meanings &amp; Usage Examples</a>
+<ul>
+<li><a href="#org89ca234">23.2.1. 1. Enforcing rules, laws, or penalties</a></li>
+<li><a href="#org3c782ad">23.2.2. 2. Forcing presence or will</a></li>
+<li><a href="#orgb0a1038">23.2.3. 3. Taking advantage of someone (Imposing on)</a></li>
+</ul>
+</li>
+<li><a href="#orgb38af93">23.3. Synonyms</a></li>
+</ul>
+</li>
+<li><a href="#org0c7c049">24. loan</a>
+<ul>
+<li><a href="#orgcd11398">24.1. Key Components of a Loan</a>
+<ul>
+<li><a href="#org627ae6c">24.1.1. Principal</a></li>
+<li><a href="#org80377a1">24.1.2. Interest</a></li>
+<li><a href="#org3bc9224">24.1.3. Term/Tenure</a></li>
+<li><a href="#orged66158">24.1.4. Collateral</a></li>
+</ul>
+</li>
+<li><a href="#org1211012">24.2. Common Types of Loans</a>
+<ul>
+<li><a href="#org769c963">24.2.1. Secured Loans</a></li>
+<li><a href="#orgafc6602">24.2.2. Unsecured Loans</a></li>
+<li><a href="#orgb9b3093">24.2.3. Fixed-Rate Loans</a></li>
+<li><a href="#org314d00a">24.2.4. Variable-Rate Loans</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org091ea4c">25. contract</a>
+<ul>
+<li><a href="#orgf0486ef">25.1. Key Elements of a Valid Contract</a>
+<ul>
+<li><a href="#org5738102">25.1.1. Offer</a></li>
+<li><a href="#orge576427">25.1.2. Acceptance</a></li>
+<li><a href="#org63cb91b">25.1.3. Consideration</a></li>
+<li><a href="#org2c1aff9">25.1.4. Intent</a></li>
+<li><a href="#orgbc786bc">25.1.5. Capacity</a></li>
+<li><a href="#orge6eb813">25.1.6. Legality</a></li>
+</ul>
+</li>
+<li><a href="#org678d063">25.2. Types of Contracts</a></li>
+<li><a href="#orgb934de2">25.3. What Happens if a Contract is Broken?</a></li>
+</ul>
+</li>
+<li><a href="#orge17fdcb">26. extend</a>
+<ul>
+<li><a href="#org6cfbf69">26.1. Examples by Category</a>
+<ul>
+<li><a href="#org57a2a33">26.1.1. 1. Physical Space &amp; Distance</a></li>
+<li><a href="#org5d570ab">26.1.2. 2. Time &amp; Duration</a></li>
+<li><a href="#org3367d74">26.1.3. 3. Scope &amp; Reach</a></li>
+<li><a href="#org21e8761">26.1.4. 4. Offerings &amp; Services</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org8ea9264">27. trim</a>
+<ul>
+<li><a href="#org0313755">27.1. Meanings by Context</a>
+<ul>
+<li><a href="#org2dff831">27.1.1. Daily Life</a></li>
+<li><a href="#org9534bed">27.1.2. Home Improvement</a></li>
+<li><a href="#orgeb45f66">27.1.3. Aviation</a></li>
+<li><a href="#orgfa144fe">27.1.4. Technology &amp; Computing</a></li>
+<li><a href="#org3973408">27.1.5. Sailing</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org6154acd">28. liberal</a>
+<ul>
+<li><a href="#org856b1f7">28.1. Adjective</a></li>
+<li><a href="#org18c403c">28.2. Noun</a></li>
+<li><a href="#org7c8561e">28.3. Etymology</a>
+<ul>
+<li><a href="#org6d41cf8">28.3.1. Derivation Flow</a></li>
+<li><a href="#orgf55dd1c">28.3.2. Etymology Note</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgfe8dbf4">29. cognitive</a>
+<ul>
+<li><a href="#org8353266">29.1. Core Fields of Study</a>
+<ul>
+<li><a href="#orgefb1a1c">29.1.1. Cognitive Psychology</a></li>
+<li><a href="#org040917e">29.1.2. Cognitive Development</a></li>
+<li><a href="#orgb962230">29.1.3. Cognitive Function</a></li>
+</ul>
+</li>
+<li><a href="#org87d9c90">29.2. Practical Application</a></li>
+</ul>
+</li>
+<li><a href="#org9f7e75a">30. neglect</a>
+<ul>
+<li><a href="#org66cfe04">30.1. Key Usages and Forms</a>
+<ul>
+<li><a href="#orge83ba77">30.1.1. Verb (to neglect)</a></li>
+<li><a href="#orgd247d6c">30.1.2. Verb (neglect to do)</a></li>
+<li><a href="#orgd5c098a">30.1.3. Noun (neglect)</a></li>
+</ul>
+</li>
+<li><a href="#org7841d04">30.2. Related Contexts</a></li>
+</ul>
+</li>
+<li><a href="#org94e2785">31. continent</a>
+<ul>
+<li><a href="#org034bcb1">31.1. The Seven Continents</a>
+<ul>
+<li><a href="#org249c6d0">31.1.1. Asia</a></li>
+<li><a href="#orge58a08a">31.1.2. Africa</a></li>
+<li><a href="#orge8c3387">31.1.3. North America</a></li>
+<li><a href="#orgcad7af4">31.1.4. South America</a></li>
+<li><a href="#orge2a13b1">31.1.5. Antarctica</a></li>
+<li><a href="#orgfbe5278">31.1.6. Europe</a></li>
+<li><a href="#orgb892a9a">31.1.7. Australia (or Oceania)</a></li>
+</ul>
+</li>
+<li><a href="#orga231270">31.2. Key Characteristics of Continents</a></li>
+<li><a href="#org03e331e">31.3. Additional Notes</a></li>
+</ul>
+</li>
+<li><a href="#org898f96c">32. faculty</a>
+<ul>
+<li><a href="#org9553e72">32.1. Definitions by Context</a>
+<ul>
+<li><a href="#org97f7dfb">32.1.1. Mental or Physical Ability</a></li>
+<li><a href="#orgd09c868">32.1.2. A Special Talent or Aptitude</a></li>
+<li><a href="#orgd80d842">32.1.3. Educational Teaching Staff</a></li>
+<li><a href="#org3d93b4a">32.1.4. An Academic Department or Division</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org82f77c6">33. incentive</a>
+<ul>
+<li><a href="#orgbffc3a0">33.1. Types of Incentives</a>
+<ul>
+<li><a href="#org6aec57b">33.1.1. Financial/Monetary</a></li>
+<li><a href="#orgb306c36">33.1.2. Fiscal/Regulatory</a></li>
+<li><a href="#orge29c29b">33.1.3. Intrinsic/Non-monetary</a></li>
+<li><a href="#orgcb82f7e">33.1.4. Disincentives</a></li>
+</ul>
+</li>
+<li><a href="#org4ccf450">33.2. Common Examples</a>
+<ul>
+<li><a href="#org9bae757">33.2.1. In the Workplace</a></li>
+<li><a href="#org351ef88">33.2.2. In Marketing</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org8931b0b">34. leisure</a>
+<ul>
+<li><a href="#orga1a2aa6">34.1. Core Concepts</a>
+<ul>
+<li><a href="#org5728672">34.1.1. Free Time</a></li>
+<li><a href="#org541cb00">34.1.2. Recreation &amp; Relaxation</a></li>
+<li><a href="#org76029e4">34.1.3. State of Mind</a></li>
+</ul>
+</li>
+<li><a href="#orgf17e6ea">34.2. Common Phrases &amp; Usage</a></li>
+</ul>
+</li>
+<li><a href="#org410bade">35. considerable</a>
+<ul>
+<li><a href="#orgbe35eed">35.1. Quotation</a></li>
+<li><a href="#org910fa43">35.2. Key Usages and Nuances</a></li>
+<li><a href="#org485655b">35.3. Synonyms and Antonyms</a>
+<ul>
+<li><a href="#orgc14ae9a">35.3.1. Synonyms</a></li>
+<li><a href="#org1254e8f">35.3.2. Antonyms</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org77e6d38">36. council</a>
+<ul>
+<li><a href="#org01065ce">36.1. Common Contexts</a>
+<ul>
+<li><a href="#org900511c">36.1.1. Local Government</a></li>
+<li><a href="#orgce5a0e0">36.1.2. Advisory or Administrative Bodies</a></li>
+<li><a href="#orga65cea2">36.1.3. Meetings</a></li>
+</ul>
+</li>
+<li><a href="#org4aa0e28">36.2. Usage Note</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgfa8a3d0" class="outline-2">
+<h2 id="orgfa8a3d0"><span class="section-number-2">1.</span> sheet</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Typically a "sheet" is <b>a flat, broad, and thin piece of material or a broad expanse of something</b>.
+</p>
+
+<ul class="org-ul">
+<li><b>Paper</b>: A single piece of paper for writing or printing.</li>
+<li><b>Bedding</b>: A large, thin rectangular piece of cloth used as part of bed linen (like a flat or fitted sheet).</li>
+<li><b>Material</b>: A thin, flat layer of a solid substance like glass, metal or ice.</li>
+<li><b>Computing &amp; Business</b>: A digital document, often called a spreadsheet (e.g. in Google Sheets or Microsoft Excel), used for storing, organizing, and calculating data in rows and columns.</li>
+</ul>
+</div>
+<div id="outline-container-org6c7e911" class="outline-3">
+<h3 id="org6c7e911"><span class="section-number-3">1.1.</span> Specific terms:</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li>Check out a <b>Balance Sheet</b> to see a financial summary of a company's assets, liabilities and equity.</li>
+<li>Create and manage your own tables using <b>Google Sheets</b>.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org21c491b" class="outline-2">
+<h2 id="org21c491b"><span class="section-number-2">2.</span> minute</h2>
+<div class="outline-text-2" id="text-2">
+<ol class="org-ol">
+<li>Time (Pronounced <i>MIN<sub>it</sub></i>)
+<ul class="org-ul">
+<li><b>60 seconds</b></li>
+<li><b>Short moment</b>: A very brief period of time.</li>
+</ul></li>
+<li>Size (Pronounced <i>my-NEWT</i>)
+<ul class="org-ul">
+<li><b>Extremely small</b>: Tiny or microscopic in size.</li>
+<li><b>Insignificant</b>: Very little importance.</li>
+<li><b>Detailed</b>: Marked by close attension to tiny details (e.g. "minute examination").</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgf635dbe" class="outline-2">
+<h2 id="orgf635dbe"><span class="section-number-2">3.</span> conversation</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+<b>An interactive, verbal or written exchange of ideas, thoughts, feelings and information between 2 or more people.</b> It requires active participation - both speaking and listening.
+</p>
+</div>
+<div id="outline-container-org8ee0a92" class="outline-3">
+<h3 id="org8ee0a92"><span class="section-number-3">3.1.</span> Key Elements of a Conversation</h3>
+<div class="outline-text-3" id="text-3-1">
+<ul class="org-ul">
+<li><b>Turn-taking</b>: Participants alternate between listening and speaking.</li>
+<li><b>Information Exchange</b>: The goal is usually to convey news, solve problems or simply share experience.</li>
+<li><b>Medium</b>: Face-to-face, over the phone or digitally through text and messaging apps.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org759099c" class="outline-3">
+<h3 id="org759099c"><span class="section-number-3">3.2.</span> Types of Conversations</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+Conversations can range from casual to highly structured:
+</p>
+
+<ul class="org-ul">
+<li><b>Small Talk</b>: Light, casual conversation used to break the ice or discuss impersonal topics like the wheather.</li>
+<li><b>Discussion</b>: A more serious exchange of ideas to explore an issue or to make a decision.</li>
+<li><b>Heart-to-Heart</b>: An intimate, personal exchange where individuals share deep feelings and trust.</li>
+<li><b>Debate</b>: A highly structured, formal argument where different viewpoints systematically defined.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgb3700c0" class="outline-3">
+<h3 id="orgb3700c0"><span class="section-number-3">3.3.</span> Etymology</h3>
+<div class="outline-text-3" id="text-3-3">
+<p>
+The word originates from the Latin <i>conversatio</i>, which combines <i>con-</i> ("together") and <i>versare</i> ("to turn"). Historically, it literally meant "turning together" and originally referred to general social behavior or how individuals lived their lives together.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org3ea953b" class="outline-2">
+<h2 id="org3ea953b"><span class="section-number-2">4.</span> verbatim</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+<i>və(ː)ˈbeɪtɪm</i>
+</p>
+
+<p>
+<b>Word-for-word, using exactly the same words as were originally spoken or written.</b> It ensures the information is reproduced precisely with no alterations.
+</p>
+</div>
+<div id="outline-container-org36bd813" class="outline-3">
+<h3 id="org36bd813"><span class="section-number-3">4.1.</span> Usage Examples:</h3>
+<div class="outline-text-3" id="text-4-1">
+<ul class="org-ul">
+<li><b>Adverb</b>: "The reporter wrote down the president's speech <b>verbatim</b>."</li>
+<li><b>Adjective</b>: "The lawyer provided a <b>verbatim</b> transcript of the court hearing."</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org5b0d6fb" class="outline-3">
+<h3 id="org5b0d6fb"><span class="section-number-3">4.2.</span> Etymology</h3>
+<div class="outline-text-3" id="text-4-2">
+<p>
+The term drives from Medieval Latin <i>verbātim</i>, which combines the Latin word <i>verbum</i> (meaning "word") with an adverbail suffix meaning "by the" or "in".
+</p>
+</div>
+</div>
+<div id="outline-container-org763f366" class="outline-3">
+<h3 id="org763f366"><span class="section-number-3">4.3.</span> Common Synonyms</h3>
+<div class="outline-text-3" id="text-4-3">
+<ul class="org-ul">
+<li>Word for word</li>
+<li>Exactly</li>
+<li>Precisely</li>
+<li>Directly</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org671f631" class="outline-3">
+<h3 id="org671f631"><span class="section-number-3">4.4.</span> Common question</h3>
+<div class="outline-text-3" id="text-4-4">
+<p>
+Q1: Is "literally" a synonyms of verbatim?
+A1: No. They have different meanings and distinct uses.
+</p>
+<ul class="org-ul">
+<li>The Difference
+<ul class="org-ul">
+<li><b>Verbatim</b>: Means coping or repeating words <b>exactly as spoken or written</b> (word-for-word).</li>
+<li><b>Literally</b>: Means something happened <b>exactly in a strict sense</b>, without exaggeration or metaphor.</li>
+</ul></li>
+<li>Examples Contrast
+<ul class="org-ul">
+<li>"Copy this <b>verbatim</b>." (Use the exact same words).</li>
+<li>"I am <b>literally</b> freezing." (Your body temperature is actually dropping; you are not using a figure of speech).</li>
+</ul></li>
+<li>Cross-Over Exception
+They only overlap in very specific contexts regarding translation or interpretation:
+<ul class="org-ul">
+<li>A "<b>leteral</b> translation" can mean a "<b>verbatim</b> translation" (translating word-for-word instead of for overall meaning).</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd6e45a9" class="outline-2">
+<h2 id="orgd6e45a9"><span class="section-number-2">5.</span> correspond</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+<b>To communicate with someone in writing (such as via email or letters) or to match and be similiar to something else.</b>
+</p>
+
+<ol class="org-ol">
+<li>To Match or Be Equivalent
+This describes situations where two things share a similar nature, quantity or structure.
+<ul class="org-ul">
+<li><b>Example usage</b>: "The numbers on the answer key <b>correspond</b> to the question on the test."</li>
+<li><b>Example usage</b>: "Her version of the event didn't <b>correspond</b> with the witness's statement."</li>
+</ul></li>
+<li>To Communicate in Writing
+This refers to the act of exchanging message or letters, usually over a long period of distance.
+<ul class="org-ul">
+<li><b>Example usage</b>: "They <b>correspond</b> regularly through email."</li>
+<li><b>Example usage</b>: "He <b>correspond</b> with several experts in the field."</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org8160abe" class="outline-2">
+<h2 id="org8160abe"><span class="section-number-2">6.</span> introverted</h2>
+<div class="outline-text-2" id="text-6">
+<p>
+Describes <b>a personality trait characterized by a focus on internal thoughts, feelings and mood rather than seeking eternal <a href="#orgedc7206">stimulation</a></b>. Introverts typically recharge their energy through solitude and quiet environments, often finding large social gathering draining.
+</p>
+</div>
+<div id="outline-container-org6f6b5c7" class="outline-3">
+<h3 id="org6f6b5c7"><span class="section-number-3">6.1.</span> The Science of Energy</h3>
+<div class="outline-text-3" id="text-6-1">
+<p>
+In psychology - a framework popularized by Carl Jung - the distinction between introverts and extroverts comes down to how you process and regain energy.
+</p>
+
+<ul class="org-ul">
+<li><b>Introverts</b> gain energy from their internal world. After engaging in heavy social interaction, they usually need to retreat to a quiet environment to mentally recharge.</li>
+<li><b>Extroverts</b> gain energey from outside world and are stimulated by social interactions.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga181e46" class="outline-3">
+<h3 id="orga181e46"><span class="section-number-3">6.2.</span> Common Traits</h3>
+<div class="outline-text-3" id="text-6-2">
+<p>
+Introverts often share several behavioral and mental characteristics:
+</p>
+
+<ul class="org-ul">
+<li>Deep Focus: They prefer concentrating on a few projects or ideas in-depth rather than multitasking across many.</li>
+<li>Quality Relationships: They generally favor close, intimate friendships over large social networks.</li>
+<li>Observation: They tend to think things through internally before speaking or taking actions.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgacd13e5" class="outline-3">
+<h3 id="orgacd13e5"><span class="section-number-3">6.3.</span> Common Misconceptions</h3>
+<div class="outline-text-3" id="text-6-3">
+<ul class="org-ul">
+<li>Myth: Introversion is the same as shyness or anti-social behavior. Shyness <a href="#orgddc675c">involves</a> a fear of social judgement, whereas introversion simply <a href="#org2389df8">dictates</a> how much social stimulation one can handle before needing a break.</li>
+<li>Myth: Introverts cannot be leaders or public speakers. Many introverts are highly <a href="#org2eb98d0">charismatic</a>, confident and effective leaders, though they may still prefer one-to-one meeting over crowdwd networking events.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgedc7206" class="outline-2">
+<h2 id="orgedc7206"><span class="section-number-2">7.</span> stimulation</h2>
+<div class="outline-text-2" id="text-7">
+<p>
+<b>Stimulation</b> refers to <b>the act of arousing, encouraging, or exciting an individual, organism, or system to increased activity, energy, or development</b>.
+</p>
+
+<p>
+It can refer to anything that <span class="underline">provokes</span> a physical, mental, or emotional response.
+</p>
+</div>
+<div id="outline-container-orgfdb656a" class="outline-3">
+<h3 id="orgfdb656a"><span class="section-number-3">7.1.</span> Sensory and Physical</h3>
+<div class="outline-text-3" id="text-7-1">
+<p>
+The activation of nerve receptors or the senses via external factors like light, sound or touch. For instance, visual stimulation can catch a child's interest, while muscle or nerve stimulation relates to raising physiological activity in the body.
+</p>
+</div>
+</div>
+<div id="outline-container-org5828d79" class="outline-3">
+<h3 id="org5828d79"><span class="section-number-3">7.2.</span> Cognitive and Mental</h3>
+<div class="outline-text-3" id="text-7-2">
+<p>
+Activities or experiences that challenge and engage the mind. People might read a complex book or engage in a challenging debate to get the mental or intellectual stimulation they <span class="underline">crave</span>.
+</p>
+</div>
+</div>
+<div id="outline-container-orgfd6480f" class="outline-3">
+<h3 id="orgfd6480f"><span class="section-number-3">7.3.</span> Economic and Biological</h3>
+<div class="outline-text-3" id="text-7-3">
+<p>
+The encouragement of development or the causing of activity. In biology, it can mean promoting the function of a body part (like stimulating the <span class="underline">ovaries</span>). In economics, a government might use policies (such as a cut in interest rates) to stimulate market growth.
+</p>
+</div>
+</div>
+<div id="outline-container-org521d3d4" class="outline-3">
+<h3 id="org521d3d4"><span class="section-number-3">7.4.</span> Sexual</h3>
+<div class="outline-text-3" id="text-7-4">
+<p>
+Mutual touching or fondling meant to <span class="underline">evoke</span> sexual interest or arousal before <span class="underline">intercourse</span>.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org2389df8" class="outline-2">
+<h2 id="org2389df8"><span class="section-number-2">8.</span> dictate</h2>
+<div class="outline-text-2" id="text-8">
+<p>
+The word "<b>dictate</b>" means <b>to speak words aloud for another person or a recording device to write down, or to issue authoritative commands and lay down rules</b>. It can also refer to a guiding principle or requirement.
+</p>
+</div>
+<div id="outline-container-org1d0e0f5" class="outline-3">
+<h3 id="org1d0e0f5"><span class="section-number-3">8.1.</span> Key Meanings and Uses</h3>
+<div class="outline-text-3" id="text-8-1">
+</div>
+<div id="outline-container-org7ced3b1" class="outline-4">
+<h4 id="org7ced3b1"><span class="section-number-4">8.1.1.</span> 1. To give orders or <span class="underline">prescribe</span> with authority</h4>
+<div class="outline-text-4" id="text-8-1-1">
+<p>
+You use this when someone <span class="underline">asserts</span> control or forces terms onto others. 
+</p>
+<ul class="org-ul">
+<li><b>Example:</b> The landlord tried to <b>dictate</b> the terms of the <span class="underline">lease</span>.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org06595f1" class="outline-4">
+<h4 id="org06595f1"><span class="section-number-4">8.1.2.</span> 2. To state aloud for transcription</h4>
+<div class="outline-text-4" id="text-8-1-2">
+<p>
+This refers to verbally speaking text so that a secretary or a digital device can <span class="underline">transcribe</span> it. 
+</p>
+<ul class="org-ul">
+<li><b>Example:</b> The executive <b>dictated</b> a memo to her assistant before the meeting.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge5ef97e" class="outline-4">
+<h4 id="orge5ef97e"><span class="section-number-4">8.1.3.</span> 3. To make something necessary</h4>
+<div class="outline-text-4" id="text-8-1-3">
+<p>
+Situations or conditions can also "dictate" an outcome, effectively determining what must happen. 
+</p>
+<ul class="org-ul">
+<li><b>Example:</b> Local climate will <b>dictate</b> the types of crops you can grow.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org5651e2e" class="outline-4">
+<h4 id="org5651e2e"><span class="section-number-4">8.1.4.</span> 4. As a Noun</h4>
+<div class="outline-text-4" id="text-8-1-4">
+<p>
+As a noun (pronounced <i>DIK-tate</i>), it refers to an authoritative command, guiding principle, or rule. 
+</p>
+<ul class="org-ul">
+<li><b>Example:</b> She acted according to the <b>dictates</b> of her conscience.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org2eb98d0" class="outline-2">
+<h2 id="org2eb98d0"><span class="section-number-2">9.</span> charismatic</h2>
+<div class="outline-text-2" id="text-9">
+<p>
+<i>ˌkarɪzˈmatɪk</i>
+</p>
+
+<p>
+Being <b>charismatic</b> means <b>possessing a <span class="underline">compelling</span>, magnetic charm or personal magnetism that effortlessly attracts, inspires, and influences others</b>. Charismatic individuals are typically highly confident, persuasive, and energetic, drawing people in and making them feel uniquely valued or engaged in conversation.
+</p>
+</div>
+<div id="outline-container-org8742b36" class="outline-3">
+<h3 id="org8742b36"><span class="section-number-3">9.1.</span> Key Characteristics of a Charismatic Personality</h3>
+<div class="outline-text-3" id="text-9-1">
+<ul class="org-ul">
+<li><b>Magnetic Appeal:</b> An innate ability to command a room and leave a lasting impression.</li>
+<li><b>Exceptional Communication:</b> The skill to <span class="underline">articulate</span> ideas passionately and persuade others effectively.</li>
+<li><b>Empathy and Warmth:</b> The capacity to make others feel completely comfortable and connected.</li>
+<li><b>High Confidence:</b> A strong sense of self-assurance that naturally inspires trust and followership.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1927fb6" class="outline-3">
+<h3 id="org1927fb6"><span class="section-number-3">9.2.</span> Other Contexts and Meanings</h3>
+<div class="outline-text-3" id="text-9-2">
+<p>
+Beyond general personality traits, the term has a few distinct applications:
+</p>
+<ul class="org-ul">
+<li><b>Theology &amp; Religion:</b> In Christianity, it refers to a movement or denomination emphasizing direct <span class="underline">divine</span> inspiration and spiritual "gifts," such as miraculous healing or speaking in tongues.</li>
+<li><b>Leadership Studies:</b> In political science and management, it describes a leadership style where a leader uses their charm and communication skills to drive teams or nations toward bold goals.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgddc675c" class="outline-2">
+<h2 id="orgddc675c"><span class="section-number-2">10.</span> involve</h2>
+<div class="outline-text-2" id="text-10">
+<p>
+The verb "<b>involve</b>" means <b>to include or contain something as a necessary part, consequence, or feature</b>. It often refers to drawing someone into an activity, situation, or consequence (e.g., "The job involves travel" or "The accident involved two cars").
+</p>
+</div>
+<div id="outline-container-org6f6d022" class="outline-3">
+<h3 id="org6f6d022"><span class="section-number-3">10.1.</span> Core Applications</h3>
+<div class="outline-text-3" id="text-10-1">
+<p>
+The meaning of "<b>involve</b>" generally splits into three distinct applications:
+</p>
+
+<ul class="org-ul">
+<li><b>To require or entail:</b> It indicates that a process necessitates a specific action or condition. For example, "Building a house involves planning and hard work."</li>
+<li><b>To include as a participant:</b> It means drawing a person or group into an activity or event. For example, "The teacher likes to involve all students in classroom discussions."</li>
+<li><b>To relate or affect:</b> It shows that a person, thing, or circumstance is concerned or caught up in a situation. For example, "The scandal involved several high-ranking officials."</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org6e0e68a" class="outline-3">
+<h3 id="org6e0e68a"><span class="section-number-3">10.2.</span> Involve vs. Include</h3>
+<div class="outline-text-3" id="text-10-2">
+<p>
+Users online often discuss the difference between <b>involve</b> and <b>include</b>. While "include" simply means listing components as part of a whole, "involve" implies a deeper, more active, or complex connection where the elements are necessary or tangled together in the activity.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgac2d9d5" class="outline-2">
+<h2 id="orgac2d9d5"><span class="section-number-2">11.</span> essay</h2>
+<div class="outline-text-2" id="text-11">
+<p>
+An <b>essay</b> is <b>a short piece of non-fiction writing that presents an argument, analyzes a topic, or expresses the author's personal point of view</b>. Derived from the French word <i>essai</i> (meaning "a trial" or "an attempt"), it typically features an introduction, supporting evidence, and a conclusion.
+</p>
+</div>
+<div id="outline-container-org998aead" class="outline-3">
+<h3 id="org998aead"><span class="section-number-3">11.1.</span> Key Types of Essays</h3>
+<div class="outline-text-3" id="text-11-1">
+<ul class="org-ul">
+<li><b>Expository:</b> Requires the writer to investigate an idea, evaluate evidence, and present the idea clearly.</li>
+<li><b>Persuasive (Argumentative):</b> Makes a specific claim about a topic and uses evidence and logic to convince the reader.</li>
+<li><b>Narrative:</b> Tells a story, often drawn from personal experience, to make a broader point.</li>
+<li><b>Descriptive:</b> Focuses on painting a picture of a person, place, or object using <span class="underline">sensory</span> details.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga8b7bc8" class="outline-3">
+<h3 id="orga8b7bc8"><span class="section-number-3">11.2.</span> Historical Context</h3>
+<div class="outline-text-3" id="text-11-2">
+<p>
+The concept was pioneered by the French writer <b>Michel de Montaigne</b> in the 16th century. He coined the term to describe his writings as "attempts" to put his thoughts and reflections into words. 
+</p>
+</div>
+</div>
+<div id="outline-container-org188788a" class="outline-3">
+<h3 id="org188788a"><span class="section-number-3">11.3.</span> Usage Examples</h3>
+<div class="outline-text-3" id="text-11-3">
+<ul class="org-ul">
+<li><b>Academic:</b> "The students were required to submit a 1,000-word <b>essay</b> on the French Revolution."</li>
+<li><b>Literary:</b> "She published a brilliant <b>essay</b> exploring the themes of <span class="underline">mortality</span> in modern poetry."</li>
+<li><b>Verb (Formal/ <span class="underline">Archaic</span>):</b> "He decided to <b>essay</b> a challenging climb up the north face of the mountain."</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgdad8c6e" class="outline-2">
+<h2 id="orgdad8c6e"><span class="section-number-2">12.</span> impact</h2>
+<div class="outline-text-2" id="text-12">
+<p>
+<b>Impact</b> primarily refers to <b>a forceful collision between objects or a powerful, lasting effect on a person or situation</b>. As a noun, it means a strike or physical shock; as a verb, it means to hit with force or to significantly influence something.
+</p>
+</div>
+<div id="outline-container-org5d96809" class="outline-3">
+<h3 id="org5d96809"><span class="section-number-3">12.1.</span> Core Meanings by Context</h3>
+<div class="outline-text-3" id="text-12-1">
+</div>
+<div id="outline-container-org29d1c04" class="outline-4">
+<h4 id="org29d1c04"><span class="section-number-4">12.1.1.</span> Physical Impact (Collision)</h4>
+<div class="outline-text-4" id="text-12-1-1">
+<p>
+In mechanical, engineering, or everyday contexts, impact is the forceful contact or collision between two or more objects. It represents the sudden transfer of energy and force.
+</p>
+
+<ul class="org-ul">
+<li>The force of the <b>impact</b> deployed the car airbags.</li>
+<li>The glass shattered on <b>impact</b>.</li>
+<li>A crater formed where the meteor <b>impacted</b> the ground.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org6f7a81a" class="outline-4">
+<h4 id="org6f7a81a"><span class="section-number-4">12.1.2.</span> Influence or Effect (Figurative)</h4>
+<div class="outline-text-4" id="text-12-1-2">
+<p>
+In business, social, or academic contexts, impact denotes the profound influence or strong consequence that an idea, action, or event has on a system, community, or individual.
+</p>
+
+<ul class="org-ul">
+<li>Assessing the environmental <b>impact</b> of global warming.</li>
+<li>The company's new policy <b>impacted</b> employee retention.</li>
+<li>Measuring the social <b>impact</b> of a community project.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org8814be4" class="outline-4">
+<h4 id="org8814be4"><span class="section-number-4">12.1.3.</span> Medical and Dental</h4>
+<div class="outline-text-4" id="text-12-1-3">
+<p>
+In health, the word can also describe the lodging or wedging of one body part firmly against another, such as an <b>impacted wisdom tooth</b>.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org90485a0" class="outline-2">
+<h2 id="org90485a0"><span class="section-number-2">13.</span> engage</h2>
+<div class="outline-text-2" id="text-13">
+<p>
+<b>To participate in, connect with, or commit to something.</b> It is a versatile verb used <b>to describe capturing attention, hiring someone's services, starting a conflict, or locking mechanical parts together.</b> 
+</p>
+</div>
+<div id="outline-container-org40f573b" class="outline-3">
+<h3 id="org40f573b"><span class="section-number-3">13.1.</span> Usage Contexts</h3>
+<div class="outline-text-3" id="text-13-1">
+<p>
+The exact meaning depends on how the word is used in a sentence:
+</p>
+</div>
+<div id="outline-container-org92c16d0" class="outline-4">
+<h4 id="org92c16d0"><span class="section-number-4">13.1.1.</span> To participate or involve oneself</h4>
+<div class="outline-text-4" id="text-13-1-1">
+<p>
+To take part in an activity, often followed by "in" or "with" (e.g., <i>"to engage in a debate"</i> or <i>"to engage with an audience"</i>).
+</p>
+</div>
+</div>
+<div id="outline-container-org26c87a5" class="outline-4">
+<h4 id="org26c87a5"><span class="section-number-4">13.1.2.</span> To attract and hold interest</h4>
+<div class="outline-text-4" id="text-13-1-2">
+<p>
+To captivate or occupy someone's attention (e.g., <i>"The teacher engaged the students with a story"</i>).
+</p>
+</div>
+</div>
+<div id="outline-container-org4dafb91" class="outline-4">
+<h4 id="org4dafb91"><span class="section-number-4">13.1.3.</span> To hire or secure services</h4>
+<div class="outline-text-4" id="text-13-1-3">
+<p>
+To employ someone (e.g., <i>"to engage a lawyer"</i>). 
+</p>
+</div>
+</div>
+<div id="outline-container-org8ff9f53" class="outline-4">
+<h4 id="org8ff9f53"><span class="section-number-4">13.1.4.</span> To interlock or mesh</h4>
+<div class="outline-text-4" id="text-13-1-4">
+<p>
+To lock mechanical gears or parts together.
+</p>
+</div>
+</div>
+<div id="outline-container-orgbf5db2a" class="outline-4">
+<h4 id="orgbf5db2a"><span class="section-number-4">13.1.5.</span> To enter into conflict</h4>
+<div class="outline-text-4" id="text-13-1-5">
+<p>
+In military or formal contexts, to attack or begin fighting (e.g., <i>"to engage the enemy"</i>).
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org60b03f2" class="outline-2">
+<h2 id="org60b03f2"><span class="section-number-2">14.</span> patent</h2>
+<div class="outline-text-2" id="text-14">
+<p>
+A "<b>patent</b>" is <b>an intellectual property right granted by a government to an inventor</b>. It gives the owner the exclusive legal right to exclude others from making, using, selling, or importing the invention for a limited period, typically 20 years, in exchange for publicly disclosing how the invention works.
+</p>
+</div>
+<div id="outline-container-orga281f4c" class="outline-3">
+<h3 id="orga281f4c"><span class="section-number-3">14.1.</span> Key Concepts</h3>
+<div class="outline-text-3" id="text-14-1">
+</div>
+<div id="outline-container-orgb07a304" class="outline-4">
+<h4 id="orgb07a304"><span class="section-number-4">14.1.1.</span> The Quid Pro Quo</h4>
+<div class="outline-text-4" id="text-14-1-1">
+<p>
+A patent is essentially a bargain between the inventor and the public.
+</p>
+<ul class="org-ul">
+<li><b>The Inventor's Benefit:</b> Receives a temporary monopoly to profit from their work.</li>
+<li><b>The Public's Benefit:</b> Detailed blueprints and instructions are published.</li>
+<li><b>The Goal:</b> Ensures that once the patent expires, the technology enters the public domain, allowing others to freely use and improve upon it.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3ac1bab" class="outline-4">
+<h4 id="org3ac1bab"><span class="section-number-4">14.1.2.</span> Types of Patents</h4>
+<div class="outline-text-4" id="text-14-1-2">
+<p>
+Patents are generally categorized into three main types:
+</p>
+<ol class="org-ol">
+<li><b>Utility Patents:</b> Protect how a product functions, works, or is manufactured (e.g., new machinery, chemical formulas, or software).</li>
+<li><b>Design Patents:</b> Protect the aesthetic or ornamental appearance of a functional item (e.g., the shape of a smartphone or a unique shoe design).</li>
+<li><b>Plant Patents:</b> Safeguard new, asexually reproduced plant varieties.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org135c252" class="outline-3">
+<h3 id="org135c252"><span class="section-number-3">14.2.</span> Requirements for Patentability</h3>
+<div class="outline-text-3" id="text-14-2">
+<p>
+Not all ideas can be patented. To qualify for a utility patent, an invention must meet three strict criteria:
+</p>
+
+<ul class="org-ul">
+<li><b>Novel:</b> It must be entirely new and not previously known or published anywhere in the world.</li>
+<li><b>Useful:</b> It must have a practical application and actually perform its intended purpose.</li>
+<li><b>Non-obvious:</b> It must involve a creative step that would not be obvious to someone with ordinary skill in that particular field of technology.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org6407419" class="outline-3">
+<h3 id="org6407419"><span class="section-number-3">14.3.</span> Related Terminology</h3>
+<div class="outline-text-3" id="text-14-3">
+<ul class="org-ul">
+<li><b>Patent Pending:</b> A phrase used by inventors or companies while a patent application is actively under review. It serves as a warning to competitors that a patent may soon be granted.</li>
+<li><b>Infringement:</b> The unauthorized making, using, or selling of a patented invention during the life of the patent. Patent holders can take legal action to stop this and seek damages.</li>
+<li><b>Patent Troll (Non-Practicing Entity):</b> A colloquial term for a person or company that buys the rights to a patent with the sole intent of suing others for infringement, rather than actually manufacturing or developing the product themselves.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org886a8eb" class="outline-2">
+<h2 id="org886a8eb"><span class="section-number-2">15.</span> campaign</h2>
+<div class="outline-text-2" id="text-15">
+<p>
+A <b>campaign</b> is <b>a planned, coordinated series of actions designed to achieve a specific goal</b>. It typically involves a set of activities intended to promote a cause, influence public opinion, sell a product, or achieve a military objective.
+</p>
+</div>
+<div id="outline-container-org9103a2f" class="outline-3">
+<h3 id="org9103a2f"><span class="section-number-3">15.1.</span> Key Contexts and Fields</h3>
+<div class="outline-text-3" id="text-15-1">
+</div>
+<div id="outline-container-org327d744" class="outline-4">
+<h4 id="org327d744"><span class="section-number-4">15.1.1.</span> Politics</h4>
+<div class="outline-text-4" id="text-15-1-1">
+<p>
+A series of organized activities, such as rallies, debates, and advertisements, by a candidate or party to win an election.
+</p>
+</div>
+</div>
+<div id="outline-container-org1ddcd40" class="outline-4">
+<h4 id="org1ddcd40"><span class="section-number-4">15.1.2.</span> Business &amp; Marketing</h4>
+<div class="outline-text-4" id="text-15-1-2">
+<p>
+A coordinated advertising effort to promote a specific product, service, or brand over a set period of time.
+</p>
+</div>
+</div>
+<div id="outline-container-org47a0e3a" class="outline-4">
+<h4 id="org47a0e3a"><span class="section-number-4">15.1.3.</span> Social &amp; Environmental</h4>
+<div class="outline-text-4" id="text-15-1-3">
+<p>
+An organized effort—such as petitions, protests, or awareness drives—to bring about social change or influence government policy.
+</p>
+</div>
+</div>
+<div id="outline-container-orgc5bcc1b" class="outline-4">
+<h4 id="orgc5bcc1b"><span class="section-number-4">15.1.4.</span> Military</h4>
+<div class="outline-text-4" id="text-15-1-4">
+<p>
+A connected series of operations aimed at achieving a single, large-scale objective within a specific time and geographic area.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org00e10bd" class="outline-2">
+<h2 id="org00e10bd"><span class="section-number-2">16.</span> reform</h2>
+<div class="outline-text-2" id="text-16">
+<p>
+<b>Reform</b> means to <b>make improvements by changing the structure, character, or behavior of something</b>. It involves removing faults, correcting abuses, or <a href="#org214169f">amending</a> <a href="#org1b5e732">flaws</a> to create a better, fairer, or more efficient system. It can apply to organizations, laws, or an individual's personal habits.
+</p>
+</div>
+<div id="outline-container-org9e96bf5" class="outline-3">
+<h3 id="org9e96bf5"><span class="section-number-3">16.1.</span> Common Usages</h3>
+<div class="outline-text-3" id="text-16-1">
+</div>
+<div id="outline-container-orgd033f5a" class="outline-4">
+<h4 id="orgd033f5a"><span class="section-number-4">16.1.1.</span> As a verb (Systemic)</h4>
+<div class="outline-text-4" id="text-16-1-1">
+<p>
+To amend or improve a system or law.
+<i>Example: "The government plans to reform the tax system."</i>
+</p>
+</div>
+</div>
+<div id="outline-container-org2fe5f04" class="outline-4">
+<h4 id="org2fe5f04"><span class="section-number-4">16.1.2.</span> As a verb (Personal)</h4>
+<div class="outline-text-4" id="text-16-1-2">
+<p>
+To change one's own behavior or habits for the better.
+<i>Example: "He reformed after years of struggling with addiction."</i>
+</p>
+</div>
+</div>
+<div id="outline-container-org8cd1f99" class="outline-4">
+<h4 id="org8cd1f99"><span class="section-number-4">16.1.3.</span> As a noun</h4>
+<div class="outline-text-4" id="text-16-1-3">
+<p>
+A specific change or campaign aimed at improvement.
+<i>Example: "The university introduced new admissions reforms."</i>
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd293888" class="outline-3">
+<h3 id="orgd293888"><span class="section-number-3">16.2.</span> Synonyms</h3>
+<div class="outline-text-3" id="text-16-2">
+<ul class="org-ul">
+<li><b>Amend:</b> To make minor changes, usually to a law or document.</li>
+<li><b>Rectify:</b> To put something right that is wrong or unjust.</li>
+<li><b>Revise:</b> To re-examine and make necessary alterations.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org214169f" class="outline-2">
+<h2 id="org214169f"><span class="section-number-2">17.</span> amend</h2>
+<div class="outline-text-2" id="text-17">
+<p>
+<b>Amend</b> is a formal verb that means to <b>change, modify, or improve a piece of writing, a statement, or a law</b>. The goal of amending something is usually to correct a mistake, update information, or make the original text more accurate.
+</p>
+</div>
+<div id="outline-container-orgee8881f" class="outline-4">
+<h4 id="orgee8881f"><span class="section-number-4">17.0.1.</span> Core Definitions</h4>
+<div class="outline-text-4" id="text-17-0-1">
+<ul class="org-ul">
+<li><b>To alter a legal document</b>: Changing the wording of laws, contracts, or constitutions through a formal process.</li>
+<li><b>To correct or improve</b>: Modifying written or spoken text to remove faults.</li>
+<li><b>To improve behavior</b>: An older or more formal usage meaning to reform one's own conduct ("to amend one's ways").</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc52a909" class="outline-4">
+<h4 id="orgc52a909"><span class="section-number-4">17.0.2.</span> Common Examples</h4>
+<div class="outline-text-4" id="text-17-0-2">
+<ul class="org-ul">
+<li><b>Law</b>: "The country's constitution was <b>amended</b> to allow women to vote."</li>
+<li><b>Business</b>: "The terms of the contract were <b>amended</b> to extend the deadline."</li>
+<li><b>Speech</b>: "He said he stole the money - or rather, borrowed it, he <b>amended</b>."</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org64ec382" class="outline-4">
+<h4 id="org64ec382"><span class="section-number-4">17.0.3.</span> "Amend" vs. "Emend"</h4>
+<div class="outline-text-4" id="text-17-0-3">
+<p>
+While they sound similar and both mean "to change for the better," they are used in different contexts:
+</p>
+<ul class="org-ul">
+<li><b>Amend (with an 'A')</b>: The general term used for changing laws, contracts, plans, or behaviors.</li>
+<li><b>Emend (with an 'E')</b>: A very specific term used almost exclusively for editing or correcting typos and errors in a text or manuscript.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org74f61c3" class="outline-4">
+<h4 id="org74f61c3"><span class="section-number-4">17.0.4.</span> Idiom: "To Make Amends"</h4>
+<div class="outline-text-4" id="text-17-0-4">
+<p>
+When turned into the plural noun phrase <b>make amends</b>, the meaning shifts to <b>actively repairing a relationship or correcting a mistake</b> after causing harm. It goes beyond a simple apology to include actions that fix the bad situation.
+</p>
+<ul class="org-ul">
+<li><b>Example</b>: "He tried to <b>make amends</b> for his rudeness by buying her flowers."</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org1b5e732" class="outline-2">
+<h2 id="org1b5e732"><span class="section-number-2">18.</span> flaw</h2>
+<div class="outline-text-2" id="text-18">
+<p>
+A <b>flaw</b> is an <b>imperfection, defect, or weakness that prevents something from being perfect, complete, or fully functional</b>. It can refer to a physical crack in an object, an error in a plan or argument, or an undesirable trait in a person's character. 
+</p>
+</div>
+<div id="outline-container-org036d21b" class="outline-3">
+<h3 id="org036d21b"><span class="section-number-3">18.1.</span> Understanding through examples</h3>
+<div class="outline-text-3" id="text-18-1">
+<ul class="org-ul">
+<li><b>Object:</b> "A microscopic <b>flaw</b> in the glass caused the crystal vase to shatter."</li>
+<li><b>Logic:</b> "There is a fatal <b>flaw</b> in your reasoning."</li>
+<li><b>Character:</b> "He has his <b>flaws</b>, but he remains a loyal friend."</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org4f5f2e4" class="outline-2">
+<h2 id="org4f5f2e4"><span class="section-number-2">19.</span> gender</h2>
+<div class="outline-text-2" id="text-19">
+<p>
+"<b>Gender</b>" refers to <b>the socially constructed roles, behaviors, expressions, and identities of girls, women, boys, men, and gender-diverse people</b>. It determines how we are perceived and expected to act, influencing our opportunities and societal power dynamics.
+</p>
+</div>
+<div id="outline-container-orgafae2ed" class="outline-3">
+<h3 id="orgafae2ed"><span class="section-number-3">19.1.</span> Gender vs. Sex</h3>
+<div class="outline-text-3" id="text-19-1">
+<p>
+While <b>sex</b> categorizes people by biological traits (like chromosomes and reproductive organs), <b>gender</b> relates to the behavioral, cultural, and psychological traits associated with those categories.
+</p>
+</div>
+</div>
+<div id="outline-container-orgbdff7f6" class="outline-3">
+<h3 id="orgbdff7f6"><span class="section-number-3">19.2.</span> Key Dimensions of Gender</h3>
+<div class="outline-text-3" id="text-19-2">
+<p>
+To fully understand the meaning of gender, it is often broken down into three related concepts:
+</p>
+
+<ul class="org-ul">
+<li><b>Gender Identity:</b> A person's deeply felt, internal sense of being male, female, a combination of both, or neither. This may or may not align with the sex they were assigned at birth.</li>
+<li><b>Gender Expression:</b> The way a person publicly presents their gender in society through behavior, clothing, hairstyles, voice, or body characteristics.</li>
+<li><b>Gender Roles:</b> The societal norms, tasks, and behaviors that a culture deems appropriate for men, women, or other identities. Because these are social constructs, they change over time and vary across cultures.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgca52c2c" class="outline-3">
+<h3 id="orgca52c2c"><span class="section-number-3">19.3.</span> Other Contexts</h3>
+<div class="outline-text-3" id="text-19-3">
+<p>
+Beyond sociology and psychology, the word "<b>gender</b>" is used in other fields:
+</p>
+
+<ul class="org-ul">
+<li><b>Grammar:</b> In languages like Spanish or French, gender refers to the classification of nouns and pronouns into categories such as masculine, feminine, or neuter.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org04f0b54" class="outline-2">
+<h2 id="org04f0b54"><span class="section-number-2">20.</span> agriculture</h2>
+<div class="outline-text-2" id="text-20">
+<p>
+"<b>Agriculture</b>" is <b>the science, art, and business of cultivating soil, producing crops, and raising livestock</b>. It primarily involves growing plants and animals to provide food, fiber, fuel, and other raw materials essential for human life.
+</p>
+
+<p>
+The term comes from the Latin words <i>ager</i> (field) and <i>cultura</i> (cultivation or growing). While it historically refers specifically to farming, the field encompasses several distinct branches and areas of focus.
+</p>
+</div>
+<div id="outline-container-orgdd97273" class="outline-3">
+<h3 id="orgdd97273"><span class="section-number-3">20.1.</span> Key Branches of Agriculture</h3>
+<div class="outline-text-3" id="text-20-1">
+</div>
+<div id="outline-container-orgafc0d92" class="outline-4">
+<h4 id="orgafc0d92"><span class="section-number-4">20.1.1.</span> Crop Production (Agronomy &amp; Horticulture)</h4>
+<div class="outline-text-4" id="text-20-1-1">
+<p>
+The growing of field crops (like wheat and corn) and produce (fruits and vegetables).
+</p>
+</div>
+</div>
+<div id="outline-container-org2c66d20" class="outline-4">
+<h4 id="org2c66d20"><span class="section-number-4">20.1.2.</span> Livestock &amp; Animal Husbandry</h4>
+<div class="outline-text-4" id="text-20-1-2">
+<p>
+The raising, breeding, and management of animals for meat, dairy, fiber (like wool), and labor.
+</p>
+</div>
+</div>
+<div id="outline-container-org1735853" class="outline-4">
+<h4 id="org1735853"><span class="section-number-4">20.1.3.</span> Fisheries &amp; Aquaculture</h4>
+<div class="outline-text-4" id="text-20-1-3">
+<p>
+Cultivating fish and aquatic plants for food.
+</p>
+</div>
+</div>
+<div id="outline-container-orga30d5f1" class="outline-4">
+<h4 id="orga30d5f1"><span class="section-number-4">20.1.4.</span> Forestry</h4>
+<div class="outline-text-4" id="text-20-1-4">
+<p>
+The science of planting, managing, and caring for forests and timber.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org561ee44" class="outline-3">
+<h3 id="org561ee44"><span class="section-number-3">20.2.</span> The Modern Agricultural Sector</h3>
+<div class="outline-text-3" id="text-20-2">
+<p>
+Beyond the physical act of farming, agriculture encompasses the entire economic and social sector that supports it, including:
+</p>
+<ul class="org-ul">
+<li>Agricultural research</li>
+<li>Food processing</li>
+<li>Global supply chains that distribute produce to consumers</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org5116091" class="outline-2">
+<h2 id="org5116091"><span class="section-number-2">21.</span> yield</h2>
+<div class="outline-text-2" id="text-21">
+</div>
+<div id="outline-container-org18dea9c" class="outline-3">
+<h3 id="org18dea9c"><span class="section-number-3">21.1.</span> <i>verb</i> (PRODUCE)</h3>
+<div class="outline-text-3" id="text-21-1">
+<p>
+<b>to supply or produce something positive such as a profit, an amount of food or information</b>:
+</p>
+<ul class="org-ul">
+<li>an attempt to yield increased profits</li>
+<li>The investigation yielded some unexpected results.</li>
+<li>Favourable weather yielded a good crop.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga0664bb" class="outline-3">
+<h3 id="orga0664bb"><span class="section-number-3">21.2.</span> <i>noun</i> (PRODUCE/PROCEEDS)</h3>
+<div class="outline-text-3" id="text-21-2">
+<p>
+<b>an amount of something positive, such as food or profit, that is produced or supplied</b>:
+</p>
+<ul class="org-ul">
+<li>Crop yields have risen steadily.</li>
+<li>Yields on gas and electricity shares are consistently high.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org7070435" class="outline-3">
+<h3 id="org7070435"><span class="section-number-3">21.3.</span> <i>verb</i> (GIVE UP)</h3>
+<div class="outline-text-3" id="text-21-3">
+<p>
+<b>to give up the control of or responsibility for something, often because you have been forced to</b>:
+</p>
+<ul class="org-ul">
+<li>They were forced to yield (up) their land to the occupying forces.</li>
+<li>Despite renewed pressure to give up the occupied territory, they will not yield.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org13177ab" class="outline-3">
+<h3 id="org13177ab"><span class="section-number-3">21.4.</span> <i>verb</i> (BEND/BREAK)</h3>
+<div class="outline-text-3" id="text-21-4">
+<p>
+<b>to bend or break under pressure</b>:
+</p>
+<ul class="org-ul">
+<li>His legs began to yield under the sheer weight of his body.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgafd1865" class="outline-3">
+<h3 id="orgafd1865"><span class="section-number-3">21.5.</span> <i>verb</i> (STOP)</h3>
+<div class="outline-text-3" id="text-21-5">
+<p>
+<b>to stop in order to allow other vehicles to go past, especially before you drive onto a bigger road</b>:
+</p>
+<ul class="org-ul">
+<li>yield to something</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc7b35bf" class="outline-3">
+<h3 id="orgc7b35bf"><span class="section-number-3">21.6.</span> References</h3>
+<div class="outline-text-3" id="text-21-6">
+<ul class="org-ul">
+<li><a href="https://dictionary.cambridge.org/dictionary/english/yield">https://dictionary.cambridge.org/dictionary/english/yield</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org55424cc" class="outline-2">
+<h2 id="org55424cc"><span class="section-number-2">22.</span> eliminate</h2>
+<div class="outline-text-2" id="text-22">
+<p>
+To "<b>eliminate</b>" means <b>to completely remove, get rid of, or exclude something</b>. It is an action verb used in several specific contexts:
+</p>
+
+<ul class="org-ul">
+<li><b>Removal</b>: To take something out or put an end to it (e.g., <i>eliminate errors in a report</i> or <i>eliminate fatty foods from a diet</i>).</li>
+<li><b>Competition</b>: To defeat an opponent so they are knocked out of a tournament.</li>
+<li><b>Consideration</b>: To dismiss someone or something as a possible suspect or option.</li>
+<li><b>Biology</b>: To expel waste matter from a living body.</li>
+<li><b>Mathematics</b>: To remove an unknown variable from simultaneous equations.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgffaac2b" class="outline-2">
+<h2 id="orgffaac2b"><span class="section-number-2">23.</span> impose</h2>
+<div class="outline-text-2" id="text-23">
+<p>
+To "<b>impose</b>" means <b>to force or enforce something—such as a rule, penalty, or one's own will—upon someone else</b>. It also means to take unfair advantage of or to inconvenience someone, such as <span class="underline">obtruding</span> on their time or hospitality.
+</p>
+</div>
+<div id="outline-container-orgae58f02" class="outline-3">
+<h3 id="orgae58f02"><span class="section-number-3">23.1.</span> Etymology</h3>
+<div class="outline-text-3" id="text-23-1">
+<p>
+The verb comes from the Middle French <b>imposer</b>, which derives from the Latin <b>imponere</b>, literally meaning "to put upon" (from <b>in-</b> meaning "on" + <b>ponere</b> meaning "to put"). 
+</p>
+</div>
+</div>
+<div id="outline-container-orgf3e2e8d" class="outline-3">
+<h3 id="orgf3e2e8d"><span class="section-number-3">23.2.</span> Core Meanings &amp; Usage Examples</h3>
+<div class="outline-text-3" id="text-23-2">
+</div>
+<div id="outline-container-org89ca234" class="outline-4">
+<h4 id="org89ca234"><span class="section-number-4">23.2.1.</span> 1. Enforcing rules, laws, or penalties</h4>
+<div class="outline-text-4" id="text-23-2-1">
+<p>
+To apply or establish something by authority, often forcing someone to accept or comply.
+</p>
+<ul class="org-ul">
+<li><b>Examples:</b> "The government decided to <i>impose</i> a new tax on imported luxury goods." "The referee was forced to <i>impose</i> a strict penalty."</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3c782ad" class="outline-4">
+<h4 id="org3c782ad"><span class="section-number-4">23.2.2.</span> 2. Forcing presence or will</h4>
+<div class="outline-text-4" id="text-23-2-2">
+<p>
+To inflict one's own beliefs, tastes, or presence on unwilling individuals.
+</p>
+<ul class="org-ul">
+<li><b>Examples:</b> "Parents should be careful not to <i>impose</i> their own career goals on their children."</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgb0a1038" class="outline-4">
+<h4 id="orgb0a1038"><span class="section-number-4">23.2.3.</span> 3. Taking advantage of someone (Imposing on)</h4>
+<div class="outline-text-4" id="text-23-2-3">
+<p>
+To intrude upon someone’s time, kindness, or good nature, expecting them to do favors when it is inconvenient. 
+</p>
+<ul class="org-ul">
+<li><b>Examples:</b> "I’d love to crash at your place for the weekend, but I don't want to <i>impose</i>."</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb38af93" class="outline-3">
+<h3 id="orgb38af93"><span class="section-number-3">23.3.</span> Synonyms</h3>
+<div class="outline-text-3" id="text-23-3">
+<ul class="org-ul">
+<li><b>Inflict:</b> To bring about or cause (something unpleasant).</li>
+<li><b>Levy:</b> To officially charge and collect a payment (e.g., taxes or fines).</li>
+<li><b>Intrude:</b> To enter uninvited or take liberties with someone's time.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org0c7c049" class="outline-2">
+<h2 id="org0c7c049"><span class="section-number-2">24.</span> loan</h2>
+<div class="outline-text-2" id="text-24">
+<p>
+A "<b>loan</b>" is <b>a financial transaction where one party (the lender) advances money or assets to another party (the borrower)</b>. In return, the borrower agrees to pay back the original amount (the principal) over time, usually along with an additional fee called <b>interest</b>.
+</p>
+</div>
+<div id="outline-container-orgcd11398" class="outline-3">
+<h3 id="orgcd11398"><span class="section-number-3">24.1.</span> Key Components of a Loan</h3>
+<div class="outline-text-3" id="text-24-1">
+</div>
+<div id="outline-container-org627ae6c" class="outline-4">
+<h4 id="org627ae6c"><span class="section-number-4">24.1.1.</span> Principal</h4>
+<div class="outline-text-4" id="text-24-1-1">
+<p>
+The original amount of money borrowed.
+</p>
+</div>
+</div>
+<div id="outline-container-org80377a1" class="outline-4">
+<h4 id="org80377a1"><span class="section-number-4">24.1.2.</span> Interest</h4>
+<div class="outline-text-4" id="text-24-1-2">
+<p>
+The cost of borrowing the money, usually calculated as a percentage of the principal.
+</p>
+</div>
+</div>
+<div id="outline-container-org3bc9224" class="outline-4">
+<h4 id="org3bc9224"><span class="section-number-4">24.1.3.</span> Term/Tenure</h4>
+<div class="outline-text-4" id="text-24-1-3">
+<p>
+The length of time you have to repay the loan in full.
+</p>
+</div>
+</div>
+<div id="outline-container-orged66158" class="outline-4">
+<h4 id="orged66158"><span class="section-number-4">24.1.4.</span> Collateral</h4>
+<div class="outline-text-4" id="text-24-1-4">
+<p>
+An asset (such as a car or home) that a borrower pledges to guarantee the loan.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org1211012" class="outline-3">
+<h3 id="org1211012"><span class="section-number-3">24.2.</span> Common Types of Loans</h3>
+<div class="outline-text-3" id="text-24-2">
+</div>
+<div id="outline-container-org769c963" class="outline-4">
+<h4 id="org769c963"><span class="section-number-4">24.2.1.</span> Secured Loans</h4>
+<div class="outline-text-4" id="text-24-2-1">
+<p>
+Backed by collateral. If you fail to repay, the lender can seize the asset. 
+</p>
+</div>
+<ol class="org-ol">
+<li><a id="orga11daa6"></a>Examples<br />
+<div class="outline-text-5" id="text-24-2-1-1">
+<ul class="org-ul">
+<li>Mortgages (for purchasing property)</li>
+<li>Auto loans</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-orgafc6602" class="outline-4">
+<h4 id="orgafc6602"><span class="section-number-4">24.2.2.</span> Unsecured Loans</h4>
+<div class="outline-text-4" id="text-24-2-2">
+<p>
+Not backed by an asset. Lenders evaluate your creditworthiness to determine approval and interest rates.
+</p>
+</div>
+<ol class="org-ol">
+<li><a id="org037dda2"></a>Examples<br />
+<div class="outline-text-5" id="text-24-2-2-1">
+<ul class="org-ul">
+<li>Personal loans</li>
+<li>Credit cards</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-orgb9b3093" class="outline-4">
+<h4 id="orgb9b3093"><span class="section-number-4">24.2.3.</span> Fixed-Rate Loans</h4>
+<div class="outline-text-4" id="text-24-2-3">
+<p>
+The interest rate remains the same for the entire life of the loan.
+</p>
+</div>
+</div>
+<div id="outline-container-org314d00a" class="outline-4">
+<h4 id="org314d00a"><span class="section-number-4">24.2.4.</span> Variable-Rate Loans</h4>
+<div class="outline-text-4" id="text-24-2-4">
+<p>
+The interest rate can change over time based on market conditions.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org091ea4c" class="outline-2">
+<h2 id="org091ea4c"><span class="section-number-2">25.</span> contract</h2>
+<div class="outline-text-2" id="text-25">
+<p>
+A "<b>contract</b>" is <b>a legally binding agreement between two or more parties that outlines specific rights, duties, and obligations</b>. It typically involves an exchange of value (like goods, services, or money) and provides legal remedies if the terms are <span class="underline">breached</span>.
+</p>
+</div>
+<div id="outline-container-orgf0486ef" class="outline-3">
+<h3 id="orgf0486ef"><span class="section-number-3">25.1.</span> Key Elements of a Valid Contract</h3>
+<div class="outline-text-3" id="text-25-1">
+<p>
+To be legally enforceable, an agreement usually requires the following core components:
+</p>
+</div>
+<div id="outline-container-org5738102" class="outline-4">
+<h4 id="org5738102"><span class="section-number-4">25.1.1.</span> Offer</h4>
+<div class="outline-text-4" id="text-25-1-1">
+<p>
+A clear proposal to enter into a specific deal.
+</p>
+</div>
+</div>
+<div id="outline-container-orge576427" class="outline-4">
+<h4 id="orge576427"><span class="section-number-4">25.1.2.</span> Acceptance</h4>
+<div class="outline-text-4" id="text-25-1-2">
+<p>
+Unconditional agreement to the exact terms of the offer.
+</p>
+</div>
+</div>
+<div id="outline-container-org63cb91b" class="outline-4">
+<h4 id="org63cb91b"><span class="section-number-4">25.1.3.</span> Consideration</h4>
+<div class="outline-text-4" id="text-25-1-3">
+<p>
+Something of value exchanged between the parties (e.g., money, services, or a promise not to do something).
+</p>
+</div>
+</div>
+<div id="outline-container-org2c1aff9" class="outline-4">
+<h4 id="org2c1aff9"><span class="section-number-4">25.1.4.</span> Intent</h4>
+<div class="outline-text-4" id="text-25-1-4">
+<p>
+Both parties must intend for the agreement to be recognized by law.
+</p>
+</div>
+</div>
+<div id="outline-container-orgbc786bc" class="outline-4">
+<h4 id="orgbc786bc"><span class="section-number-4">25.1.5.</span> Capacity</h4>
+<div class="outline-text-4" id="text-25-1-5">
+<p>
+Parties must be of legal age, sober, and mentally competent.
+</p>
+</div>
+</div>
+<div id="outline-container-orge6eb813" class="outline-4">
+<h4 id="orge6eb813"><span class="section-number-4">25.1.6.</span> Legality</h4>
+<div class="outline-text-4" id="text-25-1-6">
+<p>
+The contract must be for a lawful purpose.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org678d063" class="outline-3">
+<h3 id="org678d063"><span class="section-number-3">25.2.</span> Types of Contracts</h3>
+<div class="outline-text-3" id="text-25-2">
+<dl class="org-dl">
+<dt>Express Contract</dt><dd>The terms are clearly stated, either verbally or in writing.</dd>
+<dt>Implied Contract</dt><dd>The agreement is formed by the actions and conduct of the parties rather than their explicit words (e.g., ordering food at a restaurant implies you will pay for it).</dd>
+<dt>Unilateral Contract</dt><dd>One party makes a promise in exchange for a specific action from the other party (e.g., a reward for a lost pet).</dd>
+<dt>Bilateral Contract</dt><dd>Both parties exchange promises to perform (e.g., a standard employment agreement).</dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-orgb934de2" class="outline-3">
+<h3 id="orgb934de2"><span class="section-number-3">25.3.</span> What Happens if a Contract is Broken?</h3>
+<div class="outline-text-3" id="text-25-3">
+<p>
+If one party fails to fulfill their obligations without a legal excuse, it is known as a <b>breach of contract</b>. The injured party can pursue legal remedies, which may include:
+</p>
+<ol class="org-ol">
+<li><b>Damages</b>: Financial compensation for the losses suffered.</li>
+<li><b>Specific Performance</b>: A court order requiring the breaching party to complete the task they originally promised.</li>
+<li><b>Rescission</b>: Canceling the contract entirely and returning both parties to their pre-contract state.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-orge17fdcb" class="outline-2">
+<h2 id="orge17fdcb"><span class="section-number-2">26.</span> extend</h2>
+<div class="outline-text-2" id="text-26">
+<p>
+<b>Extend</b> broadly means <b>to stretch out, prolong in time, or increase in scope, space, or meaning</b>. It applies to physical space (stretching a limb or boundary), time (lengthening a deadline), or reach (expanding a company's offerings). 
+</p>
+</div>
+<div id="outline-container-org6cfbf69" class="outline-3">
+<h3 id="org6cfbf69"><span class="section-number-3">26.1.</span> Examples by Category</h3>
+<div class="outline-text-3" id="text-26-1">
+</div>
+<div id="outline-container-org57a2a33" class="outline-4">
+<h4 id="org57a2a33"><span class="section-number-4">26.1.1.</span> 1. Physical Space &amp; Distance</h4>
+<div class="outline-text-4" id="text-26-1-1">
+<ul class="org-ul">
+<li><b>Meaning:</b> To stretch outward, straighten, or reach across a physical area.</li>
+<li><b>Usage:</b> "He extended his hand to greet her," or "The hiking trail extends for 10 miles."</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org5d570ab" class="outline-4">
+<h4 id="org5d570ab"><span class="section-number-4">26.1.2.</span> 2. Time &amp; Duration</h4>
+<div class="outline-text-4" id="text-26-1-2">
+<ul class="org-ul">
+<li><b>Meaning:</b> To prolong or delay a deadline.</li>
+<li><b>Usage:</b> "The manager extended the project deadline by two weeks."</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3367d74" class="outline-4">
+<h4 id="org3367d74"><span class="section-number-4">26.1.3.</span> 3. Scope &amp; Reach</h4>
+<div class="outline-text-4" id="text-26-1-3">
+<ul class="org-ul">
+<li><b>Meaning:</b> To broaden the application, influence, or range of something.</li>
+<li><b>Usage:</b> "The airline extended its flight routes to include new international hubs," or "These policies extend to all employees."</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org21e8761" class="outline-4">
+<h4 id="org21e8761"><span class="section-number-4">26.1.4.</span> 4. Offerings &amp; Services</h4>
+<div class="outline-text-4" id="text-26-1-4">
+<ul class="org-ul">
+<li><b>Meaning:</b> To grant, <span class="underline">bestow</span>, or make available.</li>
+<li><b>Usage:</b> "Please extend a warm welcome to our guest," or "The bank decided to extend a line of credit."</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org8ea9264" class="outline-2">
+<h2 id="org8ea9264"><span class="section-number-2">27.</span> trim</h2>
+<div class="outline-text-2" id="text-27">
+<p>
+"<b>Trim</b>" is a versatile word that usually means <b>to make something neat by cutting away excess, or to decorate and adjust</b>. Depending on the context, its specific meaning shifts across different fields.
+</p>
+</div>
+<div id="outline-container-org0313755" class="outline-3">
+<h3 id="org0313755"><span class="section-number-3">27.1.</span> Meanings by Context</h3>
+<div class="outline-text-3" id="text-27-1">
+</div>
+<div id="outline-container-org2dff831" class="outline-4">
+<h4 id="org2dff831"><span class="section-number-4">27.1.1.</span> Daily Life</h4>
+<div class="outline-text-4" id="text-27-1-1">
+<ul class="org-ul">
+<li><b>Verb</b>: To clip or cut small amounts (e.g., getting a hair trim, trimming a hedge, or cutting fat off meat).</li>
+<li><b>Adjective</b>: Describes someone who is physically fit or something that is neat and orderly.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org9534bed" class="outline-4">
+<h4 id="org9534bed"><span class="section-number-4">27.1.2.</span> Home Improvement</h4>
+<div class="outline-text-4" id="text-27-1-2">
+<p>
+Refers to the finishing materials in a room, such as baseboards, crown molding, and door or window casings.
+</p>
+</div>
+</div>
+<div id="outline-container-orgeb45f66" class="outline-4">
+<h4 id="orgeb45f66"><span class="section-number-4">27.1.3.</span> Aviation</h4>
+<div class="outline-text-4" id="text-27-1-3">
+<p>
+An adjustment mechanism on an aircraft (like the trim wheel) that balances the controls so the pilot doesn't have to constantly hold the yoke or stick.
+</p>
+</div>
+</div>
+<div id="outline-container-orgfa144fe" class="outline-4">
+<h4 id="orgfa144fe"><span class="section-number-4">27.1.4.</span> Technology &amp; Computing</h4>
+<div class="outline-text-4" id="text-27-1-4">
+<ul class="org-ul">
+<li><b>Programming</b>: Refers to the <code>String.prototype.trim()</code> method, which removes whitespace from both ends of a string.</li>
+<li><b>Hardware</b>: Refers to the SSD (Solid State Drive) TRIM command that cleans up deleted data blocks to maintain drive speed.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3973408" class="outline-4">
+<h4 id="org3973408"><span class="section-number-4">27.1.5.</span> Sailing</h4>
+<div class="outline-text-4" id="text-27-1-5">
+<p>
+To adjust a sail's angle in relation to the wind, or to balance the cargo on a boat so it sits level in the water.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org6154acd" class="outline-2">
+<h2 id="org6154acd"><span class="section-number-2">28.</span> liberal</h2>
+<div class="outline-text-2" id="text-28">
+</div>
+<div id="outline-container-org856b1f7" class="outline-3">
+<h3 id="org856b1f7"><span class="section-number-3">28.1.</span> Adjective</h3>
+<div class="outline-text-3" id="text-28-1">
+<p>
+adjective: <b>liberal</b>; adjective: <b>Liberal</b>
+</p>
+
+<ol class="org-ol">
+<li><b>willing to respect or accept behavior or opinions different from one's own; open to new ideas</b>.
+<ul class="org-ul">
+<li>(in a political context) favoring policies that are socially progressive and promote social welfare.
+<dl class="org-dl">
+<dt>SYNONYMS</dt><dd>progressive, forward-looking, forward-thinking, progressivist</dd>
+</dl></li>
+<li id="THEOLOGY">regarding many traditional beliefs as dispensable, invalidated by modern thought, or liable to change.</li>
+</ul></li>
+<li><b>relating to or denoting a political and social philosophy that promotes individual rights, civil liberties, democracy, and free enterprise</b>.
+<dl class="org-dl">
+<dt>SYNONYMS</dt><dd>tolerant, unprejudiced, unbigoted, broad-minded, open-minded</dd>
+</dl></li>
+<li><b>relating to a Liberal party or (in the UK) the Liberal Democrat Party</b>.</li>
+<li><b>given, used, or occurring in generous amounts</b>.
+<dl class="org-dl">
+<dt>SYNONYMS</dt><dd>abundant, copious, ample, plentiful, generous, lavish</dd>
+<dt>(no term)</dt><dd>(of a person) giving generously.
+<ul class="org-ul">
+<li>"Sam was too <b>liberal with</b> the wine"</li>
+<li id="SYNONYMS">generous, magnanimous, openhanded, unsparing, unstinting</li>
+</ul></dd>
+</dl></li>
+<li><b>(of education) concerned with broadening a person's general knowledge and experience, rather than with technical or professional training</b>.
+<dl class="org-dl">
+<dt>SYNONYMS</dt><dd>wide-ranging, broad-based, general, humanistic</dd>
+</dl></li>
+<li><b>(especially of an interpretation of a law) broadly construed or understood; not strictly literal or exact</b>.
+<dl class="org-dl">
+<dt>SYNONYMS</dt><dd>flexible, broad, loose, rough, nonrestrictive, free</dd>
+</dl></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org18c403c" class="outline-3">
+<h3 id="org18c403c"><span class="section-number-3">28.2.</span> Noun</h3>
+<div class="outline-text-3" id="text-28-2">
+<p>
+noun: <b>liberal</b>; plural noun: <b>liberals</b>; noun: <b>Liberal</b>; plural noun: <b>Liberals</b>
+</p>
+
+<ol class="org-ol">
+<li><b>a supporter of policies that are socially progressive and promote social welfare</b>.
+<ul class="org-ul">
+<li>"she dissented from the decision, joined by the court's liberals"</li>
+</ul></li>
+<li><b>a supporter of a political and social philosophy that promotes individual rights, civil liberties, democracy, and free enterprise</b>.</li>
+<li><b>a supporter or member of a Liberal party or (in the UK) the Liberal Democrat Party</b>.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org7c8561e" class="outline-3">
+<h3 id="org7c8561e"><span class="section-number-3">28.3.</span> Etymology</h3>
+<div class="outline-text-3" id="text-28-3">
+</div>
+<div id="outline-container-org6d41cf8" class="outline-4">
+<h4 id="org6d41cf8"><span class="section-number-4">28.3.1.</span> Derivation Flow</h4>
+<div class="outline-text-4" id="text-28-3-1">
+<ul class="org-ul">
+<li>LATIN: <b>liber</b> (free (man)) -&gt; LATIN: <b>liberalis</b> \
+=&gt; OLD FRENCH \
+=&gt; ENGLISH: <b>liberal arts</b> -&gt; ENGLISH: <b>liberal</b> (Middle English)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgf55dd1c" class="outline-4">
+<h4 id="orgf55dd1c"><span class="section-number-4">28.3.2.</span> Etymology Note</h4>
+<div class="outline-text-4" id="text-28-3-2">
+<p>
+Middle English: via Old French from Latin <i>liberalis</i>, from <i>liber</i> 'free (man)'. The original sense was 'suitable for a free man', hence 'suitable for a gentleman' (one not tied to a trade), surviving in <i>liberal arts</i>. Another early sense 'generous' (compare with <b>liberal</b> (sense 4 of the adjective)) gave rise to an obsolete meaning 'free from restraint', leading to <b>liberal</b> (sense 1 of the adjective) (late 18th century).
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgfe8dbf4" class="outline-2">
+<h2 id="orgfe8dbf4"><span class="section-number-2">29.</span> cognitive</h2>
+<div class="outline-text-2" id="text-29">
+<p>
+"<b>Cognitive</b>" relates to <b>the mental processes involved in acquiring knowledge, processing information, and understanding the world</b>. It encompasses conscious and unconscious activities like thinking, memory, learning, perception, attention, and decision-making.
+</p>
+</div>
+<div id="outline-container-org8353266" class="outline-3">
+<h3 id="org8353266"><span class="section-number-3">29.1.</span> Core Fields of Study</h3>
+<div class="outline-text-3" id="text-29-1">
+</div>
+<div id="outline-container-orgefb1a1c" class="outline-4">
+<h4 id="orgefb1a1c"><span class="section-number-4">29.1.1.</span> Cognitive Psychology</h4>
+<div class="outline-text-4" id="text-29-1-1">
+<p>
+This branch of psychology examines internal mental states, focusing on how people perceive, process, and store information. It explores how we interpret our senses, form memories, and solve problems.
+</p>
+</div>
+</div>
+<div id="outline-container-org040917e" class="outline-4">
+<h4 id="org040917e"><span class="section-number-4">29.1.2.</span> Cognitive Development</h4>
+<div class="outline-text-4" id="text-29-1-2">
+<p>
+The study of how a person's intellectual abilities and thought processes change as they grow, notably theorized by developmental psychologists like Jean Piaget.
+</p>
+</div>
+</div>
+<div id="outline-container-orgb962230" class="outline-4">
+<h4 id="orgb962230"><span class="section-number-4">29.1.3.</span> Cognitive Function</h4>
+<div class="outline-text-4" id="text-29-1-3">
+<p>
+A term often used in healthcare and neurology to describe an individual's mental capabilities, such as reasoning, focus, and language skills.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org87d9c90" class="outline-3">
+<h3 id="org87d9c90"><span class="section-number-3">29.2.</span> Practical Application</h3>
+<div class="outline-text-3" id="text-29-2">
+<p>
+In practical terms, whenever your brain is working to interpret a sight, learn a new skill, focus on a conversation, or make a choice, it is engaging in a <b>cognitive process</b>.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org9f7e75a" class="outline-2">
+<h2 id="org9f7e75a"><span class="section-number-2">30.</span> neglect</h2>
+<div class="outline-text-2" id="text-30">
+<p>
+"<b>Neglect</b>" means <b>failing to give enough care, attention, or effort to someone or something, usually due to carelessness or a lapse in responsibility</b>. It can function as both a verb (the action of ignoring or failing to do something) and a noun (the resulting state of being uncared for).
+</p>
+</div>
+<div id="outline-container-org66cfe04" class="outline-3">
+<h3 id="org66cfe04"><span class="section-number-3">30.1.</span> Key Usages and Forms</h3>
+<div class="outline-text-3" id="text-30-1">
+</div>
+<div id="outline-container-orge83ba77" class="outline-4">
+<h4 id="orge83ba77"><span class="section-number-4">30.1.1.</span> Verb (to neglect)</h4>
+<div class="outline-text-4" id="text-30-1-1">
+<p>
+To fail to look after someone or something, or to forget to do a required task.
+</p>
+<ul class="org-ul">
+<li><i>Example:</i> "He <b>neglected</b> his garden, and it became overgrown."</li>
+<li><i>Example:</i> "She <b>neglected</b> to lock the front door."</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd247d6c" class="outline-4">
+<h4 id="orgd247d6c"><span class="section-number-4">30.1.2.</span> Verb (neglect to do)</h4>
+<div class="outline-text-4" id="text-30-1-2">
+<p>
+To fail to do something, often accidentally or due to forgetfulness.
+</p>
+<ul class="org-ul">
+<li><i>Example:</i> "I <b>neglected to</b> inform them of the change in schedule."</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd5c098a" class="outline-4">
+<h4 id="orgd5c098a"><span class="section-number-4">30.1.3.</span> Noun (neglect)</h4>
+<div class="outline-text-4" id="text-30-1-3">
+<p>
+The state of being ignored or the act of leaving something in disrepair.
+</p>
+<ul class="org-ul">
+<li><i>Example:</i> "The old building collapsed after years of <b>neglect</b>."</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org7841d04" class="outline-3">
+<h3 id="org7841d04"><span class="section-number-3">30.2.</span> Related Contexts</h3>
+<div class="outline-text-3" id="text-30-2">
+<ul class="org-ul">
+<li><b>Legal and Medical:</b> In caregiving and legal contexts, neglect is a severe issue where someone responsible for a dependent fails to provide basic necessities (like food, medical care, or supervision).</li>
+<li><b>Common Synonyms:</b> Disregard, ignore, overlook, abandon, or slack on.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org94e2785" class="outline-2">
+<h2 id="org94e2785"><span class="section-number-2">31.</span> continent</h2>
+<div class="outline-text-2" id="text-31">
+<p>
+A "<b>continent</b>" is <b>a massive, continuous expanse of land on Earth's surface, generally separated by vast oceans or distinct physical boundaries</b>.
+</p>
+</div>
+<div id="outline-container-org034bcb1" class="outline-3">
+<h3 id="org034bcb1"><span class="section-number-3">31.1.</span> The Seven Continents</h3>
+<div class="outline-text-3" id="text-31-1">
+<p>
+The Earth is traditionally divided into seven continents, ordered from largest to smallest by land area:
+</p>
+</div>
+<div id="outline-container-org249c6d0" class="outline-4">
+<h4 id="org249c6d0"><span class="section-number-4">31.1.1.</span> Asia</h4>
+<div class="outline-text-4" id="text-31-1-1">
+<p>
+The largest continent, covering about 30% of the Earth's total land area and home to over half of the world's population.
+</p>
+</div>
+</div>
+<div id="outline-container-orge58a08a" class="outline-4">
+<h4 id="orge58a08a"><span class="section-number-4">31.1.2.</span> Africa</h4>
+<div class="outline-text-4" id="text-31-1-2">
+<p>
+The second-largest, known for its incredible geographical and cultural diversity, and home to the world's longest river (the Nile) and the largest hot desert (the Sahara).
+</p>
+</div>
+</div>
+<div id="outline-container-orge8c3387" class="outline-4">
+<h4 id="orge8c3387"><span class="section-number-4">31.1.3.</span> North America</h4>
+<div class="outline-text-4" id="text-31-1-3">
+<p>
+The third-largest continent, containing Canada, the United States, Mexico, Central American countries, and the Caribbean islands.
+</p>
+</div>
+</div>
+<div id="outline-container-orgcad7af4" class="outline-4">
+<h4 id="orgcad7af4"><span class="section-number-4">31.1.4.</span> South America</h4>
+<div class="outline-text-4" id="text-31-1-4">
+<p>
+The fourth-largest continent, primarily known for the Amazon River and Rainforest, and the Andes mountain range.
+</p>
+</div>
+</div>
+<div id="outline-container-orge2a13b1" class="outline-4">
+<h4 id="orge2a13b1"><span class="section-number-4">31.1.5.</span> Antarctica</h4>
+<div class="outline-text-4" id="text-31-1-5">
+<p>
+The fifth-largest and least-populated continent. It is almost entirely covered by a massive ice sheet and is primarily used for scientific research.
+</p>
+</div>
+</div>
+<div id="outline-container-orgfbe5278" class="outline-4">
+<h4 id="orgfbe5278"><span class="section-number-4">31.1.6.</span> Europe</h4>
+<div class="outline-text-4" id="text-31-1-6">
+<p>
+The sixth-largest continent, characterized by a long, heavily <span class="underline">indented</span> coastline and a rich history of distinct yet deeply intertwined cultures.
+</p>
+</div>
+</div>
+<div id="outline-container-orgb892a9a" class="outline-4">
+<h4 id="orgb892a9a"><span class="section-number-4">31.1.7.</span> Australia (or Oceania)</h4>
+<div class="outline-text-4" id="text-31-1-7">
+<p>
+The smallest continent. It is completely surrounded by water and consists of mainland Australia, Tasmania, and numerous surrounding islands.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orga231270" class="outline-3">
+<h3 id="orga231270"><span class="section-number-3">31.2.</span> Key Characteristics of Continents</h3>
+<div class="outline-text-3" id="text-31-2">
+<ul class="org-ul">
+<li><b>Geological Foundation:</b> Continents are primarily made of thick, <span class="underline">buoyant</span>, lower-density rock called continental <span class="underline">crust</span>. This crust floats atop the Earth's semi-fluid <span class="underline">mantle</span> and rests on massive <span class="underline">tectonic</span> <span class="underline">plates</span>.</li>
+<li><b>Plate Tectonics:</b> Because they sit on tectonic plates, continents are not stationary. Over hundreds of millions of years, they slowly shift, collide, and separate - a process that once formed the supercontinent Pangea.</li>
+<li><b>Continental Shelf:</b> The boundary of a continent does not simply end at the beach. It extends out into the ocean on a gently sloping area of land known as a continental shelf before dropping off into deep ocean water.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org03e331e" class="outline-3">
+<h3 id="org03e331e"><span class="section-number-3">31.3.</span> Additional Notes</h3>
+<div class="outline-text-3" id="text-31-3">
+<p>
+Depending on cultural and geographical conventions, some regions like Europe and Asia are sometimes grouped together and referred to collectively as <b>Eurasia</b>.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org898f96c" class="outline-2">
+<h2 id="org898f96c"><span class="section-number-2">32.</span> faculty</h2>
+<div class="outline-text-2" id="text-32">
+<p>
+The term "<b>faculty</b>" primarily refers to <b>a person's natural physical or mental abilities (like thinking or hearing), a special aptitude, or the teaching staff at an educational institution</b>.
+</p>
+</div>
+<div id="outline-container-org9553e72" class="outline-3">
+<h3 id="org9553e72"><span class="section-number-3">32.1.</span> Definitions by Context</h3>
+<div class="outline-text-3" id="text-32-1">
+</div>
+<div id="outline-container-org97f7dfb" class="outline-4">
+<h4 id="org97f7dfb"><span class="section-number-4">32.1.1.</span> Mental or Physical Ability</h4>
+<div class="outline-text-4" id="text-32-1-1">
+<p>
+<b>Note: Usually plural (faculties).</b>
+Refers to the inherent powers of the mind or body, such as the ability to see, hear, or reason.
+</p>
+<ul class="org-ul">
+<li><b>Example:</b> "Even at age 90, she remained in full possession of her mental <b>faculties</b>."</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd09c868" class="outline-4">
+<h4 id="orgd09c868"><span class="section-number-4">32.1.2.</span> A Special Talent or Aptitude</h4>
+<div class="outline-text-4" id="text-32-1-2">
+<p>
+An inherent capacity or knack for doing a specific task.
+</p>
+<ul class="org-ul">
+<li><b>Example:</b> "He has a natural <b>faculty</b> for learning languages quickly."</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd80d842" class="outline-4">
+<h4 id="orgd80d842"><span class="section-number-4">32.1.3.</span> Educational Teaching Staff</h4>
+<div class="outline-text-4" id="text-32-1-3">
+<p>
+In schools, colleges, and universities, it refers to the collective body of professors, instructors, and researchers.
+</p>
+<ul class="org-ul">
+<li><b>Example:</b> "She was recently hired to join the history <b>faculty</b> at the university."</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3d93b4a" class="outline-4">
+<h4 id="org3d93b4a"><span class="section-number-4">32.1.4.</span> An Academic Department or Division</h4>
+<div class="outline-text-4" id="text-32-1-4">
+<p>
+Mainly in British and international usage, a faculty is a large division or group of departments within a university that specializes in a specific broad subject.
+</p>
+<ul class="org-ul">
+<li><b>Example:</b> "He is enrolled in the <b>Faculty</b> of Science."</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org82f77c6" class="outline-2">
+<h2 id="org82f77c6"><span class="section-number-2">33.</span> incentive</h2>
+<div class="outline-text-2" id="text-33">
+<p>
+An "<b>incentive</b>" is anything that <b>motivates, encourages, or drives a person or organization to take a specific action or alter their behavior</b>. Usually offered in the form of a reward, incentives are designed to increase effort and align personal interests with desired outcomes.
+</p>
+
+<p>
+Incentives play a major role in both daily life and the economy, and they are generally categorized into the following types:
+</p>
+</div>
+<div id="outline-container-orgbffc3a0" class="outline-3">
+<h3 id="orgbffc3a0"><span class="section-number-3">33.1.</span> Types of Incentives</h3>
+<div class="outline-text-3" id="text-33-1">
+</div>
+<div id="outline-container-org6aec57b" class="outline-4">
+<h4 id="org6aec57b"><span class="section-number-4">33.1.1.</span> Financial/Monetary</h4>
+<div class="outline-text-4" id="text-33-1-1">
+<p>
+Tangible monetary rewards such as bonuses, cash prizes, or discount codes designed to persuade you to buy a product or work harder at your job.
+</p>
+</div>
+</div>
+<div id="outline-container-orgb306c36" class="outline-4">
+<h4 id="orgb306c36"><span class="section-number-4">33.1.2.</span> Fiscal/Regulatory</h4>
+<div class="outline-text-4" id="text-33-1-2">
+<p>
+Broad policies like tax breaks that a government uses to encourage specific public behaviors, such as investing in renewable energy or buying an electric vehicle.
+</p>
+</div>
+</div>
+<div id="outline-container-orge29c29b" class="outline-4">
+<h4 id="orge29c29b"><span class="section-number-4">33.1.3.</span> Intrinsic/Non-monetary</h4>
+<div class="outline-text-4" id="text-33-1-3">
+<p>
+Non-financial motivators that appeal to emotions or well-being, such as receiving a flexible work schedule, public recognition, or personal praise.
+</p>
+</div>
+</div>
+<div id="outline-container-orgcb82f7e" class="outline-4">
+<h4 id="orgcb82f7e"><span class="section-number-4">33.1.4.</span> Disincentives</h4>
+<div class="outline-text-4" id="text-33-1-4">
+<p>
+The opposite of an incentive; a penalty or a cost designed to discourage a specific action (e.g., parking fines or higher taxes on cigarettes).
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org4ccf450" class="outline-3">
+<h3 id="org4ccf450"><span class="section-number-3">33.2.</span> Common Examples</h3>
+<div class="outline-text-3" id="text-33-2">
+</div>
+<div id="outline-container-org9bae757" class="outline-4">
+<h4 id="org9bae757"><span class="section-number-4">33.2.1.</span> In the Workplace</h4>
+<div class="outline-text-4" id="text-33-2-1">
+<p>
+Employers often use commission structures, profit-sharing, or performance bonuses as an <b>incentive</b> to boost productivity and employee retention.
+</p>
+</div>
+</div>
+<div id="outline-container-org351ef88" class="outline-4">
+<h4 id="org351ef88"><span class="section-number-4">33.2.2.</span> In Marketing</h4>
+<div class="outline-text-4" id="text-33-2-2">
+<p>
+Retailers offer promotions like "buy one, get one free" or limited-time rebates as an <b>incentive</b> for shoppers to make a purchase.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org8931b0b" class="outline-2">
+<h2 id="org8931b0b"><span class="section-number-2">34.</span> leisure</h2>
+<div class="outline-text-2" id="text-34">
+<p>
+"<b>Leisure</b>" is <span class="underline">the time spent away from work, education, and domestic chores</span>. It is a period of freedom where you can relax, rest, or engage in hobbies and recreational activities of your own choosing.
+</p>
+</div>
+<div id="outline-container-orga1a2aa6" class="outline-3">
+<h3 id="orga1a2aa6"><span class="section-number-3">34.1.</span> Core Concepts</h3>
+<div class="outline-text-3" id="text-34-1">
+</div>
+<div id="outline-container-org5728672" class="outline-4">
+<h4 id="org5728672"><span class="section-number-4">34.1.1.</span> Free Time</h4>
+<div class="outline-text-4" id="text-34-1-1">
+<p>
+It represents the hours you control, which are not dictated by employment, study, or mandatory duties.
+</p>
+</div>
+</div>
+<div id="outline-container-org541cb00" class="outline-4">
+<h4 id="org541cb00"><span class="section-number-4">34.1.2.</span> Recreation &amp; Relaxation</h4>
+<div class="outline-text-4" id="text-34-1-2">
+<p>
+It often involves participating in enjoyable activities like sports, reading, or traveling to unwind and recharge.
+</p>
+</div>
+</div>
+<div id="outline-container-org76029e4" class="outline-4">
+<h4 id="org76029e4"><span class="section-number-4">34.1.3.</span> State of Mind</h4>
+<div class="outline-text-4" id="text-34-1-3">
+<p>
+Some definitions describe leisure not just as an absence of work, but as a state of mind characterized by perceived freedom and intrinsic enjoyment.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf17e6ea" class="outline-3">
+<h3 id="orgf17e6ea"><span class="section-number-3">34.2.</span> Common Phrases &amp; Usage</h3>
+<div class="outline-text-3" id="text-34-2">
+<dl class="org-dl">
+<dt><b>At your leisure</b></dt><dd>Doing something when you have the time and convenience, without rushing. <i>(e.g., "Please review the document at your leisure.")</i></dd>
+<dt><b>Leisure time/activities</b></dt><dd>The specific moments or hobbies you partake in to enjoy yourself. <i>(e.g., "Reading and hiking are popular leisure activities.")</i></dd>
+<dt><b>Leisure industry</b></dt><dd>The business sector that provides entertainment, travel, and recreational services.</dd>
+</dl>
+</div>
+</div>
+</div>
+<div id="outline-container-org410bade" class="outline-2">
+<h2 id="org410bade"><span class="section-number-2">35.</span> considerable</h2>
+<div class="outline-text-2" id="text-35">
+<p>
+"<b>Considerable</b>" is an adjective meaning <b>large in size, amount, extent, or degree</b>. 
+It describes something significant enough to be noticed or to be given attention.
+</p>
+</div>
+<div id="outline-container-orgbe35eed" class="outline-3">
+<h3 id="orgbe35eed"><span class="section-number-3">35.1.</span> Quotation</h3>
+<div class="outline-text-3" id="text-35-1">
+<blockquote>
+<p>
+"The fire caused considerable damage to the church."
+</p>
+</blockquote>
+</div>
+</div>
+<div id="outline-container-org910fa43" class="outline-3">
+<h3 id="org910fa43"><span class="section-number-3">35.2.</span> Key Usages and Nuances</h3>
+<div class="outline-text-3" id="text-35-2">
+<ul class="org-ul">
+<li><b>Quantity or Extent:</b> Used to describe something that is notably large.
+<ul class="org-ul">
+<li><i>Example:</i> "She spent a considerable amount of time practicing."</li>
+</ul></li>
+<li><b>Importance or Quality:</b> It can refer to a person or thing that is worthy of respect or attention.
+<ul class="org-ul">
+<li><i>Example:</i> "A musician of considerable talent."</li>
+</ul></li>
+<li><b>As a Noun:</b> Less commonly, it can also function as a noun denoting a considerable amount or degree.
+<ul class="org-ul">
+<li><i>Example:</i> "They achieved a considerable."</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org485655b" class="outline-3">
+<h3 id="org485655b"><span class="section-number-3">35.3.</span> Synonyms and Antonyms</h3>
+<div class="outline-text-3" id="text-35-3">
+</div>
+<div id="outline-container-orgc14ae9a" class="outline-4">
+<h4 id="orgc14ae9a"><span class="section-number-4">35.3.1.</span> Synonyms</h4>
+<div class="outline-text-4" id="text-35-3-1">
+<ul class="org-ul">
+<li>Significant</li>
+<li>Sizable</li>
+<li>Substantial</li>
+<li>Great</li>
+<li>Immense</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1254e8f" class="outline-4">
+<h4 id="org1254e8f"><span class="section-number-4">35.3.2.</span> Antonyms</h4>
+<div class="outline-text-4" id="text-35-3-2">
+<ul class="org-ul">
+<li>Inconsiderable</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org77e6d38" class="outline-2">
+<h2 id="org77e6d38"><span class="section-number-2">36.</span> council</h2>
+<div class="outline-text-2" id="text-36">
+<p>
+A <b>council</b> is a group of people officially elected or appointed to deliberate, make decisions, or provide advice on a specific subject, organization, or geographic area.
+</p>
+</div>
+<div id="outline-container-org01065ce" class="outline-3">
+<h3 id="org01065ce"><span class="section-number-3">36.1.</span> Common Contexts</h3>
+<div class="outline-text-3" id="text-36-1">
+</div>
+<div id="outline-container-org900511c" class="outline-4">
+<h4 id="org900511c"><span class="section-number-4">36.1.1.</span> Local Government</h4>
+<div class="outline-text-4" id="text-36-1-1">
+<p>
+An elected assembly (e.g., city or town council) responsible for governing a municipality, passing local laws, and organizing public services.
+</p>
+</div>
+</div>
+<div id="outline-container-orgce5a0e0" class="outline-4">
+<h4 id="orgce5a0e0"><span class="section-number-4">36.1.2.</span> Advisory or Administrative Bodies</h4>
+<div class="outline-text-4" id="text-36-1-2">
+<p>
+A committee formed to represent a specific group or guide an organization (e.g., a student council at a school or the UN Security Council).
+</p>
+</div>
+</div>
+<div id="outline-container-orga65cea2" class="outline-4">
+<h4 id="orga65cea2"><span class="section-number-4">36.1.3.</span> Meetings</h4>
+<div class="outline-text-4" id="text-36-1-3">
+<p>
+A formal assembly convened for consultation or discussion, such as an ecumenical church council.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org4aa0e28" class="outline-3">
+<h3 id="org4aa0e28"><span class="section-number-3">36.2.</span> Usage Note</h3>
+<div class="outline-text-3" id="text-36-2">
+<p>
+Do not confuse <b>council</b> with <b>counsel</b>. While a council is a noun referring to a group of people, counsel (which can be both a noun and a verb) generally refers to advice, or a legal adviser.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Date: 2026-07-14 周二 00:00</p>
+<p class="author">Author: Buce-Ithon</p>
+<p class="date">Created: 2026-07-19 周日 15:57</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
