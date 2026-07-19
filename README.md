@@ -16,7 +16,7 @@ My personal org-mode documents repository for daily life management, language le
 
 ## Language learning
 
-[learn-english-from-fresh-words.org](./learn-english-from-fresh-words.org)
+[learn-english-from-fresh-words.org](<./Language learning/learn-english-from-fresh-words.org>)
 
 ## Technical content
 
