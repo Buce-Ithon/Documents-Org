@@ -1,0 +1,45 @@
+#+TITLE: Emacs Org Mode Export Guide
+#+AUTHOR: Buce-Ithon
+#+DATA: [2026-07-19 周日]
+
+To export an =.org= file to HTML, LaTeX, or PDF, use the built-in [[https://orgmode.org][Org Mode Export Dispatcher]] by pressing the shortcut *~C-c C-e~* (Control-c then Control-e) inside your Emacs buffer. 
+
+This key combination opens a menu displaying all available export backends and execution formats.
+
+* Exporting to HTML
+Once the dispatcher menu is open, you can output your document to an HTML file using the following shortcuts:
+- *~h h~* :: Exports your document directly as an *HTML file* (=filename.html=).
+- *~h o~* :: Exports the document to HTML and automatically *opens it* in your default web browser.
+
+* Exporting to LaTeX
+The export backend generates standard LaTeX source files with a =.tex= extension:
+- *~l l~* :: Exports your document as a *LaTeX file* (=filename.tex=).
+- *~l L~* :: Exports the raw LaTeX structure into a *temporary Emacs buffer* instead of writing a file.
+
+* Exporting to PDF
+To build a PDF file, Emacs relies on a local LaTeX engine (like =pdflatex=, =xelatex=, or =lualatex=) installed on your operating system. Once an installation is detected:
+- *~l p~* :: Processes the document into a *PDF file* (=filename.pdf=) via LaTeX.
+- *~l o~* :: Generates the PDF file and immediately *opens it* using your default system viewer.
+
+-----
+
+* Useful Export Configurations
+You can add formatting headers at the very top of your =.org= file to tailor your output document layout:
+
+#+BEGIN_SRC org
+,#+TITLE: My Export Document
+,#+AUTHOR: Jane Doe
+
+,# Specific to LaTeX/PDF customization
+,#+LATEX_CLASS: article
+,#+LATEX_CLASS_OPTIONS: [a4paper, 11pt]
+,#+LATEX_HEADER: \usepackage{microtype}
+#+END_SRC
+
+If you are using special typography or non-English fonts, you can change your compiler engine by adding this snippet to your [[https://dev.to][Emacs Init File Configuration]]:
+
+#+BEGIN_SRC elisp
+;; Use XeLaTeX instead of pdflatex for processing documents
+(setq org-latex-compiler "xelatex")
+(setq org-latex-pdf-process '("xelatex %f"))
+#+END_SRC
