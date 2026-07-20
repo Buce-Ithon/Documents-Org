@@ -1,0 +1,296 @@
+#+title: Learn English from Fresh Words - 1
+#+author: Buce-Ithon
+#+date: <2026-07-20 周一>
+
+* elite
+
+"*Elite*" refers to *a small, select group of people, organizations, or institutions considered the best, richest, most powerful, or most highly skilled in a particular field or society*.
+
+It can be used as a:
+- *Noun:* "society's elite"
+- *Adjective:* "elite troops"
+
+** Common Contexts
+*** Society & Politics
+Represents the upper [[echelon][echelons]] of society. It often refers to a disproportionately powerful or wealthy ruling class.
+
+*** Athletics & Skills
+Describes top-tier performers competing at the highest level, such as professional Olympians or special military forces.
+
+*** Education & Business
+Pertains to exclusive institutions, highly trained professionals, or distinguished academic scholars.
+
+* versatile
+
+"*Versatile*" is an adjective that *describes someone or something capable of adapting easily to new tasks, functions, or situations*. 
+
+** Core Traits
+- A versatile person has many different skills.
+- A versatile object can be used for a wide variety of purposes.
+
+** Common Applications of the Term
+*** People
+Describing an individual who is multi-talented or able to easily switch between different roles.
+#+BEGIN_QUOTE
+"She is a versatile employee who can handle marketing, sales, and customer support."
+#+END_QUOTE
+
+*** Objects & Materials
+Refers to items that serve multiple functions or work well in various conditions.
+#+BEGIN_QUOTE
+"A smartphone is a highly versatile tool used for communication, navigation, and photography."
+#+END_QUOTE
+
+*** Concepts & Plans
+Denotes flexibility and adaptability.
+#+BEGIN_QUOTE
+"A versatile recipe can be easily modified based on the ingredients you have on hand."
+#+END_QUOTE
+
+** Synonyms and Related Words
+- *Synonyms:* Adaptable, flexible, all-round, resourceful.
+- *Noun Form:* Versatility (the quality of being versatile).
+
+* aptitude
+
+"*Aptitude*" refers to *a natural, inborn ability or talent to learn or perform specific tasks*. It is your [[innate][innate]] capacity for something - such as mathematics, languages, or music - and often determines how quickly you can acquire new skills in that area.
+
+** Aptitude vs. Skill
+While the two are often used interchangeably, they represent different stages of ability:
+- *Aptitude:* Your raw, unpracticed potential (the natural ability to pick things up).
+- *Skill:* The specific, polished capabilities you have developed through deliberate practice and training (what you can actually /do/).
+
+** How It is Used
+Because aptitude indicates a person's potential to grow and adapt, it is frequently evaluated in education and hiring through formal aptitude tests. 
+
+*** Common Areas Measured
+- *Numerical Reasoning:* Your capacity to analyze and work with data.
+- *Spatial and Abstract Reasoning:* Your ability to visualize objects or identify patterns.
+
+* boom
+
+"*Boom*" primarily refers to *a deep, [[resonant][resonant]] sound (like an explosion), a sudden period of economic growth or popularity (e.g., a "housing boom"), or a long pole used in sailing or filmmaking (to hold microphones/cameras)*.
+
+** Common Uses
+
+*** The Sound
+A deep, loud, hollow sound.
+- *Example:* "The distant *boom* of the fireworks echoed across the bay."
+
+*** Growth or Prosperity
+A rapid increase in business, wealth, or population.
+- *Example:* "The local tourism industry is currently experiencing a massive *boom*."
+
+*** Interjection
+Used to express that something happened suddenly, spectacularly, or successfully.
+- *Example:* "He flipped the switch, and *boom*, the whole system came online."
+
+*** Nautical Equipment
+A long spar or pole on a sailboat used to extend the bottom of a sail.
+
+*** Filming Equipment
+A long, movable pole used to hold a microphone above actors on a movie or TV set.
+
+* echelon
+
+An "*echelon*" refers to *a level or rank within an organization, profession, or society*. It typically describes a hierarchy where people, groups, or things are separated by status, authority, or success.
+
+** Key Contexts and Applications
+*** Organizational & Social
+A specific tier of authority, rank, or prestige.
+- *Synonyms:* Level, status, grade.
+- *Common Phrase:* "The upper echelons of government."
+
+*** Military & Aviation
+A stepped or staggered formation of troops, ships, or aircraft.
+- Units are arranged in parallel lines.
+- Each unit is positioned slightly to the left or right of the one in front.
+- Creates a stair-step pattern to maximize visibility and maneuverability.
+
+*** Technology & Intelligence
+- *ECHELON:* The name of a covert, global signals intelligence network.
+- Operated by the United States National Security Agency (NSA) alongside international partners.
+
+** Etymology
+The term originates from the French word for "rung of a ladder."
+
+* innate
+
+*Innate* means *something you are born with, naturally possess, or is an essential, inherent part of your character, rather than something acquired through learning or experience*.
+
+** Key Details & Nuances
+  - *Synonyms:* Inborn, inherent, intrinsic, and natural.
+  - *Origin:* From the Latin word /innatus/, meaning "to be born in."
+
+** Related Terms
+  Understanding *innate* is often easier when comparing it to closely related concepts:
+  - *Inborn:* Refers to traits, tendencies, or qualities actually present at birth or that manifest so deeply they seem to be. 
+  - *Hereditary:* Pertains specifically to traits passed down genetically from ancestors. 
+  - *Congenital:* Often used medically to describe conditions or physical traits acquired during fetal development.
+
+** Examples in Context
+  - Every healthy human has an *innate* ability to learn language.
+  - A person might have an *innate* sense of rhythm.
+
+* resonant
+
+The word "*resonant*" is an adjective that *describes something deep, clear, and continuing to sound, or something that evokes strong emotions, memories, or cultural meaning*.
+
+** Core Definitions
+*** In Acoustics
+Deep, ringing, or reverberating. It describes a sound that is rich and continues to echo in a space.
+- /Example:/ A deep, resonant voice.
+- /Example:/ A resonant cello note.
+
+*** Figuratively
+Highly evocative or meaningful. It refers to experiences, words, or places that trigger memories, thoughts, or feelings of sympathy in an audience.
+- /Example:/ A speech resonant with emotion.
+- /Example:/ A novel resonant with historical significance.
+
+*** In Physics
+Capably inducing or relating to resonance - where vibrations in one object cause sympathetic vibrations in another.
+- /Example:/ Resonant frequencies.
+
+** Synonyms & Antonyms
+*** Synonyms
+- Echoing
+- Resounding
+- Ringing
+- Vibrant
+- Sonorous
+- Evocative
+- Reverberant
+
+*** Antonyms
+- Faint
+- Dull
+- Quiet
+- Muted
+- Silent
+
+** Etymology
+The word originates from the Latin term *resonare* (which combines /re-/, meaning "again," and /sonare/, meaning "to sound"). Literally translated, it means "to sound again" or echo.
+
+* reluctant
+
+Being *reluctant* means *feeling unwilling, hesitant, or opposed to doing something*. 
+It typically describes a state of inner struggle or hesitation where someone does not want to take a particular action because they doubt it, dislike the idea, or are being cautious.
+
+** Common Usage
+*** *Adjective*
+"He was *reluctant* to share the details of his new project."
+*** *Adverb (Reluctantly)*
+"*Reluctantly*, she agreed to work overtime on the weekend."
+*** *Noun (Reluctance)*
+"There is a general *reluctance* to accept higher taxes in the city."
+
+** Related Terms
+*** Synonyms
+Unwilling, hesitant, disinclined, loath.
+*** Antonyms
+Eager, willing, enthusiastic, keen.
+
+** Etymology and Psychology
+The word traces back to the Latin word /reluctari/, which literally means "to struggle against." 
+This inner struggle can be triggered by several things:
+- *Fear or uncertainty:* e.g., being reluctant to speak in public.
+- *Moral or personal conflict:* e.g., being reluctant to bend your own rules.
+- *Dislike or distaste:* e.g., being reluctant to eat a food you don't like.
+
+* literacy
+
+"*Literacy*" is traditionally defined as *the ability to read and write*.
+However, it extends beyond basic text comprehension today. It includes speaking, listening, and using printed information. These skills help people function well in society. They allow individuals to achieve personal goals. They help develop one's knowledge and potential.
+
+** Dimensions of Literacy
+Modern definitions emphasize various practical skill sets.
+
+*** Basic Literacy
+The foundational ability to read and write.
+
+*** Functional Literacy
+Having the skills to manage daily living tasks.
+Essential for handling routine employment responsibilities.
+
+*** Digital & Media Literacy
+The competence to navigate digital technology safely.
+Ability to evaluate information found online.
+Understanding and analyzing complex media messages.
+
+*** Specialized Literacies
+Proficiency within specific fields of knowledge:
+- Financial literacy :: Making informed choices about money.
+- Health literacy :: Understanding healthcare and medical instructions.
+- Numeracy :: Applying numerical and scientific concepts.
+
+** Why Literacy Matters
+UNESCO defines literacy as the cornerstone of lifelong learning.
+It empowers individuals to access global knowledge.
+It enables effective communication with others.
+It allows full participation in local communities.
+
+* slave
+A *slave* is a person who is *legally owned by another and is forced to work for them without personal freedom or pay*. The term also broadly refers to someone entirely subservient to a dominating influence or a machine directly controlled by another.
+
+** Core Contexts
+*** Chattel Slavery (Historical and Legal)
+Historically, chattel slavery defined a person as property (chattel). Under this system, enslaved individuals could be bought, sold, inherited, and used as _collateral_. 
+
+#+BEGIN_NOTE
+Modern organizations and historians now often prefer the term *"enslaved person"* over "slave" to emphasize their humanity and highlight that enslavement was a condition forced upon them rather than their identity.
+#+END_NOTE
+
+*** Forced Labor and Human Trafficking (Contemporary)
+While chattel slavery is legally abolished worldwide, millions remain trapped in modern forms of slavery. This includes:
+- Human trafficking
+- Forced labor in sweatshops
+- Debt bondage
+- Sexual exploitation
+
+*** Figurative and Psychological Use
+In everyday language, "slave" is used metaphorically to describe someone who is completely controlled by a habit, addiction, or overwhelming emotion. 
+- /Example:/ "He is a slave to his work."
+- /Example:/ "She is a slave to technology."
+
+*** Technological and Mechanical Use
+In technical contexts (like electronics, computing, or mechanics), a "slave" device or component is a hardware unit that operates under the direct control of another, primary device (often referred to as the "master").
+
+*** As a Verb
+The word can also be used as a verb meaning to work extremely hard or to toil. 
+- /Example:/ "I've been slaving away over this project all week."
+
+* tuition
+
+*Tuition* generally refers to *either the act of teaching (instruction) or the money paid for that instruction*. It encompasses academic lessons at an educational institution or private, individualized tutoring.
+
+** Primary Meanings
+
+*** 1. Payment for Instruction
+In common usage (especially in North America), tuition is the fee paid to a school, college, or university for classes. 
+   - *Example:* "The university announced a 5% increase in annual *tuition*."
+   - *Distinction:* Tuition usually covers the cost of teaching itself. It is distinct from other expenses like room and board, lab fees, or textbooks.
+
+*** 2. The Act of Teaching
+Primarily in British English, tuition describes the actual process of teaching or giving instruction, usually in small groups or one-on-one.
+   - *Example:* "She receives private *tuition* in mathematics."
+   - *Synonyms:* Instruction, schooling, tutoring, or teaching.
+
+** Origins of the Word
+Historically derived from the Latin word /tuitio/, which originally meant "guarding" or "watching over". Over centuries, the meaning shifted from guardianship to the guidance provided by a teacher.
+
+* counter
+
+"*Counter*" has several meanings depending on how you use it:
+
+** Core Definitions
+*** As a Noun
+- A flat surface where transactions or food preparations happen (e.g., in a store or kitchen).
+- A device or person that tallies numbers (e.g., a Geiger counter).
+- A token or piece used to keep score in board games.
+
+*** As a Verb
+- To oppose, respond, or retaliate against something (e.g., countering an argument).
+
+*** As an Adverb, Adjective, or Prefix
+- Signifying opposition.
+- Being placed in the opposite direction (e.g., counterclockwise or counteroffer).
