@@ -690,7 +690,7 @@ The term "*faculty*" primarily refers to *a person's natural physical or mental 
 
 *** Mental or Physical Ability
 *Note: Usually plural (faculties).*
-Refers to the inherent powers of the mind or body, such as the ability to see, hear, or reason.
+Refers to the [[inherent][inherent]] powers of the mind or body, such as the ability to see, hear, or reason.
 - *Example:* "Even at age 90, she remained in full possession of her mental *faculties*."
 
 *** A Special Talent or Aptitude
@@ -733,7 +733,7 @@ Retailers offer promotions like "buy one, get one free" or limited-time rebates 
 
 * leisure
 
-"*Leisure*" is _the time spent away from work, education, and domestic chores_. It is a period of freedom where you can relax, rest, or engage in hobbies and recreational activities of your own choosing.
+"*Leisure*" is *the time spent away from work, education, and domestic chores*. It is a period of freedom where you can relax, rest, or engage in hobbies and recreational activities of your own choosing.
 
 ** Core Concepts
 *** Free Time
@@ -794,4 +794,208 @@ A formal assembly convened for consultation or discussion, such as an ecumenical
 
 ** Usage Note
 Do not confuse *council* with *counsel*. While a council is a noun referring to a group of people, counsel (which can be both a noun and a verb) generally refers to advice, or a legal adviser.
+
+* merit
+
+"*Merit*" fundamentally means *the quality of being good, worthy, or deserving of praise or reward*. It functions as both a noun and a verb in the English language.
+
+** Key Meanings and Uses
+*** As a Noun (Value/Worth)
+Refers to the inherent quality, excellence, or worth of something.
+- *Example:* "The film received an award for artistic merit."
+- *Example:* "Her idea has great merit."
+
+*** As a Verb (To Deserve)
+Indicates that a situation, idea, or problem is worthy of a specific action or reaction.
+- *Example:* "This complex problem merits a deeper investigation."
+
+*** Idiom: "On Its Own Merits"
+Meaning to judge or evaluate something solely based on its own qualities, without outside influence or comparison.
+- *Example:* "The hiring manager will judge all candidates on their individual merits."
+
+** Derived Terms
+- *Merit-based / Meritocracy:* A system where advancement is based on ability and talent rather than wealth or social position.
+- *Meritorious:* (Adjective) Deserving reward or praise.
+- *Demerit:* (Noun) A fault, disadvantage, or a mark given for misconduct.
+
+* inherent
+
+"*Inherent*" refers to *a quality, characteristic, or meaning that is an essential, natural, and inseparable part of something*. It belongs to a subject by its very nature rather than being acquired, learned, or added from the outside.
+
+** Key Subtopics
+*** Synonyms
+Words frequently used interchangeably include:
+- / _intrinsic_ /
+- / _innate_ /
+- / _inborn_ /
+- /fundamental/
+- / _ingrained_ /
+
+*** Usage Context
+It is commonly paired with abstract concepts to describe unremovable attributes. Examples include:
+- "inherent risks of investing"
+- "inherent rights of an individual"
+- "inherent beauty"
+
+*** Philosophical Meaning
+In philosophy, the "inherent meaning" of an object, text, or action suggests that the meaning exists intrinsically within the thing itself, independent of an observer's interpretation.
+
+** Examples in a Sentence
+- "There are financial risks *inherent* in almost every type of investment."
+- "She strongly believes in the *inherent* goodness of all people."
+
+* implication
+
+An "*implication*" is *a conclusion, consequence, or suggestion that is drawn from a situation but not directly stated*. It represents the indirect effect an action will have, or an unstated hint.
+
+** Core Dimensions of Implication
+
+*** 1. Future Consequences
+In decision-making, an implication is the likely outcome or downstream result of an action.
+- *Example:* "We must consider the environmental implications of building the new highway."
+
+*** 2. Suggested Meaning (Subtext)
+An implication can be a nuance, hint, or subtext. The speaker /implies/, and the listener /infers/.
+- *Example:* "When she said I should 'update my resume,' the implication was that my job might be at risk."
+
+*** 3. Legal/Behavioral Involvement
+In a negative context, it refers to someone’s involvement or entanglement in a crime or bad situation.
+- *Example:* "The investigation revealed his implication in the fraudulent scheme."
+
+*** 4. Logical Implication
+In mathematics and formal reasoning, it is a conditional "if-then" relationship.
+- *Formula:* If A is true, then B must be true ($A \implies B$).
+
+* retail
+"*Retail*" is *the process of selling goods or services directly to individual consumers for personal use*. As the final step in the supply chain, retailers buy products in large quantities from manufacturers or wholesalers and sell them in smaller amounts to the public, typically at a marked-up price for profit.
+
+** The Supply Chain
+Understanding retail involves looking at where it sits in the broader product lifecycle:
+- *Manufacturer:* Creates the product.
+- *Wholesaler:* Purchases large batches from manufacturers and distributes them to retailers.
+- *Retailer:* Sells the final product directly to the end consumer.
+- *Consumer:* The end user who buys the product for personal or household use.
+
+** Common Types of Retail
+Retailing takes place across several different formats, both online and offline:
+- *Brick-and-Mortar:* Physical storefronts where customers can browse and purchase items in person, such as supermarkets, department stores, and specialty shops.
+- *E-commerce:* Digital marketplaces and online stores that allow consumers to buy products online and have them delivered.
+- *Mobile Retail:* Purchases made directly via smartphone apps or mobile websites.
+- *Services:* Retail extends beyond physical goods; it also includes consumer services such as hair salons, travel agencies, and restaurants.
+
+** Why Retail Matters
+For businesses, retail involves much more than just a single point of sale. It encompasses marketing, merchandising, pricing strategy, inventory management, and customer service. It is a massive economic driver that not only creates millions of jobs but also shapes consumer trends and daily lifestyle habits.
+
+* conscious
+"*Conscious*" generally means *being awake, alert, and fully aware of your surroundings and your own thoughts*. It describes a mental state where you can process information, perceive the world, and act deliberately rather than instinctively.
+
+** Primary Contexts
+*** State of Being (Awake)
+Being conscious means having your mental faculties active and not dulled by sleep, anesthesia, or fainting.
+- *Example:* "The patient remained *conscious* during the entire medical procedure."
+
+*** Awareness and Perception
+It means noticing, sensing, or realizing that something exists or is occurring.
+- *Example:* "I was *conscious* of someone staring at me in the coffee shop."
+
+*** Intentionality
+When used as "conscious effort" or "conscious decision," it means an action done with full awareness, deliberation, and purpose.
+- *Example:* "He made a *conscious* decision to eat healthier this year."
+
+*** Suffix / Combining Form
+It is often attached to nouns to indicate someone who is highly concerned or preoccupied with a specific topic.
+- *Examples:* /environmentally conscious/, /health-conscious/.
+
+** Common Confusion
+People often mix *conscious* with *conscience*. 
+- *Conscious:* Refers to your physical and mental *awareness*.
+- *Conscience:* Your inner moral sense of right and wrong.
+
+* resume
+A "*resume*" (or /résumé/) is *a concise document that summarizes a job applicant’s work experience, education, and skills*. Primarily used to apply for employment, its purpose is to market your qualifications and secure a job interview.
+
+The word "resume" has two primary definitions and pronunciations depending on how it is used:
+
+** 1. As a Noun (Pronounced /REZ-oo-may/)
+This is the job application document. A strong resume acts as a professional marketing tool rather than a comprehensive autobiography, and it is usually kept to one or two pages. It typically includes:
+
+- *Contact Information:* Name, phone number, email, and LinkedIn profile.
+- *Professional Summary:* A brief statement of your goals and qualifications.
+- *Work History:* Past job titles, companies, employment dates, and key achievements.
+- *Education:* Degrees, certifications, and institutions.
+- *Skills:* Specific abilities relevant to the job you are applying for.
+
+For a broader summary of your career, similar documents are referred to as a *Curriculum Vitae (CV)*. To ensure your resume stands out, it should be tailored with relevant keywords to fit each specific job you apply for.
+
+** 2. As a Verb (Pronounced /ri-ZOOM/)
+This means to begin again or restart an activity after an interruption.
+
+For exmaple: 
+- "The meeting will /resume/ after lunch."
+- "The game /resumed/ after the rain delay."
+
+* infant
+
+An "*infant*" is *a very young human, typically under one year of age*. The term broadly describes a baby from birth until they begin walking and transitioning into the "toddler" stage.
+
+** Contextual Meanings
+*** Age Classifications (Medical & Developmental)
+- *Newborn (Neonate):* Applies to the first 28 days of life.
+- *Infant:* Generally refers to children from 1 month to 1 year old.
+- *Toddler:* The stage following infancy, typically between 1 and 3 years old.
+
+*** Legal Definition
+In the legal context, an "infant" is synonymous with a minor. It refers to anyone who has not yet reached the age of majority (usually 18 years old).
+
+*** Early Stages of Development
+The word can be used figuratively to describe anything in its earliest stages of existence or development (e.g., an "infant industry").
+
+* estate
+
+An "*estate*" generally refers to *the entirety of a person's wealth, including all property, assets, and liabilities*. Depending on the context, it can also refer to a large, exclusive plot of land with a substantial residence, or a planned, multi-unit housing or industrial development.
+
+** Key Definitions by Context
+
+*** Law and Inheritance
+An estate comprises all the physical and intangible assets a person owns upon their death minus any outstanding debts.
+- Examples: Real estate, bank accounts, investments, personal items.
+- Role: An "executor" manages the distribution of this estate.
+
+*** Property and Real Estate
+This describes a large country property featuring a grand house, gardens, and grounds.
+- Note: The term "real estate" specifically refers to land and the permanent buildings attached to it.
+
+*** Housing Developments
+In British English, an estate often refers to a residential area built with a planned, uniform layout by a single developer.
+- Synonyms: Housing estate, housing scheme.
+
+** Related Legal & Financial Terms
+
+*** Estate Planning
+The process of anticipating and arranging, during a person's life, for the management and disposal of their estate during their life, in the event of incapacity, or upon death.
+
+*** Estate Tax
+A tax levied on an heir's inherited portion of an estate, usually triggered only if the estate's total value exceeds a specific government threshold.
+
+*** Estate Agent
+(UK) A professional who represents buyers and sellers of real property (similar to a *real estate agent* or *realtor* in the US).
+
+* initiative
+
+** Overview
+An "*initiative*" refers to *the ability to take charge, make decisions, and start new tasks or plans without needing to be told*. It also describes a fresh plan, strategy, or opening move designed to solve a problem, seize an advantage, or achieve a goal.
+
+** Contexts & Definitions
+
+*** Personal Quality (Taking the Initiative)
+As a personal trait, having initiative means you are proactive, independent, and willing to take responsibility. 
+- *Example:* An employee who anticipates a problem and fixes it before their boss assigns the task is showing "initiative".
+
+*** New Plans or Strategies (An Initiative)
+In business, government, and daily contexts, an "initiative" is synonymous with a new project or program.
+- *Business:* A new marketing or cost-cutting initiative.
+- *Government:* A diplomatic or environmental initiative.
+
+*** Grabbing or Taking the Advantage
+In sports, politics, or negotiations, the phrase *"taking the initiative"* means to make the first move in order to gain the upper hand or control the direction of the situation.
 
