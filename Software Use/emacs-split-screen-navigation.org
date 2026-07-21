@@ -1,0 +1,39 @@
+#+TITLE: Emacs Split-Screen Navigation Guide
+#+AUTHOR: Buce-Ithon
+#+DATE: [2026-07-21 周二]
+#+DESCRIPTION: A quick reference for splitting windows and managing buffers in Emacs.
+
+* Split-Screen Window Management
+
+Emacs uses split-screen windows to view multiple files simultaneously. 
+Use =C-x 2= (horizontal split) or =C-x 3= (vertical split), then use =C-x o= to switch between them.
+
+** Window Splitting Actions
+- *Split horizontally (above/below)* :: =C-x 2= (=split-window-below=)
+- *Split vertically (left/right)* :: =C-x 3= (=split-window-right=)
+
+** Window Switching and Navigation
+- *Switch to next window* :: =C-x o= (=other-window=)
+- *Find file in new window* :: =C-x 4 f= (prompts for a file and opens it in a new split)
+- *Switch buffer in new window* :: =C-x 4 b=
+
+** Closing Windows
+- *Close current window* :: =C-x 0= (=delete-window=)
+- *Maximize current window* :: =C-x 1= (=delete-other-windows=, closes all other splits)
+
+** Resizing Windows
+- *Increase window height* :: =C-x ^= (=enlarge-window=)
+- *Increase window width* :: =C-x }= (=enlarge-window-horizontally=)
+- *Decrease window width* :: =C-x {= (=shrink-window-horizontally=)
+
+* Advanced Layout Management (Winner Mode)
+
+Add the following configuration to your =.emacs= or =init.el= to enable window layout history tracking:
+
+#+BEGIN_SRC elisp
+(winner-mode 1)
+#+END_SRC
+
+** Layout Navigation Shortcuts
+- *Undo layout change* :: =C-c <left>= (=winner-undo=)
+- *Redo layout change* :: =C-c <right>= (=winner-redo=)
