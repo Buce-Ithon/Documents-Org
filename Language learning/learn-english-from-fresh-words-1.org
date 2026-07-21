@@ -294,3 +294,71 @@ Historically derived from the Latin word /tuitio/, which originally meant "guard
 *** As an Adverb, Adjective, or Prefix
 - Signifying opposition.
 - Being placed in the opposite direction (e.g., counterclockwise or counteroffer).
+
+* belt
+
+Most commonly, it refers to *a flexible strip of material like leather worn around the waist to support clothing*.
+
+Beyond, it can also take on several meanings:
+- *Mechanical:* An endless loop of flexible material (like rubber) used in machinery or vehicles to tranfer motion between pulleys, such as a car's fan belt.
+- *Geography & Climate:* A large region or geographic area characterized by a specific feature, climate, or industry (e.g., the Corn Belt).
+- *Martial Arts:* The colored fabric band worn aroundo the waist to signify a practitioner's rank or skill level (e.g., black belt).
+
+As a verb, "to belt" can mean to hit something forcefully or to sing a song very loudly and powerfully.
+
+* airbone
+
+An adjective meaning *something is in the air or being carried through the air*. It commonly describes an aircraft in flight, particles (like dust, [[pollen][pollen]], or viruses) being transported by the wind, or troop deployed via aircraft.
+
+** Key Usages
+*** Aviation
+   Refers to an aircraft that has left the ground and is sustained by aerodynamic forces.
+*** Science & Health
+   Describes matter transported by the atmosphere. For example, a pathogen that spreads via respiratory droplets is considered an airborne disease.
+*** Military
+   Refers to special infantry troops trained and equipped to be transported by aircraft and dropped into combat (usually by parachute).
+
+** Common Synonyms
+  - Aloft
+  - In flight
+  - Airborne
+
+* pollen
+
+** What is Pollen?
+"*Pollen*" is *a fine, powdery substance produced by the male part of a seed plant*. It contains the plant's male reproductive cells and is transported to the female part of other flowers by wind, insects, or birds to fertilize them and produce seeds.
+
+** Key Functions and Facts
+*** Plant Reproduction
+Pollen carries the male genetic material needed for plant fertilization and seed production, making it essential for the survival and diversity of flowering plants.
+
+*** Allergies
+For many people, airborne pollen (usually from wind-pollinated trees, grasses, and weeds) is a major trigger for seasonal allergies or hay fever, causing symptoms like sneezing, itchy eyes, and congestion.
+
+*** Pollinators
+Bees, butterflies, and other animals rely on pollen as a primary source of protein while inadvertently transferring it from flower to flower.
+
+*** Palynology
+Because pollen grains have tough, decay-resistant outer shells, they fossilize well. Scientists who study pollen (palynologists) can use these fossilized grains to reconstruct past climates and ancient ecosystems.
+
+#+TITLE: Radical Meaning
+
+* radical
+
+The word "*radical*" generally means *relating to or proceeding from a root*. Depending on the context, it refers to a fundamental change, an extreme political view, a mathematical expression, or an unpaired-electron atom in chemistry. 
+
+** Politics and Society
+In a social or political context, a "radical" is someone who advocates for fundamental or extreme changes to current structures, laws, or institutions. It can describe progressive or revolutionary ideas aimed at addressing the "root" causes of societal issues.
+
+** General Usage (Fundamental or Extreme)
+As an adjective, it is frequently used to describe something that is very new, different, or completely departs from tradition. 
+- *Examples:* "Radical changes in operating procedures" or a "radical new design."
+
+** Mathematics
+In math, a radical represents the root of a number. It is denoted by the radical sign ($\sqrt{}$), such as in the expression $\sqrt{x}$. It indicates that a number is to be multiplied by itself a certain number of times to yield the original value.
+
+** Chemistry
+In chemistry, a radical (often called a free radical) is an atom, molecule, or ion that has at least one unpaired valence electron. This makes them highly reactive and often unstable, playing a key role in various chemical reactions.
+
+** Linguistics
+In the study of languages (especially logographic writing systems like Chinese), a radical is a graphical component or foundational base character under which a dictionary organizes words. It often provides a clue to the character's meaning or origin.
