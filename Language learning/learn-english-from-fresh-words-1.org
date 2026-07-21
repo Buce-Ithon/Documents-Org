@@ -362,3 +362,139 @@ In chemistry, a radical (often called a free radical) is an atom, molecule, or i
 
 ** Linguistics
 In the study of languages (especially logographic writing systems like Chinese), a radical is a graphical component or foundational base character under which a dictionary organizes words. It often provides a clue to the character's meaning or origin.
+
+* strain
+
+The word "*strain*" primarily refers to *physical or mental tension, an injury to an overstretched muscle, a specific genetic variant of a microorganism, or a mechanical measure of material deformation*.
+
+** Contextual Definitions
+*** Biology
+A genetic variant, subtype, or race of a microorganism (like a virus or bacteria) or a breed of plant/animal.
+
+*** Medicine & Fitness
+An injury to a muscle or tendon caused by twisting or overusing it (e.g., a pulled hamstring).
+
+*** Physics & Engineering
+The deformation or change in shape of a physical object when an external force or stress is applied.
+
+*** General Context
+Severe physical or mental pressure, burden, or the act of pushing something to its limit (e.g., a financial or emotional strain).
+
+*** Culinary
+The process of filtering or separating solid pieces from a liquid using a sieve or cloth.
+
+* thrive
+
+To "*thrive*" means *to grow vigorously, develop well, or experience steady progress and success*. It goes beyond merely surviving by implying a state of flourishing, prosperity, or reaching one's peak potential.
+
+** Common Usages and Examples
+*** People & Health
+Growing or developing vigorously.
+- /Example:/ "The children *thrived* in the country environment."
+
+*** Business & Wealth
+Prospering and gaining in success or profit.
+- /Example:/ "His tech startup *thrived* despite a difficult market."
+
+*** Handling Challenges
+Being fueled or energized by certain conditions.
+- /Example:/ "She seems to *thrive on* intense workloads and tight deadlines."
+
+** Synonyms and Antonyms
+*** Synonyms
+- Flourish
+- Prosper
+- Boom
+- Bloom
+- Succeed
+
+*** Antonyms
+- Wither
+- Stagnate
+- Fail
+- Decline
+- Deteriorate
+
+* gamble
+
+"*Gamble*" refers to *taking a risky action or betting something of value - usually money - on an uncertain outcome in the hope of winning a prize or achieving success*. 
+
+It can be done literally (e.g., at a casino) or figuratively (e.g., a risky business deal).
+
+** Core Subtopics
+*** Financial Wagering
+The act of risking money in a game of chance or on sports and lotteries.
+*** Calculated Risks (Figurative)
+Making a decision that involves significant risk but offers a high reward.
+*** Psychology & Ethics
+The study of risk-taking behaviors, societal impacts, and regulatory frameworks.
+
+* transaction
+
+A *transaction* is *a business deal or agreement where goods, services, or money are exchanged between two or more parties*. It is a fundamental unit of commerce and finance. It also refers to a single action in computing or a [[reciprocal][reciprocal]] interaction between individuals.
+
+** 1. Business and Commerce
+In the business world, a transaction is an act of buying or selling. It involves the transfer of ownership of a product, property, or service in return for an agreed-upon value (usually money).
+  - *Example:* Buying a cup of coffee, purchasing a house, or a company signing a contract to supply materials.
+
+** 2. Banking and Finance
+In personal and corporate finance, it represents the processing of funds. This includes withdrawals, deposits, transfers, and credit or debit card purchases.
+
+** 3. Accounting
+In accounting, a transaction is any measurable economic event that directly affects a business's financial position. It requires a formal record in the company's ledger.
+  - *Example:* Paying employee salaries, receiving cash for a sale, or paying rent.
+
+** 4. Technology and Databases
+In computer science, a transaction is an indivisible unit of work executed in a database system. It typically bundles a series of database operations (like adding a sale or updating a customer record) into a single all-or-nothing step.
+
+** 5. Legal Definition
+In civil law, a transaction (often referred to as a "compromise" or "settlement") is a contract reached between opposing parties to prevent or resolve litigation through reciprocal concessions.
+
+* reciprocal
+
+"*Reciprocal*" describes *a mutual, shared, or corresponding relationship between two parties, where actions or feelings are given and returned in equal measure*. It also refers to a mathematical number that, when multiplied by another, results in a product of 1 (e.g., the reciprocal of 2/3 is 3/2).
+
+The word spans several different contexts, including everyday relationships, trade, and mathematics.
+
+** Key Contexts
+
+*** 1. Relationships and Agreements
+In social or business contexts, a reciprocal action involves two parties doing the same thing for each other or exchanging similar favors. 
+
+- *Example:* A trade agreement between countries where both sides lower tariffs on each other's goods.
+- *Example:* Two colleagues who cover each other's shifts on an alternating basis.
+
+*** 2. Mathematics
+In math, a reciprocal is also known as a "multiplicative inverse". To get the reciprocal of any number, you divide 1 by that number. For fractions, you simply flip the numerator and the denominator.
+
+- *Whole numbers:* The reciprocal of x is 1/x. For example, the reciprocal of 5 is 1/5.
+- *Fractions:* The reciprocal of a/b is b/a. For example, the reciprocal of 3/4 is 4/3.
+- *Rule:* Multiply a number by its reciprocal, and the result is exactly 1 (e.g., 5 * 1/5 = 1).
+
+*** 3. Grammar
+In linguistics, a reciprocal pronoun expresses a mutual action or relationship between the subjects in a sentence.
+
+- *Example:* "They looked at /each other/."
+- *Example:* "We understand /one another/."
+
+*** 4. Navigation
+In nautical and aviation terms, a reciprocal bearing is a course or direction that is exactly opposite (turned 180 degrees) from the direction you are currently on.
+
+- *Example:* If you are flying on a heading of 090° (East), your reciprocal heading is 270°(West).
+
+* amateur
+An "*amateur*" is *a person who engages in an activity for pleasure rather than financial gain*. The activity can be a sport, art, science, or study.
+
+** Usage
+The word can be used in two main ways:
+1. As a *noun*: "He is an amateur in astronomy."
+2. As an *adjective*: "They run an amateur theater group."
+
+** Key Characteristics
+- Done for enjoyment.
+- Unpaid basis.
+- May imply a lack of professional skill.
+
+** Etymology
+- Derived from French /amateur/.
+- Roots trace to Latin /amatorem/, meaning "lover of".

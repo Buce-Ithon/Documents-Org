@@ -1,0 +1,40 @@
+#+TITLE: UTF-8 and Unicode Symbol Input in Emacs
+#+AUTHOR: Buce-Ithon
+#+DATA: [2026-07-21 周二]
+
+In GNU Emacs, you can input UTF-8 and Unicode symbols using several built-in commands and input methods. 
+
+* 1. Insert by Name or Hex Code
+The most universal way to insert any symbol is by using the =insert-char= command.
+- *Key Binding:* ~C-x 8 RET~ (or ~M-x insert-char~)
+- *By Hex Code:* Type the Unicode hex value (e.g., =221e= for =∞=) and hit ~RET~.
+- *By Name:* Type the partial or full Unicode character name (e.g., =INFINITY=) and press ~TAB~ for auto-completion.
+
+* 2. Built-in Prefix Diacritics
+For common European accents and standard symbols, Emacs provides quick ~C-x 8~ prefix chains:
+- ~C-x 8 ' e~ ­> é
+  - ~C-x 8 ~ n~ ­> ñ
+- ~C-x 8 / o~ ­> ø
+- ~C-x 8 <~   ­> «
+- ~C-x 8 = =~   ­> ¯
+
+* 3. Using the TeX Input Method
+Ideal for mathematical symbols, arrows, or Greek letters. This converts LaTeX markup into UTF-8 characters on the fly.
+1. Type ~M-x set-input-method~ (or shortcut ~C-u C-\~).
+2. Enter *=TeX=* as the input method.
+3. Type LaTeX syntax to see it instantly transform:
+   - =\alpha= α
+   - =\rightarrow= →
+   - =\infty= ∞
+4. Toggle this input method on or off at any time using ~C-\~.
+
+* 4. Raw Character Code Quoting
+If you prefer using numeric codes directly:
+- Set input radix to hex (optional): ~(setq read-quoted-char-radix 16)~
+- Type ~C-q~ followed by your character code number.
+
+* 5. Inspection Tip
+To find the hex code or official name of any symbol already inside your buffer:
+1. Move your cursor over the symbol.
+2. Press ~C-u C-x =~ (=describe-char=).
+3. Review the character properties in the split window.
