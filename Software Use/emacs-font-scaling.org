@@ -1,0 +1,18 @@
+#+TITLE: Emacs Font Scaling Shortcuts
+#+AUTHOR: Buce-Ithon
+#+DATE: [2026-07-23 周四]
+
+* Text Scale (Buffer Local)
+These commands change the font size only in the current active buffer.
+- **Zoom In**: ~C-x C-+~ or ~C-x C-=~
+- **Zoom Out**: ~C-x C--~
+- **Reset to Default**: ~C-x C-0~
+
+* Global Text Scale (All Frames)
+These commands change the font size globally across all buffers and windows.
+- **Global Zoom In**: ~C-x C-M-+~ or ~C-x C-M-=~
+- **Global Zoom Out**: ~C-x C-M--~
+- **Global Reset**: ~C-x C-M-0~
+
+* Pro-Tip
+After pressing the initial sequence (e.g., ~C-x C-+~), you can just keep hitting ~+~, ~-~, or ~0~ to repeat the scaling action quickly.
