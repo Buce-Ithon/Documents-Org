@@ -2,4 +2,340 @@
 #+author: Buce-Ithon
 #+date:<2026-07-24 周五> 
 
+* controversy
 
+A "*controversy*" is *a prolonged public dispute or debate involving strong, often opposing opinions*. It typically arises when a decision, action, or belief clashes with the values or perspectives of different groups of people, generating widespread discussion or anger.
+
+** Key Characteristics
+- *Public in Nature:* Unlike a private argument, a controversy usually plays out in the media, public forums, or between large institutions.
+- *Prolonged:* It represents a sustained clash of ideas rather than a single, brief disagreement.
+- *Varying Viewpoints:* It features stark divides, where one group supports an idea or action while another strongly objects to it.
+
+** Usage Examples
+#+BEGIN_QUOTE
+"The proposed policy changes caused a massive *controversy* in the community."
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+"He resigned from his position amid considerable *controversy*."
+#+END_QUOTE
+
+** Common Synonyms
+- *Dispute:* An argument or disagreement, especially an official one.
+- *Debate:* A formal discussion on a particular topic in which opposing arguments are put forward.
+- *Altercation:* A noisy or angry dispute.
+- *Polemic:* A strong verbal or written attack on someone else's opinions.
+
+* personnel
+
+"*Personnel*" refers to *the people employed by a company, organization, or military branch*. It is essentially a collective term for a workforce, staff, or team. Additionally, the word is often used to describe *the department that handles hiring and employee management (Human Resources)*.
+
+** Key Usages
+*** As a Collective Noun
+Refers to the staff.
+- Example: /"The new CEO plans to make major changes across all personnel."/
+
+*** As a Department (HR)
+Refers to Human Resources.
+- Example: /"Please reach out to Personnel to update your tax forms."/
+
+*** By Industry
+Commonly paired with specific sectors.
+- Examples: 
+  - "military personnel"
+  - "medical personnel"
+  - "security personnel"
+
+** Common Confusion: Personnel vs. Personal
+People often confuse these two words because they look and sound similar, but they have completely different meanings.
+
+*** Personnel (Noun)
+Defines **Staff/Employees**.
+- Example: /"The office personnel attended the annual meeting."/
+
+*** Personal (Adjective)
+Defines **Private/Individual**.
+- Example: /"These are my personal belongings."/
+
+* resort
+
+A "*resort*" is *a self-contained commercial establishment or holiday town*. It provides a wide variety of amenities, including:
+- Accommodations
+- Food and dining
+- Entertainment
+- Recreational activities
+
+Unlike a standard hotel which is primarily for sleeping, a resort serves as a primary vacation destination where all needs are met on-site.
+
+** Grammatical Usages and Meanings
+The word can function as both a noun and a verb, with three distinct meanings.
+
+*** Holiday Destination (Noun)
+A popular vacation spot designed for relaxation, sport, or leisure.
+**** Examples
+- Ski resorts in the mountains
+- Beach resorts on the coast
+- All-inclusive spa resorts
+
+*** A Final Option (Noun)
+Used in the phrase "last resort," referring to a final course of action taken only when everything else has failed.
+**** Example
+"Going to court was a last resort after negotiations broke down."
+
+*** To Turn to for Help (Verb)
+When used as "resort to," it means to adopt a specific strategy or action—often something undesirable—because you have no other choice.
+**** Example
+"They had to resort to legal action to get their deposit back."
+
+* consult
+
+To "*consult*" means *to seek information, advice, or an expert opinion from a person, reference material, or institution before making a decision*. It can also mean to discuss an issue with others or to work professionally as an advisor.
+
+** Common Uses of "Consult"
+*** Seeking Advice
+Asking a specialist for their professional guidance.
+- *Example:* "If your symptoms get worse, you should consult your doctor."
+
+*** Checking Information
+Referring to a source or document to find facts.
+- *Example:* "If you don't know the definition of a word, consult a dictionary."
+
+*** Discussing/Deliberating
+Conferring with others to reach a mutual decision.
+- *Example:* "I will need to consult with my colleagues before making a final offer."
+
+** Related Forms
+- *Consultant (noun):* An expert who is paid to give professional or technical advice to a business or organization.
+- *Consultation (noun):* A meeting with an expert or professional to discuss a specific problem or plan.
+
+* prevail
+
+"*Prevail*" primarily means *to triumph, succeed, or prove superior after a struggle or period of opposition*. It is a versatile verb used to describe winning an argument, overcoming difficulties, or having a specific idea or custom be widely accepted.
+
+** Contextual Usage
+The term is commonly used across a few different contexts, including winning in competition or law, having widespread influence, or successfully persuading someone:
+
+*** To Triumph or Win
+To emerge victorious in a contest, struggle, or legal dispute.
+#+BEGIN_QUOTE
+"Despite the challenges, the defense team managed to *prevail* in the high-profile court case."
+#+END_QUOTE
+
+*** To be Widespread or Predominant
+To be broadly accepted, current, or existing as the most common feature in a certain time or place.
+#+BEGIN_QUOTE
+"A culture of innovation continues to *prevail* in the technology sector."
+#+END_QUOTE
+
+*** To Persist Over Time
+To endure or survive.
+#+BEGIN_QUOTE
+"Let's hope that common sense will *prevail* in the end."
+#+END_QUOTE
+
+*** To Persuade (Prevail on/upon)
+To successfully convince someone to do something.
+#+BEGIN_QUOTE
+"We were able to *prevail upon* her to share her expertise at the upcoming workshop."
+#+END_QUOTE
+
+* induce
+
+To "*induce*" means *to persuade someone to do something or to cause a specific event or physical condition to happen*. It comes from the Latin /inducere/, meaning "to lead or bring in".
+
+** Key Definitions and Usages
+*** To persuade or influence
+Persuading or leading someone to take a certain action or position.
+- /Example:/ Nothing could induce me to jump out of an airplane.
+
+*** To cause or bring about
+Stimulating the occurrence of a physiological or chemical state.
+- /Example:/ Medication was used to induce sleep.
+- /Note:/ In medicine, it often refers to artificially starting labor in a pregnant woman.
+
+*** In physics and electronics
+The process by which an electrical or magnetic field produces an electric current in a nearby object without direct contact.
+
+** Common Synonyms
+*** Persuade
+- Prompt
+- Convince
+- Urge
+- Influence
+
+*** Cause
+- Trigger
+- Generate
+- Prompt
+- Provoke
+
+* shed
+
+The word *shed* is a versatile English word that can function as both a noun (*refering to structure*) and a verb (*meaning to cast off, lose, or release*).
+
+** As a Noun
+A *shed* typically refers to *a simple, single-story building used for shelter, storage, or specialized activities*.
+- *Examples:* Garden shed, tool shed, lambing shed, factory shed.
+
+** As a Verb
+As an action, *shed* means *to cast off, lose, emit, or release*.
+
+*** Discard or Cast Off
+Losing a natural covering or getting rid of unwanted things.
+- *Animals:* A dog shedding fur or a snake shedding skin.
+- *Plants:* A tree shedding leaves in autumn.
+- *Idiomatic:* Shedding a few pounds (losing weight) or shedding clothes.
+
+*** Emit or Give Off
+Radiating something outward.
+- *Example:* A flashlight shedding light on a dark path.
+
+*** Pour or Spill
+Letting a liquid flow freely.
+- *Examples:* Shedding tears (crying) or shedding blood (injury/war).
+
+* ethic
+
+An "*ethic*" is *a moral principle, a set of values, or a system of rules that guides a person or group on what is right and wrong*.
+
+** Core Definitions
+*** Moral Rules
+A guiding set of beliefs or standards that controls how people act and treat others.
+*** Field of Study
+As /ethics/ (plural in form), it is the branch of philosophy that studies human conduct and moral duty.
+*** Group Standards
+Specific codes used by professions or cultures, such as medical or business ethics.
+
+** Key Variations
+*** Personal vs. Professional
+An individual has a personal sense of right and wrong, while a job or organization follows a formal code of ethics.
+*** Ethics vs. Morals
+Morals are personal values, while ethics often refer to the shared rules of a group or community.
+
+* poll
+
+A "*poll*" is *a survey or questionnaire used to gather public opinion, or a formal process of voting to record and count choices or opinions*.
+
+** Common Contexts
+
+*** Public Opinion (Opinion Poll)
+An activity where a representative sample of people are asked questions to determine general trends, sentiments, or preferences.
+- *Example:* A nationwide *poll* showed 60% of citizens support the new policy.
+
+*** Elections and Voting
+The casting, recording, or calculating of votes, or the specific location where voting takes place. In this context, "the polls" usually refers to the physical voting places.
+- *Example:* Voters across the country will go to the *polls* on Tuesday.
+
+*** Usage as a Verb
+To "poll" means to question people to gather data, or to receive a specific number of votes in an election.
+- *Example:* The candidate *polled* over 10,000 votes.
+
+*** Computing
+In technology, polling is the process of a computer or system repeatedly and sequentially checking connected devices or channels to see if they are ready for a transmission or to collect data.
+
+* dean
+
+The word "*dean*" primarily refers to *a senior administrative official in an institution*. It carries specific meanings across education, religion, and professional groups.
+
+** Core Meanings
+*** In Education
+In higher education and some private schools, a dean is an academic leader with significant authority over a specific administrative or academic division.
+**** Academic Dean
+Heads a specific faculty, school, or college within a university (e.g., Dean of the Faculty of Medicine or Dean of Law).
+**** Dean of Students / Student Affairs
+An administrator responsible for student life, including counseling, disciplinary issues, and housing.
+
+*** In the Church
+The term has historical roots in Christian clergy.
+**** Cathedral Dean
+The head of a chapter of canons and administrator of a cathedral church.
+**** Rural Dean
+A priest appointed by a bishop to oversee a specific district within a diocese.
+
+*** As a Professional "Elder" (Doyen)
+Outside of academia, "dean" is used to describe the most senior, longest-serving, or most respected person in a specific profession or group.
+- /Example:/ "He is the dean of Washington political correspondents."
+
+** Etymology and Names
+*** Given Name / Surname
+As a name, Dean comes from Old English, originally referring to someone who lived in or near a valley.
+
+* diminish
+
+"*Diminish*" means *to make or become smaller, fewer, or less in size, importance, or intensity*. It is also used to describe the act of belittling someone or making their achievements seem less valuable.
+
+** Key Definitions & Usage
+*** To decrease
+To reduce in amount or degree.
+#+BEGIN_QUOTE
+"The pain began to diminish after she took the medicine."
+#+END_QUOTE
+
+*** To belittle
+To lessen the authority, reputation, or dignity of someone.
+#+BEGIN_QUOTE
+"I don't want to diminish her achievements."
+#+END_QUOTE
+
+* revise
+
+To "*revise*" means *to re-examine and alter a piece of writing, a plan, or an opinion to correct mistakes, improve accuracy, or reflect new information*. In British English, it also means to study previously learned material to prepare for an examination.
+
+** Key Meanings and Contexts
+*** Editing and Correction
+To review a manuscript, proposal, or document to improve its quality.
+
+*** Updating Plans or Figures
+To adjust forecasts, budgets, or plans based on updated circumstances (e.g., revising a budget upwards).
+
+*** Changing Perspectives
+To re-evaluate or reconsider a prior judgment about someone or something.
+
+*** Studying for Exams (UK/Commonwealth)
+To review and reread academic notes in preparation for a test.
+
+** Usage Examples
+- *Writing:* "The publisher asked the author to *revise* the final chapter before printing".
+- *Academics:* "I need to stay home this weekend to *revise* for my history exam".
+- *Planning:* "Due to inflation, the project timeline has been *revised*".
+
+** Synonyms
+*** Text/Ideas
+- Edit
+- Amend
+- Alter
+- Modify
+- Rework
+
+*** Studying
+- Review
+- Cram
+- Study
+
+* chronic
+
+The word "*chronic*" generally describes *something that continues for a long time, recurs frequently, or is difficult to eradicate*. It originates from the Greek word /chronos/, meaning "time". 
+
+** Primary Contexts
+*** Medicine and Health
+In a medical context, *chronic* refers to a disease, condition, or symptom that is persistent, long-lasting (typically lasting 1 year or more), and often develops slowly. 
+
+- *Examples:* Asthma, diabetes, arthritis.
+- *Contrast:* It is the opposite of *acute*, which describes a sudden, severe onset of short duration.
+
+*** General Usage
+Outside of healthcare, the word describes habitual behaviors or ongoing, stubborn problems that are hard to resolve.
+
+- *Examples:* A chronic liar, a chronic shortage of staff, chronic traffic [[congestion][congestion]].
+
+*** Slang Terminology
+In informal or cannabis culture, *chronic* is used as a slang term to describe high-quality, potent marijuana. It was popularized by the 1992 Dr. Dre album /The Chronic/.
+
+* congestion
+
+"*Congestion*" descrbies *a situation where a place, system, or bodily passage is excessively blocked, overcrowded, or clogged, causing difficulty in movement or function*.
+
+** Common uses of the term
+- *Traffic & Crowding:* The blocking of roads, public transit, or public areas due to an overwhelming volume of people or vehicles (e.g., severe traffic congestion on major highways).
+- *Medical Conditions:* The abnormal accumulation or blockage of fluids, mucus, or blood in a body part, such as nasal congestion (stuffy nose) or chest congestion.
+- *Network & Tech:* The overloading of a digital network or telecommunications system, which can cause delays in data transmission.
