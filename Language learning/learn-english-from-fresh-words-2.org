@@ -1,4 +1,4 @@
-#+title: Learn English from Fresh Words - 1
+#+title: Learn English from Fresh Words - 2
 #+author: Buce-Ithon
 #+date:<2026-07-24 周五> 
 
@@ -171,7 +171,7 @@ The process by which an electrical or magnetic field produces an electric curren
 
 * shed
 
-The word *shed* is a versatile English word that can function as both a noun (*refering to structure*) and a verb (*meaning to cast off, lose, or release*).
+The word *shed* is a versatile English word that can function as both a noun (refering to *structure*) and a verb (meaning *to cast off, lose, or release*).
 
 ** As a Noun
 A *shed* typically refers to *a simple, single-story building used for shelter, storage, or specialized activities*.
