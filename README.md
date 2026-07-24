@@ -16,7 +16,9 @@ My personal org-mode documents repository for daily life management, language le
 
 ## Language learning
 
-[learn-english-from-fresh-words.org](<./Language learning/learn-english-from-fresh-words.org>)
+[Language learning/learn-english-from-fresh-words.org](<./Language learning/learn-english-from-fresh-words.org>)
+[Language learning/learn-english-from-fresh-words-1.org](<./Language learning/learn-english-from-fresh-words-1.org>)
+[Language learning/learn-english-from-fresh-words-2.org](<./Language learning/learn-english-from-fresh-words-2.org>)
 
 ## Technical content
 
@@ -25,6 +27,16 @@ This section is not yet complete.
 ## Software use
 
 [Software Use/emacs-usage-in-practice.org](<./Software use/emacs-usage-in-practice.org>)
+[Software Use/emacs-close-message-buffer.org](<./Software use/emacs-close-message-buffer.org>)
+[Software Use/emacs-reveal-markdown-markup.org](<./Software use/emacs-reveal-markdown-markup.org>)
+[Software Use/emacs-org-mode-bold-shortcuts.org](<./Software use/emacs-org-mode-bold-shortcuts.org>)
+[Software Use/emacs-resolve-incorrect-coding-system.org](<./Software use/emacs-resolve-incorrect-coding-system.org>)
+[Software Use/emacs-org-mode-jump-between-headings.org](<./Software use/emacs-org-mode-jump-between-headings.org>)
+[Software Use/emacs-org-mode-tags-and-properties.org](<./Software use/emacs-org-mode-tags-and-properties.org>)
+[Software Use/emacs-org-mode-export-other-formats.org](<./Software use/emacs-org-mode-export-other-formats.org>)
+[Software Use/emacs-utf-8-input.org](<./Software use/emacs-utf-8-input.org>)
+[Software Use/emacs-split-screen-navigation.org](<./Software use/emacs-split-screen-navigation.org>)
+[Software Use/emacs-font-scaling.org](<./Software use/emacs-font-scaling.org>)
 
 ## Misc
 
