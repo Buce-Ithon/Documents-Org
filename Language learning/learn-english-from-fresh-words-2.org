@@ -550,3 +550,204 @@ To draw, shade, or perform a artistic piece for an audience.
 - *Cooking:* To melt down animal fat by heating it slowly (e.g., "render lard").
 - *Building:* To apply a first rough coat of plaster or mortar to a wall.
 
+* territory
+
+A "*territory*" is *an area of land or water controlled by a government, an assigned work zone, or an animal's home space*.
+
+** Political and Government Land
+- *Land under a country:* An area owned or run by a specific government.
+- *Not a full state:* A region belonging to a nation that has its own local rules but lacks full state or provincial rights (such as Guam for the U.S. or the Northern Territory for Australia).
+
+** Work and Personal Spaces
+- *Job area:* A specific region where a worker, like a salesperson, sells goods or does business.
+- *Animal home:* A place that an animal or group of animals owns, uses, and protects from others.
+- *Subject or skill:* A specific field of knowledge, study, or thought (e.g., "science is not my territory").
+
+* accuse
+
+"*Accuse*" means *to charge someone with a crime, fault, or wrongdoing*. It is the action verb, whereas "accused" is the person who receives the blame.
+
+** Core Meanings
+- *The Action:* Saying that someone did something illegal, wrong, or dishonest.
+- *Formal Law:* Presenting a formal criminal charge against a suspect in court.
+- *Grammar Rule:* It is almost always followed by the word "of" (e.g., "to accuse someone of theft").
+
+** Direct Comparision
+- *Accuse (Verb):* The act of blaming. (Example: They accuse him of lying.)
+- *Accused (Noun/Adjective):* The person being blamed. (Example: The accused stood in court.)
+
+* setback
+
+A "*setback*" is *an event or rule that stops, delays, or reverses progress*. It has different meanings depending on the context.
+
+** General and Financial Meanings
+*** Delay or Problem
+An unexpected event that slows down forward movement.
+- Example: An injury during sports training.
+
+*** Market Drop
+A temporary decline in stock prices or financial markets.
+
+*** Synonyms
+- Blow
+- Check
+- Hold-up
+- Reversal
+
+** Specialized Meanings
+*** Architecture
+The legal minimum distance a building must be set back from a street, road, or property line. It helps ensure safety, privacy, and access to light and air.
+
+*** Heating and Cooling
+A programmed reduction in a thermostat's temperature setting during hours when the building is empty or occupants are asleep.
+
+* hinder
+
+"*Hinder*" means *to slow down, block, or make it hard for someone to do something or for something to grow*.
+
+** Common Meanings and Uses
+*** Hinder as a Verb
+To hold back or get in the way of progress.
+- /Example:/ "Bad weather can *hinder* your travel plans."
+
+*** Hinder as an Adjective
+Located at the back or rear.
+- /Example:/ "The rabbit escaped using its powerful *hinder* legs."
+
+** Synonyms and Antonyms
+*** Synonyms
+- Hamper
+- Impede
+- Block
+- Obstruct
+
+*** Antonyms
+- Help
+- Aid
+- Assist
+- Facilitate
+
+* census
+
+A "*census*" is *an official count of people, details on a population, and a way to gather facts*. It counts every person in a country or area. 
+
+** Key Features of a Census
+- *Official count:* Done by the government.
+- *Full group:* Looks at every single person, not just a small group.
+- *Timed events:* Often done every 10 years.
+
+** Information Collected
+- *Basic facts:* Age, sex, and where people live.
+- *Life details:* Jobs, school, and homes.
+- *Use of data:* Helps leaders plan money, schools, and roads.
+
+* curb
+
+A "*curb*" (spelled /kerb/ in British English) is *a noun meaning the raised stone or concrete edge alongside a street,* and *a verb meaning to control or limit something*.
+
+** Noun Meanings
+- *Street edge:* The raised border of concrete or stone separating a sidewalk from the road.
+- *Control:* A check, limit, or restraint placed on something unwanted (e.g., "price curbs").
+
+** Verb Meanings
+- *To restrain:* To control, limit, or hold back an action, feeling, or habit (e.g., "curb your temper" or "curb spending").
+- *To lead a dog:* To guide a dog to the gutter or edge of the street to do its business.
+
+* ladder
+
+A "*ladder*" is *a tool for climbing, a set of life stages, or a torn line in fabric*. It primarily means a physical frame with steps, a ranked system like a career path, or a run in tights.
+
+** Physical Tool
+A physical frame used for climbing up or down high places.
+- Structure :: Consists of two long side bars with rungs (flat steps) connected between them.
+- Materials :: Typically made of wood, aluminum, fiberglass, or strong rope.
+- Use Case :: Accessing roofs, cleaning gutters, or painting walls.
+
+** Ranked System or Stages
+A conceptual metaphor for progress, status, or hierarchy in society or a career.
+- Corporate Ladder :: The series of steps or promotions to advance in a job or company.
+- Social Ladder :: The tiers of social class or status in a community.
+- Progression :: Represents moving upward through effort, merit, or seniority.
+
+** Fabric Tear (British English)
+A damage pattern in knitted textiles.
+- Definition :: A thin run or unraveling line where vertical threads break.
+- Common Context :: Most frequently used to describe a run in nylon stockings or tights.
+
+* subsidy
+
+A "*subsidy*" is *a sum of money given by a government or group to help pay for the cost of a product, service, or business*. It is used to keep prices low and to support important parts of society.
+
+** How Subsidies Work
+- Governments give cash, tax breaks, or cheap loans to companies.
+- This helps businesses lower their costs.
+- Lower costs allow people to buy essential items at a cheaper price.
+
+** Common Types
+*** Farm Support
+Money given to farmers so food remains cheap and abundant.
+
+*** Housing Aid
+Financial help for low-income families to pay their rent.
+
+*** Public Transit
+Funds given to buses and trains to keep ticket prices low for riders.
+
+* inferior
+
+The word "*inferior*" means *lower in quality, rank, or position compared to something or someone else*. It describes items that are not as good, people of lower status, or body parts located further down.
+
+** Quality and Value
+- *Lower standard:* Not as good as another item. For example, using cheap, weak parts to build a chair.
+- *Poor results:* Work or goods that fail to meet a normal level.
+
+** Rank and Status
+- *Lower position:* Having less power or a lower job title than a boss or leader.
+- *Social view:* Feeling or treating someone as if they are less important.
+
+** Special Fields
+- *Anatomy:* A body part located lower down or closer to the feet.
+- *Astronomy:* A planet (like Venus or Mercury) that orbits closer to the Sun than Earth does.
+- *Text:* A small letter or number written low on a line of text, known as a subscript.
+
+* confine
+
+"*Confine*" means *to keep someone or something inside a certain limit, to stop something from spreading, or to lock someone in a place*.
+
+** Core Meanings
+- *To restrict or limit:* Keeping an activity, topic, or problem inside fixed bounds.
+  - Example: "Please confine your talk to the main facts."
+- *To imprison or trap:* Shutting a person or animal in a space so they cannot leave.
+  - Example: "The dog was confined in a pen."
+- *To stay in one area:* Remaining stuck in a place due to sickness or age.
+  - Example: "She is confined to a bed."
+
+** Quick Synonyms
+- Limit
+- Restrict
+- Imprison
+- Trap
+
+* temper
+
+The word "*temper*" functions as both a noun and a verb, carrying *meanings related to emotional states, modification, and material science*.
+
+** As a Noun
+*** *Anger*
+A sudden or bad fit of anger.
+- /Example:/ "He lost his temper."
+
+*** *Mood*
+A person's current emotional state or general attitude.
+- /Example:/ "She is in a good temper."
+
+*** *Hardness*
+The structural strength, resilience, or elasticity of processed metal or glass.
+
+** As a Verb
+*** *Moderate*
+To soften, tone down, or make something less intense.
+- /Example:/ "Temper your criticism."
+
+*** *Strengthen*
+To heat and cool metal or glass repeatedly to achieve ideal hardness and toughness.
