@@ -396,3 +396,157 @@ Weakness or cracking in metal and other parts after repeated bending or stress.
 *** Military fatigues
 Daily camp chores or the work clothes worn by soldiers.
 
+* subtle
+
+The word "*subtle*" means *hard to notice, small but important, or clever and indirect*.
+
+** Key Meanings
+- *Not obvious:* Things that are quiet, soft, or faint (like a light color or a faint smell).
+- *Small difference:* A tiny shift that matters, like a small change between two plans.
+- *Clever:* Done in a quiet way that does not grab attention.
+
+** Common Examples
+*** Colors and Tastes
+A room painted a soft, quiet shade of pink.
+*** Differences
+A tiny difference between two similar ideas.
+*** Hints
+A soft, indirect hint about a surprise party.
+
+* spouse
+
+A "*spouse*" is *a person's husband or wife in a marriage*. It is a gender-neutral legal and formal term for a married partner.
+
+** Key Facts
+*** Definition
+A husband or a wife.
+*** Usage
+Used in legal texts and official documents to mean two people joined by a legal marriage.
+*** Synonyms
+- Husband
+- Wife
+- Partner
+- Mate
+** Legal Rights and Benefits
+*** Tax Benefits
+- Joint tax filing options to lower total tax brackets
+- Tax-free transfer of assets and property between partners
+- Exemption from estate taxes on inherited spousal wealth
+*** Healthcare & Medical Rights
+- Automatic next-of-kin status for hospital visitation rights
+- Authority to make critical medical decisions during emergencies
+- Coverage eligibility under a partner's employer health plan
+*** Estate & Inheritance Rights
+- Automatic inheritance rights if a partner dies without a will
+- Right to receive spousal survivor benefits from social security
+- Legal entitlement to a share of jointly acquired marital property
+*** Employment Benefits
+- Right to take bereavement leave for a partner's passing
+- Leave entitlements under family and medical leave regulations
+- Access to sponsored relocation or tuition assistance programs
+
+* comprehensive
+
+"*Comprehensive*" means *complete, thorough, and including everything that is necessary or relevant*. It covers a wide range of details or a broad scope rather than just a few parts.
+
+** Core Meanings
+- *Complete and Thorough* :: Covering all or nearly all elements, facts, or details.
+- *Broad Scope* :: Including a wide variety of topics or wide-ranging content.
+- *Insurance Type* :: A policy that protects against most major risks, such as theft, fire, and damage.
+- *Education (UK)* :: A state secondary school open to students of all abilities.
+
+** Common Examples
+1. *Guide or Plan* :: A book or strategy that explains everything you need to know.
+2. *Training* :: A program teaching all parts of a job or business.
+3. *List* :: A full list that does not miss any names or items.
+
+* exploit
+
+"*Exploit*" means *to use someone or something unfairly for profit, to use a resource to its fullest potential, or a bold, daring adventure/deed*. It can also refer to software code that takes advantage of a computer security flaw.
+
+** As a Verb (Fair vs. Unfair Use)
+*** To use unfairly
+Taking selfish or unethical advantage of a person or situation.
+**** Example
+A company underpaying workers to maximize profit.
+
+*** To use productively
+Making good, full use of a resource, skill, or opportunity.
+**** Example
+Exploiting solar power to generate clean energy.
+
+** As a Noun (An Action or Tech Flaw)
+*** A brave deed
+A heroic, exciting, or daring accomplishment.
+**** Example
+The legendary exploits of historical explorers.
+
+*** A security breach
+A tool or code used by hackers to break into a computer system through a software weakness.
+**** Example
+The attacker used a zero-day exploit to gain root access.
+
+* gesture
+
+A "*gesture*" is *a movement of the hands, head, or body used to express an idea, show a feeling, or send a signal*. 
+
+** Categories of Gestures
+
+*** Physical Movements
+- *Body and hands:* Moving your arms or head while you talk to make your meaning clear.
+- *Nonverbal signs:* Waving hello, nodding yes, or pointing at an object.
+
+*** Symbolic Actions
+- *Kind acts:* Doing something nice to show your good feelings, like bringing flowers as a gift.
+- *Formal steps:* Taking an action to prove your intent, such as a political choice to gain support.
+
+*** Digital Technology
+- *Touchscreens:* Sliding, tapping, or pinching your fingers on a phone or computer screen to give a command.
+
+* deficit
+
+A "*deficit*" is *a shortfall where money spent exceeds money received, liabilities exceed assets, or a resource is lower than required*. It is the exact opposite of a *surplus*.
+
+** Common Types of Deficits
+*** Budget Deficit
+Occurs when spending exceeds revenue. This is common in government and business accounting.
+
+*** Trade Deficit
+Occurs when a nation imports more goods and services than it exports.
+
+*** Functional Deficit
+A lack, shortage, or impairment in a specific mental, cognitive, or physical function.
+
+* render
+
+The word "*render*" means *to cause something to become, to give or provide, or to translate and show*. Because it is a flexible word, its exact meaning depends on how it is used in a sentence
+
+** Core Definitions
+*** To Cause a State
+To make someone or something become a specific way.
+- Example: "The loud noise *rendered* him deaf."
+- Example: "The cyberattack *rendered* the network useless."
+
+*** To Give or Provide
+To deliver help, a service, or a formal document.
+- Example: "The medical team rushed to *render* aid."
+- Example: "Please *render* payment for the services."
+
+*** To Translate
+To change text or speech from one language into another.
+- Example: "The poem was beautifully *rendered* into English."
+
+** Industry-Specific Meanings
+*** Computers and Graphics
+Using software to process code, 3D models, and lighting into a final viewable image or video.
+- Example: "It took twelve hours to *render* the 3D animation scene."
+
+*** Art and Performance
+To draw, shade, or perform a artistic piece for an audience.
+- Example: "The artist *rendered* the portrait using charcoal."
+- Example: "The actor *rendered* a powerful performance of Hamlet."
+
+*** Cooking and Building
+- *Cooking:* To melt down animal fat by heating it slowly (e.g., "render lard").
+- *Building:* To apply a first rough coat of plaster or mortar to a wall.
+
