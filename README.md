@@ -19,6 +19,7 @@ My personal org-mode documents repository for daily life management, language le
 [Language learning/learn-english-from-fresh-words.org](<./Language learning/learn-english-from-fresh-words.org>)
 [Language learning/learn-english-from-fresh-words-1.org](<./Language learning/learn-english-from-fresh-words-1.org>)
 [Language learning/learn-english-from-fresh-words-2.org](<./Language learning/learn-english-from-fresh-words-2.org>)
+[Language learning/learn-english-from-silksong.org](<./Language learning/learn-english-from-silksong.org>)
 
 ## Technical content
 
