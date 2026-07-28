@@ -169,9 +169,49 @@ A "*cloak*" is *a loose outer garment without sleeves, a cover that hides someth
 - To hide :: To cover up or keep a secret, such as fog cloaking a river.
 
 * blade
+
+A "*blade*" is *the flat, sharp part of a tool or weapon used for cutting, a long thin leaf of grass, or a flat part on a machine like a _propeller_*.
+
+** Common Meanings of Blade
+*** Cutting Edge
+The sharp metal part of a knife, sword, razor, or axe.
+*** Nature
+A single, narrow piece or leaf of grass (a "blade of grass").
+*** Machinery & Tools
+A flat, wide part that moves air or water, such as a propeller, fan, or helicopter rotor, or a plow part used to push dirt or snow.
+*** Sports & Body
+The metal runner on an ice skate, a carbon-fiber running prosthetic for amputees, or shorthand for the shoulder blade (scapula).
+
 * humble
+
+"*Humble*" means *not proud, modest, and low in rank or status*. It describes a person who does not think they are better than others, or a thing that is simple and plain.
+
+** Main Meanings of Humble
+*** Not Proud
+Being polite and unassuming, and not bragging about your success.
+
+*** Low Rank or Position
+Coming from a poor or simple background.
+
+*** Simple and Plain
+Not grand or expensive (like a "humble home").
+
+*** As a Verb
+To lower someone's pride or to defeat a strong opponent unexpectedly.
+
 * fiery
+
+"*Fiery*" means *consisting of fire, bright red like a flame, or showing strong and angry emotions*.
+
+** Common Meanings and Uses
+- *Literal Fire:* Burning, blazing, or made of actual fire (like a /fiery explosion/).
+- *Bright Color:* A strong, glowing red or orange color (like a /fiery sunset/).
+- *Spicy Food:* Food or drink that tastes very hot (like a /fiery curry/).
+- *Strong Emotions:* A person or speech full of passion or quick anger (like a /fiery temper/).
+
 * caravan
+
+
 * tarry
 * pry
 * jest
