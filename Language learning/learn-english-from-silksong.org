@@ -211,6 +211,33 @@ To lower someone's pride or to defeat a strong opponent unexpectedly.
 
 * caravan
 
+A "*caravan*" means *a [[towable][towable]] living vehicle, a traveling group, or a large covered cart*.
+
+** Towable Vehicle
+*** Travel trailer
+A home on wheels pulled by a car.
+*** Holiday use
+Fitted with beds and cooking gear for camping trips.
+*** Regional name
+Called a /trailer/ in American English.
+
+** Traveling Group
+*** Desert journey
+A line of people and animals (like camels) moving together for safety.
+*** Trade party
+Merchants journeying across tough regions or trade routes.
+*** Vehicle convoy
+A line of trucks or cars driving together.
+
+** Large Covered Wagon
+*** Horse-drawn
+A colorful wagon used by nomads or Romany groups.
+*** Show transport
+Used by moving circuses to haul gear or living quarters.
+
+* towable
+
+"*Towable*" means *able to be pulled behind a car, truck, or boat. It describes an object made or fit to be dragged using a rope, chain, or hitch*.
 
 * tarry
 * pry
