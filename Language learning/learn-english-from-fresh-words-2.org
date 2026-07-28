@@ -751,3 +751,127 @@ To soften, tone down, or make something less intense.
 
 *** *Strengthen*
 To heat and cool metal or glass repeatedly to achieve ideal hardness and toughness.
+
+* fierce
+
+The word "*fierce*" means *violent and frightening, strong and powerful, or showing very strong feelings*.
+
+** Main Meanings
+*** Violent
+Looking or acting angry, dangerous, and ready to fight.
+- Example: A fierce dog guarding a home.
+- Example: A fierce battle between opposing teams.
+
+*** Intense
+Having great strength or force.
+- Example: Fierce winds damaging the coastline.
+- Example: Fierce competition for a new job.
+
+*** Bold (Informal)
+Acting confident and looking very good, fashionable, or stylish.
+- Example: She looked absolutely fierce on the runway.
+
+** Linguistic Attributes
+*** Synonyms
+- Ferocious
+- Intense
+- Powerful
+- Savage
+*** Antonyms
+- Gentle
+- Mild
+- Tame
+- Weak
+
+* hostile
+
+"*Hostile*" means *unfriendly, aggressive, or opposing*. It describes people who show anger, places that are hard to live in, or enemy forces in a war.
+
+** Main Meanings of Hostile
+*** Unfriendly and Aggressive
+Showing strong dislike, anger, or bad feelings toward someone.
+*** Of an Enemy
+Connected to opposing forces, armies, or nations during a conflict.
+*** Harsh or Difficult
+Describing a place, weather, or environment where it is hard to live or survive.
+*** Opposed to Ideas
+Being fully against a new plan, change, or opinion.
+*** Business (Hostile Takeover)
+When one company tries to buy another company even though the owners do not want to sell.
+
+* integrity
+
+"*Integrity*" represents *the quality of being honest, having strong moral principles, and maintaining a state of being whole or undivided*.
+
+** Core Dimensions of Integrity
+
+*** Moral and Personal Honesty
+- Doing right :: Acting with honesty and telling the truth, even when no one is watching.
+- Strong values :: Having firm moral rules that you refuse to change for convenience.
+- Trust :: Being a person of high character who keeps promises and acts fairly.
+
+*** Wholeness and Physical Soundness
+- Complete state :: Being whole, complete, and undivided.
+- Sound condition :: Being safe from damage, like a structure that stays strong and firm.
+- Data safety :: In computing, ensuring files and data remain correct and unaltered.
+
+* withdraw
+
+"*Withdraw*" means *to take back, remove, or pull away*. It most commonly refers to taking money out of a bank account, leaving a place, or stopping participation in an activity.
+
+** Financial and Physical Removal
+- Money: To take cash out of an ATM or bank account.
+- Items: To pull back or take an object away from a place.
+- Products: To take an item off store shelves or out of the market.
+
+** Leaving and Stopping Participation
+- Activities: To stop taking part in a race, school, or group.
+- Locations: To move back or leave a specific area.
+- Social Detachment: To pull away from people and become emotionally closed off.
+
+** Statements and Support
+- Statements: To take back a remark, claim, or accusation.
+- Support: To stop giving help, funding, or agreement.
+
+* shuttle
+
+A "*shuttle*" means *a vehicle, device, or action that moves back and forth regularly between two places*.
+
+** Core Categories
+*** Transportation
+- *Shuttle bus or train*: A vehicle that makes short, frequent trips between two fixed points (e.g., airport to hotel).
+- *Space shuttle*: A rocket-powered spacecraft designed to travel repeatedly between Earth and space.
+
+*** Crafts and Tools
+- *Weaving*: A small wooden tool used on a loom to pass thread back and forth across the fabric.
+- *Sewing machine*: A small part that holds and guides the lower thread to make stitches.
+
+*** Sports and Action
+- *Badminton*: Short for shuttlecock, the feathered object hit back and forth over the net.
+- *Moving back and forth*: Traveling or carrying people regularly between two specific locations.
+
+* indispensable
+
+"*Indispensable*" means *absolutely necessary, essential, and so important that you cannot manage or function without it*.
+
+** Synonyms & Antonyms
+*** Synonyms
+- Essential
+- Vital
+- Crucial
+- Necessary
+
+*** Antonyms
+- Dispensable
+- Unnecessary
+
+** Usage Examples
+#+BEGIN_QUOTE
+"Water is *indispensable* for life."
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+"She is an *indispensable* member of the work team."
+#+END_QUOTE
+
+* incline
