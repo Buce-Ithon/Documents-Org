@@ -240,11 +240,88 @@ Used by moving circuses to haul gear or living quarters.
 "*Towable*" means *able to be pulled behind a car, truck, or boat. It describes an object made or fit to be dragged using a rope, chain, or hitch*.
 
 * tarry
+
+"*Tarry*" has two main meanings: *to linger or delay leaving, and to resemble or contain tar*.
+
+** As a Verb (Pronounced /TAR-ee/)
+- *Definition*: To stay somewhere longer than you should, delay, or wait.
+- *Usage*: Often found in old books, poems, or songs.
+- *Synonyms*: Linger, loiter, dawdle, wait.
+
+** As an Adjective (Pronounced /TAHR-ee/)
+- *Definition*: Looking, tasting, or smelling like tar.
+- *Usage*: Used to describe things coated in pitch or giving off thick, dark smoke.
+- *Synonyms*: Sticky, pitchy, resinous.
+
 * pry
+
+The word "*pry*" has two main meanings: *to snoop into someone's private affairs, to force something open with a tool, or to extract something with great effort*.
+
+** Snooping or Asking Too Much
+- To look or ask about private, personal things in a rude or annoying way.
+- People often say, "I don't mean to pry, but..." before asking a personal question.
+- Example: "Stop *prying* into my life!"
+
+** Forcing Open with a Tool
+- To use a tool like a lever or crowbar to lift, move, or open a tight object.
+- Example: "He used a screwdriver to *pry* the box open."
+- Can also mean to get information out of someone with difficulty (e.g., "*pry* a secret out of her").
+
 * jest
+
+A "*jest*" is *a joke, a funny remark, or an action done to cause laughter*. It can also mean *to joke around*.
+
+** Core Meanings
+- *Noun:* A joke, a playful trick, or a witty comment.
+- *Verb:* To speak or act in a funny, teasing way.
+
+** Common Phrases
+- *In jest:* Done or said as a joke, not with serious intent ("I said it in jest").
+- *Surely you jest:* An expression meaning "surely you must be joking".
+
+#+BEGIN_NOTE
+If you are looking for information on the *Jest JavaScript testing framework* instead of the English word, please let me know!
+#+END_NOTE
+
 * crest
+
+A "*crest*" means *the top or highest point of something*, such as a hill or wave, *a symbol or badge used by a family, or a tuft of feathers on an animal's head*.
+
+** High Points and Nature
+- *Hill or mountain:* The top line or summit.
+- *Wave:* The white, foamy top part of a moving wave.
+- *Peak of a process:* The highest level or climax of an action.
+
+** Symbols and Emblems
+- *Family or group badge:* A formal design or emblem used to show a family, school, or town.
+- *Helmet decoration:* A plume or ornament once worn on top of a knight's helmet.
+
+** Animal and Body Parts
+- *Feathers or fur:* A tuft of feathers, skin, or hair on a bird or animal's head (like a cardinal's or rooster's crown).
+- *Bone ridge:* A raised line or ridge on a bone in anatomy.
+
 * decile
+
+A "*decile*" is *a statistical term meaning any of nine values that divide a sorted dataset into ten equal parts*. Each part represents 10% of the total population or sample.
+
+** How Deciles Work
+- *Ranking data:* Values are first sorted from lowest to highest.
+- *Nine cut points:* It takes nine values ($D_1, D_2, \dots, D_9$) to create ten separate groups.
+- *Percentage markers:* Each decile marker shows the percentage of data falling below that value.
+  - The first decile ($D_1$) represents the 10th percentile.
+  - The fifth decile ($D_5$) represents the median (50th percentile).
+
+** Common Uses
+*** Finance and Investing
+Analysts use deciles to rank investment funds or stock values from 1 to 10 to see which assets perform best or worst.
+
+*** Economics
+Governments use income deciles to measure wealth distribution and study gaps between rich and poor households.
+
 * tribe
+
+
+
 * wield
 * interwine
 * mentor
