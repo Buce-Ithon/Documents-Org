@@ -320,10 +320,190 @@ Governments use income deciles to measure wealth distribution and study gaps bet
 
 * tribe
 
+A "*tribe*" is *a social group of people, a large family, or a biological group*. It often means a community linked by shared blood, language, culture, and history.
 
+** Social and Cultural Meanings
+*** Traditional group
+A community of families living together outside big cities with shared customs, leaders, and languages (e.g., Native American or Amazonian groups).
+*** Large family
+An informal way to describe a big extended family and all their relatives.
+*** Shared interest
+A group of people joined by the same job, hobby, or lifestyle (e.g., a "tribe" of artists or gamers).
+
+** Historical and Scientific Meanings
+*** History
+Used in ancient times (like in Rome or Israel) to describe political or ancestral divisions of a nation.
+*** Biology
+A scientific rank used in the classification of plants and animals that sits below a subfamily and above a genus.
 
 * wield
+
+"*Wield*" is a verb that means *to hold and use a weapon or tool, or to have and use power, authority, or influence*.
+
+** Core Meanings
+*** Physical Use (Tools and Weapons)
+- To hold a tool or weapon ready for action.
+- *Example:* A knight *wields* a sword, or a chef *wields* a knife.
+
+*** Figurative Use (Power and Influence)
+- To possess and actively exercise control, power, or authority over others.
+- *Example:* A politician *wields* great influence in government.
+
+** Related Vocabulary
+*** Synonyms
+- Brandish (for weapons)
+- Handle (for tools)
+- Exercise (for power)
+- Exert (for influence)
+
+*** Antonyms
+- Mismanage
+- Neglect
+- Surrender (power)
+
 * interwine
+
+*Intertwined* means *things are twisted together or closely connected like threads, making them very hard to separate*.
+
+** Physical Meaning
+- *Joined:* Twisted or woven together physically, such as vines, ropes, or fingers.
+- *Shaped:* Built with parts that cross over and under each other.
+
+** Figurative Meaning
+- *Connected:* Ideas, histories, or lives linked so deeply that you cannot view one without the other.
+- *Dependent:* Systems or goals that rely on each other to grow or survive.
+
 * mentor
+
+A "*mentor*" is *an experienced person who guides, advises, and supports someone with less experience*. Key aspects of a mentor include acting as a trusted advisor, sharing life or work wisdom, and helping a person grow.
+
+** What a Mentor Does
+- **Gives advice**: Shares real-world lessons and feedback.
+- **Listens well**: Helps you think through big choices.
+- **Builds trust**: Creates a safe space to talk about goals.
+
+** What a Mentor Is Not
+- **Not a boss**: They do not manage your daily tasks or job performance.
+- **Not a therapist**: They offer career or life perspective, not mental health care.
+- **Not a problem-solver**: They guide you to find your own answers instead of fixing things for you.
+
 * vigilant
+
+** Definition
+*Vigilant* means *being very careful to watch for danger, problems, or tricks*. 
+
+** Key Features
+- *Part of speech:* Adjective (describes a person or their behavior).
+- *Pronunciation:* Three syllables (/VIJ-uh-luhnt/).
+- *Core focus:* Staying awake, alert, and closely paying attention so nothing bad happens.
+
+** Common Examples and Synonyms
+- *Example in a sentence:* The night guard stayed *vigilant* to keep the building safe.
+- *Similar words:* Watchful, alert, and attentive.
+
 * intricate
+
+"*Intricate*" means *having many small parts or fine details that are arranged in a complicated or delicate way*. It describes things that are hard to make, do, or understand because they have so many connected pieces.
+
+** Key Uses and Examples
+*** Designs and Art
+A drawing with very small lines and shapes.
+
+*** Machines
+A clock with tiny gears that fit together.
+
+*** Stories
+A book or movie with a plot that has many twists.
+
+** Similar Words
+- Complex
+- Detailed
+- Complicated
+
+* ward
+
+The word "*ward*" has several common meanings, including *a room in a hospital, a voting district in a city, and a person under legal protection*.
+
+** Common Meanings as a Noun
+- *Hospital or Prison Section:* A large room or specific area where people stay for care or detention (e.g., maternity ward).
+- *City District:* A local area or division of a town used for voting and political representation.
+- *Protected Person:* A child or adult who is legally placed under the care of a guardian or court (a "ward of the state").
+
+** Meanings as a Verb
+- *Guard or Defend:* To watch over safely.
+- *Ward off:* To block, turn aside, or prevent something harmful (like a sickness or an attack).
+
+* gleam
+
+"*Gleam*" means *to shine with a soft, bright light or a steady reflection*. 
+It functions as both a verb (to give off light) and a noun (a ray or sign of light or feeling).
+
+** Core Meanings
+*** Physical and Visual Meanings
+- *Reflected shine:* Clean or polished surfaces that bounce back light.
+- *Soft illumination:* A steady, mild glow seen against a darker background.
+
+*** Figurative Meanings
+- *Emotional expression:* Eyes shining with a strong feeling like joy, triumph, or mischief.
+- *Faint trace:* A small hint or sign of something positive, such as a "gleam of hope".
+
+* seal
+
+The word "*seal*" can mean *a sea animal, an official stamp, or a tight closure*.
+
+** Marine Animal
+- A sea-dwelling mammal with flippers.
+- It eats fish and lives partly on ice or land.
+
+** Official Mark or Stamp
+- A unique stamp or design used on papers to prove they are real and legal.
+- A sign of approval or high quality.
+
+** Closure and Protection
+- A tight block that stops air, water, or gas from going in or out.
+- A sticker or wax closure that breaks if someone opens a package.
+
+* relic
+
+A "*relic*" is *an object, tradition, or system from the past that still exists today*.
+It comes from the Latin word /relinquere/, meaning "to leave behind".
+
+** Main Categories
+*** Historical and Everyday Objects
+- *Old items:* Ancient tools, coins, or buildings left behind by history.
+- *Outdated ways:* Customs, rules, or habits from an older time.
+- *Souvenirs:* Objects kept to remember a person, place, or time.
+
+*** Religious Significance
+- *Holy remains:* Physical bodies, bones, or clothing of saints.
+- *Veneration:* Sacred objects treated with deep respect and honor.
+
+* coil
+
+A "*coil*" means *a series of loops, rings, or a spiral, such as a length of wound rope, wire, or pipe, or the action of winding into such a shape*.
+
+** General Physical Meanings
+- *Rope or Wire:* A long strand curled into stacked or concentric circles.
+- *Shape:* Any continuous spiral or ring formation, like a curled lock of hair or rising smoke.
+
+** Specialized Meanings
+- *Electronics:* A wound wire used to create a magnetic field, store energy, or regulate current in a circuit.
+- *Plumbing and HVAC:* A series of connected or bent pipes used for heating or cooling fluids.
+- *Medicine:* An informal term for an intrauterine device (IUD) used for birth control.
+
+** Action Meaning (Verb)
+- *To coil:* To wind or twist something into loops or a spiral shape.
+
+* trinket
+
+A "*trinket*" is *a small decorative object or cheap piece of jewelry. It usually has low monetary value*.
+
+** Key Characteristics
+- *Size:* Small and easy to hold, carry, or place on a shelf.
+- *Cost:* Inexpensive or low-priced.
+- *Value:* Often viewed as trivial, though it can carry sentimental memory.
+
+** Common Synonyms
+- *Bauble:* A flashy, showy, but cheap ornament.
+- *Knick-knack:* A small trinket used for home decoration.
+- *Souvenir:* A keepsake brought back from a trip or vacation.
