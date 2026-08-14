@@ -111,3 +111,7 @@ The word "retro" means *relating to, reviving, or imitating the styles, fashions
 * verdict
 
 A "verdict" is *an official decision or a final choice made by a jury or a judge at the end of a court trial*. In everyday talk, it means any firm opinion or final judgment on a topic after looking at the facts
+
+* regulator
+
+A "regulator" is *a person, organization, or physical device that controls, monitors, or maintains a system, process, or level to make sure it works properly and safely*.
