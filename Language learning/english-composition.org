@@ -1,0 +1,388 @@
+#+title: English Composition
+#+author: Buce-Ithon
+#+date: <2026-08-26 周三>
+
+* Email Writing: Invitation to the Graduation Ceremony
+  :PROPERTIES:
+  :TYPE:     Formal Email
+  :TOPIC:    Invitation
+  :STATUS:   Learning
+  :END:
+
+** Writing Task
+
+Write an email to all international experts on campus, inviting them to attend the graduation ceremony. Include the time, place, and other relevant information.
+
+** Model Answer
+
+Dear International Experts,
+
+On behalf of the university, I am delighted to invite you to attend our graduation ceremony. The ceremony will be held at 9:00 a.m. on June 20th in the University Auditorium. It will be a memorable occasion as we celebrate the achievements of our graduating students. The ceremony will include speeches by university leaders, student representatives, and a presentation of graduation certificates. Your presence would mean a great deal to our graduates and make the occasion even more special. We sincerely hope you can join us. If it is convenient for you, we would be grateful if you could arrive about 15 minutes early.
+
+Best regards,
+Li Ming
+
+** Useful Expressions
+
+*** Opening
+
+**** On behalf of the university, I am delighted to invite you to ...
+**** I am writing to invite you to attend ...
+**** It is my great pleasure to invite you to ...
+
+*** Time and Place
+
+**** The ceremony will be held at 9:00 a.m. on June 20th.
+**** The event will take place in the University Auditorium.
+**** Please arrive about 15 minutes early.
+
+*** Event Information
+
+**** We will celebrate the achievements of our graduating students.
+**** The ceremony will include speeches by university leaders and student representatives.
+**** There will also be a presentation of graduation certificates.
+
+*** Expressing Importance
+
+**** Your presence would mean a great deal to our graduates.
+**** Your attendance would make the occasion even more special.
+**** We sincerely hope you can join us.
+
+*** Closing
+
+**** We look forward to seeing you at the ceremony.
+**** We would be grateful if you could attend.
+**** Best regards,
+
+** Writing Structure
+
+1. Greeting
+2. State the purpose of the email
+3. Provide the time and place
+4. Introduce the main activities
+5. Explain why the recipient's attendance is important
+6. Express hope and provide practical information
+7. Sign off with "Li Ming"
+
+** Key Grammar Patterns
+
+*** :PROPERTIES:
+    :PATTERN: On behalf of ..., I am delighted to ...
+    :END:
+*** :PROPERTIES:
+    :PATTERN: The ceremony will be held at ... on ... in ...
+    :END:
+*** :PROPERTIES:
+    :PATTERN: It will be a memorable occasion as ...
+    :END:
+*** :PROPERTIES:
+    :PATTERN: Your presence would mean ... to ...
+    :END:
+*** :PROPERTIES:
+    :PATTERN: We would be grateful if you could ...
+    :END:
+
+** Personal Practice
+
+*** Rewrite the Opening
+
+#+BEGIN_SRC text
+I am writing to invite you to ...
+#+END_SRC
+
+*** Rewrite the Main Information
+
+#+BEGIN_SRC text
+The ceremony will be held ...
+#+END_SRC
+
+*** Rewrite the Closing
+
+#+BEGIN_SRC text
+We sincerely hope ...
+#+END_SRC
+
+** Review Checklist
+
+*** [ ] I included the purpose of the email.
+*** [ ] I included the time and place.
+*** [ ] I mentioned the main activities.
+*** [ ] I used a polite and formal tone.
+*** [ ] I used "Li Ming" at the end.
+*** [ ] I checked grammar, spelling, and punctuation.
+
+** Review Schedule
+
+*** [ ] First review: Understand the structure
+*** [ ] Second review: Memorize useful expressions
+*** [ ] Third review: Rewrite the email with prompts
+*** [ ] Fourth review: Write the email from memory
+*** [ ] Fifth review: Complete the task within 15 minutes
+
+* Essay Writing: An Optimistic Attitude Toward Life
+  :PROPERTIES:
+  :TYPE:     Cartoon Essay
+  :TOPIC:    Optimism and Attitude
+  :STATUS:   Learning
+  :END:
+
+** Writing Task
+
+Write an essay of 160-200 words based on the cartoon. In your essay, you should:
+
+1. describe the drawing briefly;
+2. explain its intended meaning;
+3. give your comments.
+
+** Model Answer
+
+The cartoon presents two men standing beside a bottle that has fallen to the ground, with much of its contents spilled out. The man on the left looks upset and holds his head, saying, "Everything is gonel!" By contrast, the man on the right smiles and says, "Fortunately, there is still some left."
+
+Simple as the picture is, its message is profound. Faced with exactly the same situation, people may have completely different attitudes. A pessimistic person tends to focus on loss and difficulty, while an optimistic person is more likely to notice what remains and look for possible solutions. Therefore, our attitude can greatly influence how we feel and what we do in difficult situations.
+
+In my view, difficulties and setbacks are unavoidable in life. Instead of complaining about what we have lost, we should remain positive and make the best use of what is still available. Only by keeping hope and taking action can we turn difficulties into opportunities and move toward success.
+
+** Useful Expressions
+
+*** Describing the Picture
+
+**** The cartoon presents two people who ...
+**** The man on the left looks ...
+**** By contrast, the man on the right ...
+**** Much of its contents have been spilled out.
+
+*** Interpreting the Meaning
+
+**** Simple as the picture is, its message is profound.
+**** Faced with exactly the same situation, people may have completely different attitudes.
+**** A pessimistic person tends to focus on ...
+**** An optimistic person is more likely to ...
+
+*** Discussing Attitudes
+
+**** Our attitude can greatly influence ...
+**** Difficulties and setbacks are unavoidable in life.
+**** Instead of complaining about ..., we should ...
+**** We should remain positive and make the best use of ...
+
+*** Giving Comments
+
+**** In my view, ...
+**** We should keep a positive attitude toward ...
+**** Only by ... can we ...
+**** We can turn difficulties into opportunities.
+
+** Writing Structure
+
+1. Describe the cartoon briefly.
+2. Point out the contrast between the two characters.
+3. Explain the intended meaning.
+4. Discuss the influence of different attitudes.
+5. Give your personal comments.
+6. Suggest a positive way to deal with difficulties.
+7. Conclude with the significance of optimism.
+
+** Key Grammar Patterns
+
+*** :PROPERTIES:
+:PATTERN: Simple as the picture is, its message is profound.
+:END:
+
+*** :PROPERTIES:
+:PATTERN: Faced with ..., people may have completely different attitudes.
+:END:
+
+*** :PROPERTIES:
+:PATTERN: A pessimistic person tends to ..., while an optimistic person is more likely to ...
+:END:
+
+*** :PROPERTIES:
+:PATTERN: Instead of ..., we should ...
+:END:
+
+*** :PROPERTIES:
+:PATTERN: Only by ... can we ...
+:END:
+
+** Personal Practice
+
+*** Rewrite the Description
+
+#+BEGIN_SRC text
+The cartoon presents two people who ...
+#+END_SRC
+
+*** Rewrite the Interpretation
+
+#+BEGIN_SRC text
+Simple as the picture is, its message is ...
+#+END_SRC
+
+*** Rewrite the Comment
+
+#+BEGIN_SRC text
+In my view, difficulties and setbacks ...
+#+END_SRC
+
+*** Rewrite the Conclusion
+
+#+BEGIN_SRC text
+Only by keeping hope and taking action can we ...
+#+END_SRC
+
+** Review Checklist
+
+*** [ ] I briefly described the cartoon.
+*** [ ] I explained the contrast between the two characters.
+*** [ ] I explained the intended meaning.
+*** [ ] I gave my personal comments.
+*** [ ] I used a formal and coherent tone.
+*** [ ] I checked grammar, spelling, and punctuation.
+*** [ ] I kept the essay within 160-200 words.
+
+** Review Schedule
+
+*** [ ] First review: Understand the picture and its message
+*** [ ] Second review: Memorize useful expressions
+*** [ ] Third review: Rewrite the essay with prompts
+*** [ ] Fourth review: Write the essay from memory
+*** [ ] Fifth review: Complete the task within 20 minutes
+
+* Essay Writing: Changes in the Market Shares of Passenger Car Brands
+  :PROPERTIES:
+  :TYPE:     Chart Essay
+  :TOPIC:    Market Share and Domestic Brands
+  :STATUS:   Learning
+  :END:
+
+** Writing Task
+
+Write an essay based on the following chart. In your essay, you should:
+
+1. interpret the chart;
+2. give your comments.
+
+You should write at least 150 words.
+
+** Model Answer
+
+The chart illustrates the changes in the market shares of three types of passenger car brands in China in 2008 and 2009. As is clearly shown, domestic brands accounted for 25% of the market in 2008, but their share rose to about 32% in 2009. In contrast, Japanese brands experienced a decline from 35% to 25%. Meanwhile, the market share of American brands remained unchanged at 15%.
+
+Several factors may account for these changes. First, domestic automobile manufacturers have made considerable progress in product quality, technology and design, making their cars increasingly attractive to Chinese consumers. Second, domestic brands are usually more competitive in terms of price and after-sales service. In addition, the growing sense of national pride among consumers may also have contributed to their increasing popularity. The decline of Japanese brands may be partly related to intensified market competition.
+
+In my opinion, the growing market share of domestic brands is an encouraging sign. Nevertheless, Chinese automobile manufacturers should continue to improve their technology, quality and innovation. Only by enhancing their competitiveness can they win the trust of consumers and achieve long-term development.
+
+** Useful Expressions
+
+*** Chart Description
+
+**** The chart illustrates the changes in ...
+**** As is clearly shown, ...
+**** ... accounted for ... of the market.
+**** Its share rose from ... to ...
+**** ... experienced a decline from ... to ...
+**** The market share of ... remained unchanged at ...
+
+*** Explaining Changes
+
+**** Several factors may account for these changes.
+**** ... have made considerable progress in ...
+**** ... making ... increasingly attractive to ...
+**** ... are more competitive in terms of ...
+**** ... may also have contributed to ...
+**** ... may be partly related to ...
+
+*** Giving Comments
+
+**** In my opinion, ...
+**** ... is an encouraging sign.
+**** Nevertheless, ... should continue to ...
+**** Only by enhancing ... can we ...
+**** achieve long-term development
+
+** Writing Structure
+
+1. Introduce the chart and identify the subject.
+2. Describe the major changes in the data.
+3. Highlight the contrast between different categories.
+4. Explain the possible reasons behind the changes.
+5. Give your personal comments.
+6. Offer suggestions for future development.
+7. Conclude with the significance of improving competitiveness.
+
+** Key Grammar Patterns
+
+*** :PROPERTIES:
+:PATTERN: The chart illustrates the changes in ... from ... to ...
+:END:
+
+*** :PROPERTIES:
+:PATTERN: ... accounted for ... of the market, but its share rose to ...
+:END:
+
+*** :PROPERTIES:
+:PATTERN: In contrast, ... experienced a decline from ... to ...
+:END:
+
+*** :PROPERTIES:
+:PATTERN: Several factors may account for these changes.
+:END:
+
+*** :PROPERTIES:
+:PATTERN: ... have made considerable progress in ..., making ... increasingly attractive to ...
+:END:
+
+*** :PROPERTIES:
+:PATTERN: Only by enhancing ... can they ...
+:END:
+
+** Personal Practice
+
+*** Rewrite the Chart Description
+
+#+BEGIN_SRC text
+The chart illustrates the changes in ...
+#+END_SRC
+
+*** Rewrite the Data Comparison
+
+#+BEGIN_SRC text
+As is clearly shown, ... accounted for ..., but its share ...
+#+END_SRC
+
+*** Rewrite the Cause Analysis
+
+#+BEGIN_SRC text
+Several factors may account for these changes. First, ...
+#+END_SRC
+
+*** Rewrite the Comment
+
+#+BEGIN_SRC text
+In my opinion, ... is an encouraging sign. Nevertheless, ...
+#+END_SRC
+
+*** Rewrite the Conclusion
+
+#+BEGIN_SRC text
+Only by enhancing their competitiveness can they ...
+#+END_SRC
+
+** Review Checklist
+
+*** [ ] I clearly interpreted the chart.
+*** [ ] I mentioned the major changes in the data.
+*** [ ] I compared different categories.
+*** [ ] I explained the possible reasons for the changes.
+*** [ ] I gave my personal comments.
+*** [ ] I used a formal and objective tone.
+*** [ ] I checked grammar, spelling, and punctuation.
+*** [ ] I wrote at least 150 words.
+
+** Review Schedule
+
+*** [ ] First review: Understand the chart and identify the main trends
+*** [ ] Second review: Memorize useful expressions
+*** [ ] Third review: Rewrite the essay with prompts
+*** [ ] Fourth review: Write the essay from memory
+*** [ ] Fifth review: Complete the task within 20 minutes
