@@ -134,6 +134,10 @@ Write an essay of 160-200 words based on the cartoon. In your essay, you should:
 2. explain its intended meaning;
 3. give your comments.
 
+** Cartoon
+
+[[file:./images/cartoon001.png]]
+
 ** Model Answer
 
 The cartoon presents two men standing beside a bottle that has fallen to the ground, with much of its contents spilled out. The man on the left looks upset and holds his head, saying, "Everything is gonel!" By contrast, the man on the right smiles and says, "Fortunately, there is still some left."
@@ -263,6 +267,10 @@ Write an essay based on the following chart. In your essay, you should:
 2. give your comments.
 
 You should write at least 150 words.
+
+** Chart
+
+[[file:./images/chart001.png]]
 
 ** Model Answer
 
