@@ -1,0 +1,12 @@
+#!/bin/sh
+# Sync the org file lists in README.md before each commit.
+# Enable:  git config core.hooksPath .githooks
+# Disable: git config --unset core.hooksPath
+
+python tools/update-readme.py >/dev/null 2>&1
+if ! git diff --quiet -- README.md; then
+    git add README.md
+    echo "[pre-commit] README.md lists refreshed and staged for this commit"
+fi
+
+exit 0
