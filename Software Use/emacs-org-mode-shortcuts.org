@@ -1,0 +1,67 @@
+#+TITLE: Emacs Org Mode Keyboard Shortcuts Cheatsheet
+#+AUTHOR: AI Assistant
+#+DATE: 2026-11-13
+#+OPTIONS: toc:2
+
+* Core Org Mode Shortcuts
+
+** Structure and Visibility Cycling
+- ~TAB~ :: Cycle visibility of the current subtree on a heading.
+- ~S-TAB~ (Shift + Tab) :: Cycle global visibility (all folded / all expanded).
+- ~M-RET~ (Alt + Enter) :: Insert a new heading or list item at the same level.
+- ~M-S-RET~ :: Insert a new TODO heading at the same level.
+- ~M-Left~ / ~M-Right~ :: Promote or demote the current heading or list item.
+- ~M-Up~ / ~M-Down~ :: Move the current heading, paragraph, or list item up or down.
+- ~M-S-Left~ / ~M-S-Right~ :: Promote or demote the entire subtree.
+- ~M-S-Up~ / ~M-S-Down~ :: Move the entire subtree up or down.
+
+** TODO and Task Management
+- ~C-c C-t~ :: Cycle the TODO state of the current heading (e.g., =TODO= -> =DONE= -> none).
+- ~S-Left~ / ~S-Right~ :: Cycle through different TODO states.
+- ~C-c / t~ :: Show all TODO items in the current file as a sparse tree.
+- ~C-c ,~ :: Set the priority of the current task (enter =A=, =B=, or =C=).
+- ~C-c C-c~ :: Toggle the state of a checkbox (= [ ] = / = [X] =).
+
+** Dates, Scheduling, and Timestamps
+- ~C-c C-s~ :: Schedule a task (~SCHEDULED~).
+- ~C-c C-d~ :: Set a deadline for a task (~DEADLINE~).
+- ~C-c .~ :: Insert an active timestamp.
+- ~C-c !~ :: Insert an inactive timestamp (does not trigger agenda alerts).
+
+** Table Operations
+- ~C-c |~ :: Create a table from region or prompt for dimensions (e.g., =0|0=).
+- ~TAB~ :: Move to the next cell and automatically align the table.
+- ~S-TAB~ :: Move to the previous cell.
+- ~M-Left~ / ~M-Right~ / ~M-Up~ / ~M-Down~ :: Move the current column or row.
+- ~M-- M-Left~ / ~M-Right~ :: Delete or insert a column.
+- ~M-- M-Up~ / ~M-Down~ :: Delete or insert a row.
+- ~C-c C-c~ :: Re-align the current table.
+
+** Links and Tags
+- ~C-c C-l~ :: Insert or edit a link (supports URLs, files, internal headings, etc.).
+- ~C-c C-o~ :: Open the link at point.
+- ~C-c C-q~ :: Set tags for the current heading.
+
+* Text Formatting and Emphasis
+
+In Emacs Org Mode, inserting or modifying text emphasis uses the core prefix shortcut ~C-c C-x C-f~ followed by a specific character. If a region is selected, the markers wrap the selection; otherwise, paired markers are inserted with the cursor placed inside.
+
+** Common Inline Emphasis (~C-c C-x C-f~ + Key)
+- ~C-c C-x C-f *~ :: *Bold* — generates ~*text*~
+- ~C-c C-x C-f /~ :: /Italic/ — generates ~/text/~
+- ~C-c C-x C-f _~ :: _Underline_ — generates ~_text_~
+- ~C-c C-x C-f +~ :: +Strikethrough+ — generates ~+text+~
+- ~C-c C-x C-f =~ :: =Verbatim= (display literal text) — generates ~=text=~
+- ~C-c C-x C-f ~~ :: ~Inline Code~ (for code snippets) — generates ~~text~~
+- ~C-c C-x C-f SPC~ :: Remove emphasis markers around point or within the selected region.
+
+** Subscripts, Superscripts, and Structure Blocks
+- ~C-c C-x \~ :: Toggle visual preview of subscripts and superscripts (e.g., =x^2= or =H_2O=).
+- ~C-c C-,~ :: Quickly insert a structure template block:
+  - Press ~s~ :: Insert a source code block (~#+BEGIN_SRC ... #+END_SRC~)
+  - Press ~q~ :: Insert a quote block (~#+BEGIN_QUOTE ... #+END_QUOTE~)
+  - Press ~e~ :: Insert an example block (~#+BEGIN_EXAMPLE ... #+END_EXAMPLE~)
+
+** Practical Tips
+- *Hide Emphasis Markers* :: To hide raw symbols like =*=, =/=, and =~= while reading, add ~(setq org-hide-emphasis-markers t)~ to your =init.el= configuration, or use the =org-appear= package to automatically reveal markers only when the cursor enters the formatted text.
+- *Delimiter Rules* :: Org Mode requires emphasis markers (such as =*=) to be bordered by whitespace, line boundaries, or specific punctuation on the outside, with no whitespace immediately inside the markers.

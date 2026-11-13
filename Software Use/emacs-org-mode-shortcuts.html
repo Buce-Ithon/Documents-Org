@@ -3,11 +3,11 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2026-11-10 周二 10:46 -->
+<!-- 2026-11-13 周五 14:28 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>"at a fairly shallow level" 的含义、用途与反义词</title>
-<meta name="author" content="Buce-Ithon" />
+<title>Emacs Org Mode Keyboard Shortcuts Cheatsheet</title>
+<meta name="author" content="AI Assistant" />
 <meta name="generator" content="Org Mode" />
 <style type="text/css">
   #content { max-width: 60em; margin: auto; }
@@ -196,171 +196,147 @@
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">"at a fairly shallow level" 的含义、用途与反义词</h1>
+<h1 class="title">Emacs Org Mode Keyboard Shortcuts Cheatsheet</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org200e270">1. 含义解析</a>
+<li><a href="#orgf25114a">1. Core Org Mode Shortcuts</a>
 <ul>
-<li><a href="#org1e27c49">1.1. 字面/物理层面</a></li>
-<li><a href="#org76fd2d8">1.2. 比喻/抽象层面</a></li>
+<li><a href="#org346a4c9">1.1. Structure and Visibility Cycling</a></li>
+<li><a href="#org3b5d27d">1.2. <span class="todo TODO">TODO</span> and Task Management</a></li>
+<li><a href="#orgfd62d47">1.3. Dates, Scheduling, and Timestamps</a></li>
+<li><a href="#org090392f">1.4. Table Operations</a></li>
+<li><a href="#orgaff2196">1.5. Links and Tags</a></li>
 </ul>
 </li>
-<li><a href="#orgd5b4e08">2. 主要用途与语境</a>
+<li><a href="#orgdc7e8d2">2. Text Formatting and Emphasis</a>
 <ul>
-<li><a href="#orgdd0d481">2.1. 评价认知或分析的深度</a></li>
-<li><a href="#org119b953">2.2. 描述人际互动或对话的性质</a></li>
-<li><a href="#org2c0397b">2.3. 管理沟通方式（教学/解释）</a></li>
-<li><a href="#org9ff41d5">2.4. 跨学科的专业用法</a></li>
+<li><a href="#org4ad1843">2.1. Common Inline Emphasis (<code>C-c C-x C-f</code> + Key)</a></li>
+<li><a href="#org8b09e00">2.2. Subscripts, Superscripts, and Structure Blocks</a></li>
+<li><a href="#org3d2dd13">2.3. Practical Tips</a></li>
 </ul>
 </li>
-<li><a href="#org5693b10">3. 反义词（Antonyms）</a>
-<ul>
-<li><a href="#org9e31439">3.1. 直接对应的反义短语</a></li>
-<li><a href="#org7dfe9b0">3.2. 针对 shallow 的核心反义词</a></li>
-</ul>
-</li>
-<li><a href="#org2a3c3a4">4. 总结</a></li>
 </ul>
 </div>
 </div>
-<p>
-“at a fairly shallow level” 的核心意思是 <b>“在相当浅的层面”</b> 或 *“在相当肤浅的程度上”*。它通常用来描述讨论、理解或分析缺乏深度，仅停留在表面。
-</p>
-<div id="outline-container-org200e270" class="outline-2">
-<h2 id="org200e270"><span class="section-number-2">1.</span> 含义解析</h2>
+<div id="outline-container-orgf25114a" class="outline-2">
+<h2 id="orgf25114a"><span class="section-number-2">1.</span> Core Org Mode Shortcuts</h2>
 <div class="outline-text-2" id="text-1">
-<p>
-这个短语的精确含义可以从两个层面来理解：
-</p>
 </div>
-<div id="outline-container-org1e27c49" class="outline-3">
-<h3 id="org1e27c49"><span class="section-number-3">1.1.</span> 字面/物理层面</h3>
+<div id="outline-container-org346a4c9" class="outline-3">
+<h3 id="org346a4c9"><span class="section-number-3">1.1.</span> Structure and Visibility Cycling</h3>
 <div class="outline-text-3" id="text-1-1">
-<p>
-指物理空间上的“浅”，例如“在相当浅的土壤层中”或“地壳的浅层”。
-</p>
+<dl class="org-dl">
+<dt><code>TAB</code></dt><dd>Cycle visibility of the current subtree on a heading.</dd>
+<dt><code>S-TAB</code> (Shift + Tab)</dt><dd>Cycle global visibility (all folded / all expanded).</dd>
+<dt><code>M-RET</code> (Alt + Enter)</dt><dd>Insert a new heading or list item at the same level.</dd>
+<dt><code>M-S-RET</code></dt><dd>Insert a new TODO heading at the same level.</dd>
+<dt><code>M-Left</code> / <code>M-Right</code></dt><dd>Promote or demote the current heading or list item.</dd>
+<dt><code>M-Up</code> / <code>M-Down</code></dt><dd>Move the current heading, paragraph, or list item up or down.</dd>
+<dt><code>M-S-Left</code> / <code>M-S-Right</code></dt><dd>Promote or demote the entire subtree.</dd>
+<dt><code>M-S-Up</code> / <code>M-S-Down</code></dt><dd>Move the entire subtree up or down.</dd>
+</dl>
 </div>
 </div>
-<div id="outline-container-org76fd2d8" class="outline-3">
-<h3 id="org76fd2d8"><span class="section-number-3">1.2.</span> 比喻/抽象层面</h3>
+<div id="outline-container-org3b5d27d" class="outline-3">
+<h3 id="org3b5d27d"><span class="section-number-3">1.2.</span> <span class="todo TODO">TODO</span> and Task Management</h3>
 <div class="outline-text-3" id="text-1-2">
-<p>
-这是更常见的用法，指 *理解、分析或讨论缺乏深度*，是 *肤浅的、表面的*。它暗示内容没有触及问题的核心或本质。
-</p>
-
-<p>
-短语中的 <b>fairly</b> 是一个程度副词，意为“相当地、还算”，它修饰 <b>shallow*，表示深度或肤浅的程度是 *中等偏上</b> 的，并非极端浅薄，但也明确缺乏深度。
-</p>
+<dl class="org-dl">
+<dt><code>C-c C-t</code></dt><dd>Cycle the TODO state of the current heading (e.g., <code>TODO</code> -&gt; <code>DONE</code> -&gt; none).</dd>
+<dt><code>S-Left</code> / <code>S-Right</code></dt><dd>Cycle through different TODO states.</dd>
+<dt><code>C-c / t</code></dt><dd>Show all TODO items in the current file as a sparse tree.</dd>
+<dt><code>C-c ,</code></dt><dd>Set the priority of the current task (enter <code>A</code>, <code>B</code>, or <code>C</code>).</dd>
+<dt><code>C-c C-c</code></dt><dd>Toggle the state of a checkbox (= [ ] = / = [X] =).</dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-orgfd62d47" class="outline-3">
+<h3 id="orgfd62d47"><span class="section-number-3">1.3.</span> Dates, Scheduling, and Timestamps</h3>
+<div class="outline-text-3" id="text-1-3">
+<dl class="org-dl">
+<dt><code>C-c C-s</code></dt><dd>Schedule a task (<code>SCHEDULED</code>).</dd>
+<dt><code>C-c C-d</code></dt><dd>Set a deadline for a task (<code>DEADLINE</code>).</dd>
+<dt><code>C-c .</code></dt><dd>Insert an active timestamp.</dd>
+<dt><code>C-c !</code></dt><dd>Insert an inactive timestamp (does not trigger agenda alerts).</dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-org090392f" class="outline-3">
+<h3 id="org090392f"><span class="section-number-3">1.4.</span> Table Operations</h3>
+<div class="outline-text-3" id="text-1-4">
+<dl class="org-dl">
+<dt><code>C-c |</code></dt><dd>Create a table from region or prompt for dimensions (e.g., <code>0|0</code>).</dd>
+<dt><code>TAB</code></dt><dd>Move to the next cell and automatically align the table.</dd>
+<dt><code>S-TAB</code></dt><dd>Move to the previous cell.</dd>
+<dt><code>M-Left</code> / <code>M-Right</code> / <code>M-Up</code> / <code>M-Down</code></dt><dd>Move the current column or row.</dd>
+<dt><code>M-- M-Left</code> / <code>M-Right</code></dt><dd>Delete or insert a column.</dd>
+<dt><code>M-- M-Up</code> / <code>M-Down</code></dt><dd>Delete or insert a row.</dd>
+<dt><code>C-c C-c</code></dt><dd>Re-align the current table.</dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-orgaff2196" class="outline-3">
+<h3 id="orgaff2196"><span class="section-number-3">1.5.</span> Links and Tags</h3>
+<div class="outline-text-3" id="text-1-5">
+<dl class="org-dl">
+<dt><code>C-c C-l</code></dt><dd>Insert or edit a link (supports URLs, files, internal headings, etc.).</dd>
+<dt><code>C-c C-o</code></dt><dd>Open the link at point.</dd>
+<dt><code>C-c C-q</code></dt><dd>Set tags for the current heading.</dd>
+</dl>
 </div>
 </div>
 </div>
-<div id="outline-container-orgd5b4e08" class="outline-2">
-<h2 id="orgd5b4e08"><span class="section-number-2">2.</span> 主要用途与语境</h2>
+<div id="outline-container-orgdc7e8d2" class="outline-2">
+<h2 id="orgdc7e8d2"><span class="section-number-2">2.</span> Text Formatting and Emphasis</h2>
 <div class="outline-text-2" id="text-2">
 <p>
-这个短语在英语中用途广泛，主要体现在以下几个方面：
+In Emacs Org Mode, inserting or modifying text emphasis uses the core prefix shortcut <code>C-c C-x C-f</code> followed by a specific character. If a region is selected, the markers wrap the selection; otherwise, paired markers are inserted with the cursor placed inside.
 </p>
 </div>
-<div id="outline-container-orgdd0d481" class="outline-3">
-<h3 id="orgdd0d481"><span class="section-number-3">2.1.</span> 评价认知或分析的深度</h3>
+<div id="outline-container-org4ad1843" class="outline-3">
+<h3 id="org4ad1843"><span class="section-number-3">2.1.</span> Common Inline Emphasis (<code>C-c C-x C-f</code> + Key)</h3>
 <div class="outline-text-3" id="text-2-1">
-<p>
-常用于 <b>学术、专业或日常讨论</b> 中，委婉地指出某项分析、讨论或理解不够深入。
-</p>
-
-<ul class="org-ul">
-<li>例句：I was hoping for a more profound discussion, but it remained <b>at a fairly shallow level</b>.</li>
-<li>译文：我希望有更深刻的讨论，但它仍然停留在相当肤浅的层面。</li>
-</ul>
+<dl class="org-dl">
+<dt><code>C-c C-x C-f *</code></dt><dd><b>Bold</b> — generates <code>*text*</code></dd>
+<dt><code>C-c C-x C-f /</code></dt><dd><i>Italic</i> — generates <code>/text/</code></dd>
+<dt><code>C-c C-x C-f _</code></dt><dd><span class="underline">Underline</span> — generates <code>_text_</code></dd>
+<dt><code>C-c C-x C-f +</code></dt><dd><del>Strikethrough</del> — generates <code>+text+</code></dd>
+<dt><code>C-c C-x C-f =</code></dt><dd><code>Verbatim</code> (display literal text) — generates <code>=text=</code></dd>
+<dt><code>C-c C-x C-f ~</code></dt><dd><code>Inline Code</code> (for code snippets) — generates <code>~text~</code></dd>
+<dt><code>C-c C-x C-f SPC</code></dt><dd>Remove emphasis markers around point or within the selected region.</dd>
+</dl>
 </div>
 </div>
-<div id="outline-container-org119b953" class="outline-3">
-<h3 id="org119b953"><span class="section-number-3">2.2.</span> 描述人际互动或对话的性质</h3>
+<div id="outline-container-org8b09e00" class="outline-3">
+<h3 id="org8b09e00"><span class="section-number-3">2.2.</span> Subscripts, Superscripts, and Structure Blocks</h3>
 <div class="outline-text-3" id="text-2-2">
-<p>
-形容交流停留在表面，缺乏情感或思想上的深度。
-</p>
-
-<ul class="org-ul">
-<li>例句：Their conversation rarely went beyond superficial topics, revealing a <b>fairly shallow</b> understanding of the world.</li>
-<li>译文：他们的谈话很少超出表面话题，显示出对世界相当肤浅的理解。</li>
-</ul>
+<dl class="org-dl">
+<dt><code>C-c C-x \</code></dt><dd>Toggle visual preview of subscripts and superscripts (e.g., <code>x^2</code> or <code>H_2O</code>).</dd>
+<dt><code>C-c C-,</code></dt><dd>Quickly insert a structure template block:
+<dl class="org-dl">
+<dt>Press <code>s</code></dt><dd>Insert a source code block (<code>#+BEGIN_SRC ... #+END_SRC</code>)</dd>
+<dt>Press <code>q</code></dt><dd>Insert a quote block (<code>#+BEGIN_QUOTE ... #+END_QUOTE</code>)</dd>
+<dt>Press <code>e</code></dt><dd>Insert an example block (<code>#+BEGIN_EXAMPLE ... #+END_EXAMPLE</code>)</dd>
+</dl></dd>
+</dl>
 </div>
 </div>
-<div id="outline-container-org2c0397b" class="outline-3">
-<h3 id="org2c0397b"><span class="section-number-3">2.3.</span> 管理沟通方式（教学/解释）</h3>
+<div id="outline-container-org3d2dd13" class="outline-3">
+<h3 id="org3d2dd13"><span class="section-number-3">2.3.</span> Practical Tips</h3>
 <div class="outline-text-3" id="text-2-3">
-<p>
-在特定场合，*有意地* 在较浅的层面解释复杂概念，以帮助初学者理解基础。
-</p>
-
-<ul class="org-ul">
-<li>例句：The teacher decided to explain it <b>on a shallower level</b> to help them grasp the basic principles.</li>
-<li>译文：老师决定在较浅的层面进行解释，以帮助他们掌握基本原理。</li>
-</ul>
+<dl class="org-dl">
+<dt><b>Hide Emphasis Markers</b></dt><dd>To hide raw symbols like <code>*</code>, <code>/</code>, and <code>~</code> while reading, add <code>(setq org-hide-emphasis-markers t)</code> to your <code>init.el</code> configuration, or use the <code>org-appear</code> package to automatically reveal markers only when the cursor enters the formatted text.</dd>
+<dt><b>Delimiter Rules</b></dt><dd>Org Mode requires emphasis markers (such as <code>*</code>) to be bordered by whitespace, line boundaries, or specific punctuation on the outside, with no whitespace immediately inside the markers.</dd>
+</dl>
 </div>
-</div>
-<div id="outline-container-org9ff41d5" class="outline-3">
-<h3 id="org9ff41d5"><span class="section-number-3">2.4.</span> 跨学科的专业用法</h3>
-<div class="outline-text-3" id="text-2-4">
-<p>
-在地质学、物理学等自然科学中，可作为 <b>中性术语</b> 描述物理深度。例如描述“地壳的浅层变形”（deformation at a shallow level of the crust）或“浅能级”（shallow level）。
-</p>
-</div>
-</div>
-</div>
-<div id="outline-container-org5693b10" class="outline-2">
-<h2 id="org5693b10"><span class="section-number-2">3.</span> 反义词（Antonyms）</h2>
-<div class="outline-text-2" id="text-3">
-<p>
-反义词的选择取决于你想强调“深”的哪个维度。
-</p>
-</div>
-<div id="outline-container-org9e31439" class="outline-3">
-<h3 id="org9e31439"><span class="section-number-3">3.1.</span> 直接对应的反义短语</h3>
-<div class="outline-text-3" id="text-3-1">
-<p>
-最直接的反义词是在相同结构中替换核心形容词。
-</p>
-
-<ul class="org-ul">
-<li>*at a deep level*：在深层次上。这是最通用、最直接的物理和比喻反义词。</li>
-<li>*at a profound level*：在深刻/深奥的层面上。比 deep 程度更强，强调思想、意义或影响的深远，常用于抽象语境。</li>
-<li>*at an advanced level*：在高级/进阶层面上。侧重于复杂性和专业程度，而非仅仅是“深”。</li>
-</ul>
-</div>
-</div>
-<div id="outline-container-org7dfe9b0" class="outline-3">
-<h3 id="org7dfe9b0"><span class="section-number-3">3.2.</span> 针对 shallow 的核心反义词</h3>
-<div class="outline-text-3" id="text-3-2">
-<p>
-要表达“肤浅”的反面，可以使用以下形容词来描述“深”：
-</p>
-
-<ul class="org-ul">
-<li>*Deep*：最核心、最通用的反义词，适用于所有物理和比喻场景。</li>
-<li>*Profound*：指 *思想、感情或知识极其深刻*，带有强烈的正面色彩，用于描述肤浅的反面非常有力。</li>
-<li>*Thorough / Extensive*：强调 *全面和详尽*，与 shallow（片面的）相对。</li>
-<li>*Complex / Thoughtful*：指 *复杂且经过深思熟虑的*，与 shallow（简单的、未经思考的）相对。</li>
-</ul>
-</div>
-</div>
-</div>
-<div id="outline-container-org2a3c3a4" class="outline-2">
-<h2 id="org2a3c3a4"><span class="section-number-2">4.</span> 总结</h2>
-<div class="outline-text-2" id="text-4">
-<p>
-“at a fairly shallow level” 是一个灵活的表达，既可以客观描述物理深度，也可以委婉批评认知深度不足，或在教学中策略性地使用。它的反义词则根据你想强调的“深”的类型（通用深度、深刻程度、复杂程度或详尽程度）而有不同选择。
-</p>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Date: 2026-11-09 周一 00:00</p>
-<p class="author">Author: Buce-Ithon</p>
-<p class="date">Created: 2026-11-10 周二 10:46</p>
+<p class="date">Date: 2026-11-13</p>
+<p class="author">Author: AI Assistant</p>
+<p class="date">Created: 2026-11-13 周五 14:28</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
