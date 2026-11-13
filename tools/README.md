@@ -97,6 +97,30 @@ Once enabled, every `git commit` runs the script first; if the README changed, i
 
 Without `--global` or `--system`, `core.hooksPath` is written to `.git/config`, so it applies only to the repository where it was set. Other repositories are unaffected unless you have set it in your global config too. Confirm the origin with `git config --show-origin core.hooksPath` — it should read `file:.git/config`.
 
+## Inspecting the setup
+
+Coming back to the repository after a long break? Run:
+
+```powershell
+pwsh tools/doctor.ps1
+```
+
+It prints the hooks directory git is actually using, the hooks that live there (i.e. the ones that are active), the configured git aliases, and whether `README.md` is still in sync.
+
+The same information by hand:
+
+| Question | Command |
+|---|---|
+| Is `core.hooksPath` set? | `git config --show-origin --get core.hooksPath` (exit code 1 = unset) |
+| Which hooks directory is in use? | `git rev-parse --git-path hooks` — respects `core.hooksPath` |
+| Which hooks are active? | `Get-ChildItem (git rev-parse --git-path hooks)` — any file that is not `*.sample` |
+| What hook names exist at all? | `git help githooks` |
+| All config, with scope and origin | `git config --list --show-origin --show-scope` |
+| Aliases only | `git config --get-regexp '^alias\.'` |
+| Is the README in sync? | `python tools/update-readme.py --check` |
+
+A hook is "enabled" purely by the presence of a file of that name in the hooks directory — there is no separate on/off switch. Deleting the file, or unsetting `core.hooksPath`, disables it.
+
 ## Troubleshooting
 
 **Wrong order / new file is not at the end**: the file has not been committed yet. Run `git add` and `git commit`, then run the script again.

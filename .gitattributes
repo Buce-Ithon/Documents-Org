@@ -1,0 +1,2 @@
+# Hooks are shell scripts: keep LF so they stay runnable after a fresh checkout.
+.githooks/* text eol=lf
