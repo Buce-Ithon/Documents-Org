@@ -27,6 +27,7 @@ My personal org-mode documents repository for daily life management, language le
 ### Programming
 
 [Programming/cpp-operator-overloading-function.org](./Programming/cpp-operator-overloading-function.org)
+[Programming/cpp-polymorphism.org](./Programming/cpp-polymorphism.org)
 <!-- ORG-LIST:END -->
 
 ## Language learning

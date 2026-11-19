@@ -1,0 +1,92 @@
+#+TITLE: C++ Polymorphism - 一些解惑
+#+STARTUP: overview
+#+AUTHOR: Buce-Ithon
+#+DATE: <2026-11-19 周四>
+
+Reference: [[https://www.geeksforgeeks.org/cpp/cpp-polymorphism/][Operator Overloading For C++ - GeeksforGeeks]]
+
+* Introduction to polymorphism
+The word *polymorphism* means /having many forms/. In C++, polymorphism concept can be applied to _functions and operators_. A single function name can work differently in different situations. Similarly, an operator works different when used in different context.
+
+- Same function or operator can behave differently depending on the context or object it is used with.
+- Achieved through function overloading and function overriding, improving code reusability and flexibility.
+
+* 2 Types of Polymorphism
+| Compile Time Polymorphism                                        | Run time Polymorphism                                        |
+|------------------------------------------------------------------+--------------------------------------------------------------|
+| Also called static binding                                       | Also called dynamic binding                                  |
+| Achieved using *function overloading* and *operator overloading* | Achieved using *virtual functions* and *function overriding* |
+| Decision made by the compiler at compile time                    | Decision made at runtime using vtables                       |
+| Faster due to early binding                                      | More flexible but slightly slower                            |
+
+* Examples
+** Compile Time Polymorphism - Function Overloading
+#+begin_src cpp
+  class Geeks {
+  public:
+      // Function to add two integers
+      void add(int a, int b) {
+	  cout << "Integer Sum = " << a + b
+	  << endl;
+      }
+
+      // Function to add two floating point values
+      void add(double a, double b) {
+	  cout << "Float Sum = " << a + b
+	  << endl ;
+      }
+  };
+
+  Geeks gfg;
+
+  // add() called with int values
+  gfg.add(10, 2);
+
+  // add() called with double value
+  gfg.add(5.3, 6.2);
+#+end_src
+
+** Compile Time Polymorphism - Operator Overloading
+I'm familiar with it, example is omitted :).
+
+** Run Time Polymorphism - Function Overriding using Virtual Function
+#+begin_src cpp
+  #include <bits/stdc++.h> // may only for compilers based-on GCC
+  using namespace std;
+
+  class Base {
+  public:
+
+      // Virtual function
+      virtual void display() {
+	  cout << "Base class function";
+      }
+  };
+
+  class Derived : public Base {
+  public:
+
+      // Overriding the base class function
+      void display() override {
+	  cout << "Derived class function";
+      }
+  };
+
+  int main() {
+
+      // Creating a pointer of type Base
+      Base* basePtr;
+
+      // Creating an object of Derived class
+      Derived derivedObj;
+
+      // Pointing base class pointer to 
+      // derived class object
+      basePtr = &derivedObj;
+
+      // Calling the display function 
+      // using base class pointer
+      basePtr->display();
+      return 0;
+  }
+#+end_src
