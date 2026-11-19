@@ -1,0 +1,91 @@
+#+TITLE: C++ Operator Overloading Function - 一些解惑
+#+STARTUP: overview
+#+AUTHOR: Buce-Ithon
+#+DATE: <2026-11-19 周四>
+
+Reference: [[https://www.geeksforgeeks.org/cpp/operator-overloading-cpp/][Operator Overloading For C++ - GeeksforGeeks]]
+
+* Syntax of operator overloading
+#+begin_src cpp
+  return_type operator symbol(parameters) {
+    // function body
+  }
+#+end_src
+
+#+begin_comment
+该语法结构仅用于快速复习(face-to-face)演示
+#+end_comment
+
+* Example
+#+begin_src cpp
+  class Number {
+      int value_;
+
+  public:
+      Number(int value) : value_(value) {}
+
+      // overload + operator
+      Number operator+(const Number &n) {
+          return Number(value_ + n.value_);
+      }
+
+      // prefix unary operator
+      void operator++() {
+          ++value_;
+      }
+
+      // post unary operator
+      void operator++(int) { // 在 operator symbol(param) 的 param 参数处添加一个哑参数
+          value_++;
+      }
+  }
+
+  Number n1(1), n2(2);
+  Number n3 = n1 + n2;
+  ++n3; // use prefix unary operator
+  n3++; // use post unary operator
+#+end_src
+
+#+begin_comment
+实际上，~n3 = n1 + n2~ 就相当于 ~n3 = n1.operator+(n2)~: 
+The + operator is overloaded as a member function of Number. When n1 + n2 is used, it calls n1.operator+(n2) and returns a new object containing their sum.
+#+end_comment
+
+* Details
+** Member and Non-Member Operator Functions
+An operator can generally be overloaded using a *member function* or a *non-member function*.
+
+| Feature        | Member Function            | Non-Member Function             |
+|----------------+----------------------------+---------------------------------|
+| Definition     | Defined inside the class   | Defined outside the class       |
+| Left Operand   | Usually the calling object | Passed as an argument           |
+| Private Access | Direct access              | Requires friendship when needed |
+| Example        | a.operator+(b)             | operator+(a, b)                 |
+
+#+begin_comment
+[未理解的] A non-member operator function can be declared as a friend when it needs access to private or protected members.
+#+end_comment
+
+** Operators That Can/Can't Be Overloaded
+Most C++ operators can be overloaded for user-defined types, except some operators having fixed language-level behavior.
+
+** Reasons These Operators Cannot Be Overloaded
+These operators are closely tied to fundamental C++ language operations and therefore have fixed semantics.
+
+- ~::~ Operator: Resolves names such as classes, namespaces, and global variables.
+- ~.~ and ~.*~ Operators: Provide built-in member and pointer-to-member access.
+- ~?:~ Operator: Provides conditional evaluation with language-defined behavior.
+- ~sizeof~ Operator: Determines the size of a type or object as part of the language's type system.
+- ~typeid~ Operator: Provides runtime type information with behavior defined by the C++ language.
+
+** Rules for Operator Overlaying
+
+Operator overloading follows several restrictions defined by C++.
+
+- > 无法创建C++现有运算符之外的新的运算符 New operators cannot be created.
+- > 重载后的运算符的操作数(即元数)保持不变 The number of operands required by an operator cannot be changed.
+- Operator precedence and associativity cannot be changed.
+
+- At least one operand must be a user-defined type.
+- Operators cannot be overloaded only for built-in types.
+- Some operators can only be overloaded as member functions.

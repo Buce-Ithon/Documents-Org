@@ -11,6 +11,7 @@ My personal org-mode documents repository for daily life management, language le
 
 <!-- ORG-INDEX:START -->
 - [Daily life management](#Daily-life-management)
+  - [Programming](#Programming)
 - [Language learning](#Language-learning)
   - [Daily expression](#Daily-expression)
 - [Technical content](#Technical-content)
@@ -22,6 +23,10 @@ My personal org-mode documents repository for daily life management, language le
 
 <!-- ORG-LIST:START -->
 [arrangement.org](./arrangement.org)
+
+### Programming
+
+[Programming/cpp-operator-overloading-function.org](./Programming/cpp-operator-overloading-function.org)
 <!-- ORG-LIST:END -->
 
 ## Language learning
