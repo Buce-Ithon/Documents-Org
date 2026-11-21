@@ -28,6 +28,8 @@ My personal org-mode documents repository for daily life management, language le
 
 [Programming/cpp-operator-overloading-function.org](./Programming/cpp-operator-overloading-function.org)
 [Programming/cpp-polymorphism.org](./Programming/cpp-polymorphism.org)
+[Programming/c-cpp-advanced-macro-forwarding.org](./Programming/c-cpp-advanced-macro-forwarding.org)
+[Programming/c-cpp-macro-stringification.org](./Programming/c-cpp-macro-stringification.org)
 <!-- ORG-LIST:END -->
 
 ## Language learning

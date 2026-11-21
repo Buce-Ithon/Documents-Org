@@ -1,0 +1,128 @@
+#+TITLE: C/C++ 高阶宏转发与预处理元编程技巧
+#+STARTUP: overview
+#+AUTHOR: Buce-Ithon, Gemini
+#+DATE: <2026-11-21 周六>
+#+OPTIONS: toc:2 num:t ^:nil
+
+* 概述
+
+书接上文: [[file:c-cpp-macro-stringification.org][C/C++ 字符串化宏变量基础]]
+
+在 C/C++ 预处理阶段，除了使用两层转发宏来绕过 =#=（字符串化）和 =##=（记号拼接）的提前展开限制外，还有一系列经典的高阶宏转发技巧。这些技巧的核心目的在于*控制宏的展开时机、按条件分发参数以及突破预处理器的递归限制*。
+
+* 1. 参数个数分发（宏重载 / Variadic Dispatch）
+
+利用 =__VA_ARGS__= 计算传入的参数个数，将宏调用自动转发给不同后缀的底层宏，从而在 C/C++ 预处理阶段模拟出类似“函数重载”的效果。
+
+** 实现代码
+
+#+BEGIN_SRC c
+#include <stdio.h>
+
+// 1. 辅助宏：提取位置对应的目标宏名
+#define GET_MACRO(_1, _2, _3, NAME, ...) NAME
+
+// 2. 分发入口：根据传入参数个数转发到具体实现
+#define LOG(...) GET_MACRO(__VA_ARGS__, LOG3, LOG2, LOG1)(__VA_ARGS__)
+
+#define LOG1(a)       printf("%s\n", a)
+#define LOG2(a, b)    printf("%s: %d\n", a, b)
+#define LOG3(a, b, c) printf("%s: %d (%s)\n", a, b, c)
+#+END_SRC
+
+** 核心原理
+
+=__VA_ARGS__= 展开后会把后面的候选宏名 =LOG3, LOG2, LOG1= 向右挤压，使得第 4 个形参 =NAME= 刚好对准与实参数量相匹配的宏名称。
+
+* 2. 延迟展开（Deferred Expansion / EMPTY 技巧）
+
+在某些复杂场景（如配合递归或条件判断）中，我们不希望宏在当前扫描轮次立刻展开，而是等待下一轮重新扫描再触发。标准做法是在宏名和左括号之间插入一个展开为空的辅助宏。
+
+** 实现代码
+
+#+BEGIN_SRC c
+#define EMPTY()
+#define DEFER(id) id EMPTY()
+
+// 多层扫描触发器示例
+#define EVAL(...)  EVAL1(EVAL1(EVAL1(__VA_ARGS__)))
+#define EVAL1(...) EVAL2(EVAL2(EVAL2(__VA_ARGS__)))
+#define EVAL2(...) __VA_ARGS__
+
+#define FOO() 123
+
+// FOO()         -> 第一轮扫描直接展开为 123
+// DEFER(FOO)()  -> 第一轮变成 FOO ()，中间隔了 EMPTY() 而不被识别为函数宏
+// EVAL(DEFER(FOO)()) -> 经过外层强制重新扫描，最终展开为 123
+#+END_SRC
+
+** 核心原理
+
+函数式宏只有在“宏名紧跟左括号”时才会被触发。插入 =EMPTY()= 后，第一轮扫描仅将 =EMPTY()= 替换为空白，此时 =FOO= 与 =()= 才相邻，从而把 =FOO()= 的实际展开推迟到下一轮扫描。这是 Boost.Preprocessor 等元编程库实现宏循环的底层基石。
+
+* 3. 完美转发与可变参数包裹（__VA_OPT__ 与逗号吞噬）
+
+当把可变参数转发给底层函数或宏时，如果可变参数部分为空，尾部往往会残留一个多余的逗号导致语法错误。
+
+** C++20 / C23 标准写法
+
+使用 =__VA_OPT__= 关键字，仅在 =__VA_ARGS__= 非空时才生成括号内的内容（如逗号）：
+
+#+BEGIN_SRC c
+#define LOG_FMT(fmt, ...) printf(fmt __VA_OPT__(,) __VA_ARGS__)
+
+// LOG_FMT("hello")      -> printf("hello")
+// LOG_FMT("val=%d", 42) -> printf("val=%d", 42)
+#+END_SRC
+
+** 传统 GNU / 编译器扩展写法
+
+在不支持 C++20/C23 的旧标准中，常利用 =##__VA_ARGS__= 在可变参数为空时自动吞掉前面逗号的特性：
+
+#+BEGIN_SRC c
+#define LOG_FMT_GNU(fmt, ...) printf(fmt, ##__VA_ARGS__)
+#+END_SRC
+
+* 4. 括号解包与转发（Tuple Unpacking）
+
+当一组参数被包裹在圆括号内作为一个整体（Tuple）传递时，可以通过剥壳转发宏去掉外层括号，再将内部参数列表传递给目标宏。
+
+** 实现代码
+
+#+BEGIN_SRC c
+#define UNPACK(...) __VA_ARGS__
+#define APPLY(macro, args_tuple) macro(UNPACK args_tuple)
+
+#define ADD(a, b) ((a) + (b))
+
+// APPLY(ADD, (1, 2))
+// -> 展开为 ADD(UNPACK (1, 2))
+// -> 展开为 ADD(1, 2)
+// -> 展开为 ((1) + (2))
+#+END_SRC
+
+** 典型用途
+
+该技巧常与 *X-Macro* 列表模式配合使用，用于批量生成结构体成员定义、枚举值映射以及自动序列化/反序列化代码。
+
+* 5. 条件分支转发（基于记号拼接的布尔分发）
+
+利用记号拼接运算符 =##= 将计算后的布尔值（=0= 或 =1=）拼接到目标宏名称末尾，可以在预处理阶段实现 =IF / ELSE= 条件分支路由。
+
+** 实现代码
+
+#+BEGIN_SRC c
+#define IIF_0(t, f) f
+#define IIF_1(t, f) t
+
+#define PRIMITIVE_CAT(a, b) a ## b
+#define IIF(cond) PRIMITIVE_CAT(IIF_, cond)
+
+// 使用示例：
+// IIF(1)(true_branch, false_branch) -> IIF_1(true_branch, false_branch) -> true_branch
+// IIF(0)(true_branch, false_branch) -> IIF_0(true_branch, false_branch) -> false_branch
+#+END_SRC
+
+** 注意事项
+
+使用 =IIF= 时，传入的 =cond= 必须严格求值为字面量 =0= 或 =1=（若传入其他表达式，需先经过布尔归一化宏将其转换为 =0= 或 =1=）。
