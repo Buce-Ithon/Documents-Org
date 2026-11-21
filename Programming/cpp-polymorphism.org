@@ -3,7 +3,7 @@
 #+AUTHOR: Buce-Ithon
 #+DATE: <2026-11-19 周四>
 
-Reference: [[https://www.geeksforgeeks.org/cpp/cpp-polymorphism/][Operator Overloading For C++ - GeeksforGeeks]]
+Reference: [[https://www.geeksforgeeks.org/cpp/cpp-polymorphism/][C++ Polymorphism - GeeksforGeeks]]
 
 * Introduction to polymorphism
 The word *polymorphism* means /having many forms/. In C++, polymorphism concept can be applied to _functions and operators_. A single function name can work differently in different situations. Similarly, an operator works different when used in different context.
