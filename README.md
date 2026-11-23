@@ -35,8 +35,8 @@ My personal org-mode documents repository for daily life management, language le
 [Programming/cpp-polymorphism.org](./Programming/cpp-polymorphism.org)
 [Programming/c-cpp-advanced-macro-forwarding.org](./Programming/c-cpp-advanced-macro-forwarding.org)
 [Programming/c-cpp-macro-stringification.org](./Programming/c-cpp-macro-stringification.org)
-[Programming/cpp-a-little-from-entt-stl-functional\[explanation\].org](<./Programming/cpp-a-little-from-entt-stl-functional[explanation].org>)
 [Programming/cpp-a-little-from-entt-stl-functional.org](./Programming/cpp-a-little-from-entt-stl-functional.org)
+[Programming/cpp-a-little-from-entt-stl-functional\[explanation\].org](<./Programming/cpp-a-little-from-entt-stl-functional[explanation].org>)
 <!-- ORG-LIST:END -->
 
 ## Language learning
