@@ -38,17 +38,24 @@ Each `## Section` in the README maps to a directory of the same name, case-insen
 | README section | Directory |
 |---|---|
 | `## Daily life management` | repository root (fixed, see `ROOT_SECTION`) |
+| `## Arrangement` | `Arrangement/` |
 | `## Language learning` | `Language learning/` |
 | `## Software use` | `Software Use/` |
 | `## Technical content` | no such directory yet → left untouched |
 
-Adding a new category therefore needs no script change: create a `Technical content/` directory, add a `## Technical content` section to the README, and run the script again — both the file list and the `# Contents` index are filled in automatically.
-
-Conversely, if a directory already holds org files but has no matching `##` section, the script prints a warning to stderr rather than dropping it silently:
+A section that never had a list (such as `## Technical content`) is left completely untouched. One whose directory has disappeared keeps its heading, but its now-dead list is cleared and a warning is printed:
 
 ```
-warning: directory `Misc/papers` contains org files but no matching `##` section in README.md
+warning: section `Programming` has no matching directory; its list was cleared
 ```
+
+**Top-level directories are never nested.** Every direct subdirectory of the repository root that contains org files gets its own `##` section, whether or not the heading already exists:
+
+- If the heading is missing, it is created automatically, together with its managed block and its `# Contents` entry.
+- New sections are inserted directly after the root section (`## Daily life management`), ordered by directory name. Sections that already exist are left where they are.
+- A directory whose section exists but which no longer holds any org files keeps its heading; only the list inside is cleared.
+
+Adding a category therefore needs no script change at all: create the directory, drop in org files, run the script.
 
 ### Ordering
 
@@ -62,9 +69,19 @@ Files are sorted from oldest to newest by the time of their **last git commit**;
 
 ### Subdirectories
 
-Subdirectories are expanded recursively as `###`, `####` headings, with sibling directories ordered by name.
+Directories *below* the top level are expanded recursively as `###`, `####` headings, with sibling directories ordered by name. For example `Language learning/Daily expression/` becomes a `### Daily expression` subsection inside `## Language learning`.
 
-A directory already claimed by another `##` section is not expanded a second time under its parent — the root section, for instance, does not list `Language learning/` or `Software Use/` again.
+The root section only ever lists files sitting directly in the repository root, and a directory claimed by its own `##` section is never expanded a second time under its parent.
+
+### Link escaping
+
+Square brackets in a file name are backslash-escaped inside the link text:
+
+```markdown
+[Programming/cpp-a-little-from-entt-stl-functional\[explanation\].org](<./Programming/cpp-a-little-from-entt-stl-functional[explanation].org>)
+```
+
+CommonMark renders this exactly like the unescaped form, so GitHub and friends are unaffected. Emacs users need it: markdown-mode matches inline links with a non-nesting regex, where an unescaped `]` terminates the link text early and the whole link then fails to fontify — so `markdown-toggle-markup-hiding` silently leaves the line unfolded.
 
 ### Managed regions
 

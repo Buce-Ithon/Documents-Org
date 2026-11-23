@@ -11,7 +11,8 @@ My personal org-mode documents repository for daily life management, language le
 
 <!-- ORG-INDEX:START -->
 - [Daily life management](#Daily-life-management)
-  - [Programming](#Programming)
+- [Arrangement](#Arrangement)
+- [Programming](#Programming)
 - [Language learning](#Language-learning)
   - [Daily expression](#Daily-expression)
 - [Technical content](#Technical-content)
@@ -21,15 +22,21 @@ My personal org-mode documents repository for daily life management, language le
 
 ## Daily life management
 
+## Arrangement
+
 <!-- ORG-LIST:START -->
-[arrangement.org](./arrangement.org)
+[Arrangement/arrangement.org](./Arrangement/arrangement.org)
+<!-- ORG-LIST:END -->
 
-### Programming
+## Programming
 
+<!-- ORG-LIST:START -->
 [Programming/cpp-operator-overloading-function.org](./Programming/cpp-operator-overloading-function.org)
 [Programming/cpp-polymorphism.org](./Programming/cpp-polymorphism.org)
 [Programming/c-cpp-advanced-macro-forwarding.org](./Programming/c-cpp-advanced-macro-forwarding.org)
 [Programming/c-cpp-macro-stringification.org](./Programming/c-cpp-macro-stringification.org)
+[Programming/cpp-a-little-from-entt-stl-functional\[explanation\].org](<./Programming/cpp-a-little-from-entt-stl-functional[explanation].org>)
+[Programming/cpp-a-little-from-entt-stl-functional.org](./Programming/cpp-a-little-from-entt-stl-functional.org)
 <!-- ORG-LIST:END -->
 
 ## Language learning

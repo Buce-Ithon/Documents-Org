@@ -7,11 +7,15 @@ Rules
   (case-insensitive). ``Daily life management`` always maps to the repository
   root. Sections without a matching directory (e.g. Technical content) are
   left untouched.
+* Every top-level directory holding org files gets a ``##`` section of its own,
+  created on demand and inserted right after the root section, sorted by name.
+  A section whose directory has become empty keeps its heading but loses its
+  list.
 * Files are sorted oldest to newest by the time of their last git commit;
   untracked files fall back to their file modification time (pass ``--mtime``
   to sort purely by modification time).
-* Subdirectories are expanded recursively as ``###`` headings, with sibling
-  directories ordered by name.
+* Directories below the top level are expanded recursively as ``###``
+  headings, with sibling directories ordered by name.
 * Only the regions between ``<!-- ORG-LIST:START/END -->`` and
   ``<!-- ORG-INDEX:START/END -->`` are rewritten; missing markers are inserted
   automatically, taking over the old link lines that follow a heading.
@@ -81,8 +85,12 @@ def sort_key(path: Path, use_mtime: bool):
 
 def link_line(path: Path) -> str:
     rel = path.relative_to(ROOT).as_posix()
+    # 链接文本里的方括号一律转义：CommonMark 渲染结果不变，但 Emacs 的
+    # markdown-mode 用的正则是非嵌套的（组 3 为 \([^]]\)*），裸括号会让整条链接
+    # 匹配不上，标记折叠（markdown-toggle-markup-hiding）也就失效。
+    label = rel.replace("[", r"\[").replace("]", r"\]")
     target = f"<./{rel}>" if SPECIAL & set(rel) else f"./{rel}"
-    return f"[{rel}]({target})"
+    return f"[{label}]({target})"
 
 
 def render_dir(directory: Path, level: int, use_mtime: bool, claimed: set[Path]) -> str:
@@ -171,14 +179,66 @@ def bootstrap_span(text: str, start: int, hi: int) -> tuple[int, int]:
 
 # ---------------------------------------------------------------- 主流程
 
+def sub_headings(body: str) -> list[str]:
+    """返回渲染结果里所有 ``###`` 子标题，供目录索引使用。"""
+    return [m.group(1) for m in re.finditer(r"^### +(.+?)[ \t]*$", body, re.M)]
+
+
+def top_level_dirs() -> list[Path]:
+    """仓库根目录下含 org 文件的直接子目录，按名称排序。"""
+    found = []
+    for child in sorted(ROOT.iterdir(), key=lambda p: p.name.lower()):
+        if not child.is_dir() or child.name.startswith("."):
+            continue
+        if any(child.rglob("*.org")):
+            found.append(child)
+    return found
+
+
+def remove_block_span(text: str, start: int, end: int) -> tuple[int, int]:
+    """清空托管区段时，把它两侧的空行各收掉一个，免得留下连续空行。"""
+    if start >= 2 and text[start - 1] == "\n" and text[start - 2] == "\n":
+        start -= 1
+    if text[end : end + 2] == "\n\n":
+        end += 1
+    return start, end
+
+
+def insert_after_root(text: str, payload: str) -> str:
+    """把新增的小节插到根目录小节之后；找不到根目录小节时追加到文末。"""
+    for title, _, hend in section_spans(text):
+        if title.casefold() != ROOT_SECTION.casefold():
+            continue
+        block = find_block(text, hend, next_heading(text, hend))
+        if block:
+            return text[: block[1]] + "\n\n" + payload + text[block[1]:]
+        # 标题后面没有托管区段：按后面的实际情况补足空行，避免多出空行
+        rest = text[hend:]
+        if not rest.strip():
+            return text[:hend] + "\n" + payload + "\n"
+        gap = rest if rest.startswith("\n\n") else ("\n" + rest if rest.startswith("\n") else "\n\n" + rest)
+        return text[:hend] + "\n" + payload + gap
+    return text.rstrip("\n") + "\n\n" + payload + "\n"
+
+
 def rewrite(text: str, use_mtime: bool) -> tuple[str, list[str]]:
     warnings: list[str] = []
     spans = section_spans(text)
     edits: list[tuple[int, int, str]] = []
     index_entries: list[str] = []
     section_dirs = {title: resolve_dir(title) for title, _, _ in spans}
-    claimed: list[Path] = [d for d in section_dirs.values() if d is not None]
-    claimed_set = {d.resolve() for d in claimed}
+    claimed_set = {d.resolve() for d in section_dirs.values() if d is not None}
+
+    # 没有同名小节的顶层目录：一律升格成同级 ## 小节，而不是塞进根目录小节里。
+    new_dirs = [d for d in top_level_dirs() if d.resolve() not in claimed_set]
+    claimed_set |= {d.resolve() for d in new_dirs}
+    new_bodies = {d: render_dir(d, 2, use_mtime, claimed_set) for d in new_dirs}
+    new_bodies = {d: b for d, b in new_bodies.items() if b}
+
+    new_index: list[str] = []
+    for d in new_bodies:
+        new_index.append(f"- [{d.name}]({anchor(d.name)})")
+        new_index.extend(f"  - [{h}]({anchor(h)})" for h in sub_headings(new_bodies[d]))
 
     for i, (title, _, hend) in enumerate(spans):
         hi = spans[i + 1][1] if i + 1 < len(spans) else len(text)
@@ -189,18 +249,35 @@ def rewrite(text: str, use_mtime: bool) -> tuple[str, list[str]]:
 
         directory = section_dirs[title]
         if directory is None:
+            # 目录被改名或删除了：清掉遗留的死链接，标题留给你决定去留。
+            span = find_block(text, hend, hi)
+            if span:
+                edits.append((*remove_block_span(text, *span), ""))
+                warnings.append(
+                    f"section `{title}` has no matching directory; its list was cleared "
+                    "(delete the section if you no longer need it)"
+                )
             continue
+
+        if directory.resolve() == ROOT.resolve():
+            index_entries.extend(new_index)
 
         body = render_dir(directory, 2, use_mtime, claimed_set)
-        if not body:
-            continue
-
         block = f"{LIST_START}\n{body}\n{LIST_END}"
         span = find_block(text, hend, hi)
-        edits.append((*span, block) if span else (*bootstrap_span(text, hend, hi), "\n" + block + "\n"))
 
-        for m in re.finditer(r"^### +(.+?)[ \t]*$", body, re.M):
-            index_entries.append(f"  - [{m.group(1)}]({anchor(m.group(1))})")
+        if not body:
+            # 目录已无 org 文件：保留标题，清空清单。
+            if span:
+                edits.append((*remove_block_span(text, *span), ""))
+            continue
+
+        edits.append((*span, block) if span else (*bootstrap_span(text, hend, hi), "\n" + block + "\n"))
+        index_entries.extend(f"  - [{h}]({anchor(h)})" for h in sub_headings(body))
+
+    # 没有根目录小节时，新小节排在索引最前面
+    if new_index and not any(d and d.resolve() == ROOT.resolve() for d in section_dirs.values()):
+        index_entries = new_index + index_entries
 
     # 目录索引
     h1 = next((m for m in H1.finditer(text) if m.group(1).casefold() == "contents"), None)
@@ -215,18 +292,11 @@ def rewrite(text: str, use_mtime: bool) -> tuple[str, list[str]]:
     for start, end, new in sorted(edits, key=lambda e: e[0], reverse=True):
         text = text[:start] + new + text[end:]
 
-    # 未被任何小节收录、但含 org 文件的目录
-    claimed_sorted = sorted(claimed, key=lambda p: len(p.parts))
-    for directory in sorted({p.parent for p in ROOT.rglob("*.org") if ".git" not in p.parts}):
-        if any(directory == c or c in directory.parents for c in claimed_sorted):
-            continue
-        if directory == ROOT:
-            warnings.append(f"org files in the repository root are not listed (section `{ROOT_SECTION}`)")
-        else:
-            warnings.append(
-                f"directory `{directory.relative_to(ROOT).as_posix()}` contains org files "
-                "but no matching `##` section in README.md"
-            )
+    if new_bodies:
+        payload = "\n\n".join(
+            f"## {d.name}\n\n{LIST_START}\n{body}\n{LIST_END}" for d, body in new_bodies.items()
+        )
+        text = insert_after_root(text, payload)
 
     return text, warnings
 
