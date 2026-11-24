@@ -1,0 +1,72 @@
+#+TITLE: PowerShell 别名（Alias）与带参数快捷命令配置笔记
+#+STARTUP: overview
+#+AUTHOR: Buce-Ithon, Gemini
+#+DATE: <2026-11-24 周二>
+#+OPTIONS: toc:2 num:t
+
+* 核心概念与限制
+
+** 别名机制
+- PowerShell 使用 =Set-Alias= （或 =New-Alias= ）为 cmdlet、函数或可执行文件建立快捷名称。
+- 命令行直接创建的别名仅在 *当前会话* 有效，关闭终端后失效。
+
+** 核心限制：不支持直接携带参数
+- =Set-Alias= 的 =-Value= 参数仅接受 *单个命令名或文件路径*，不能包含空格或运行参数。
+- *错误示例*：
+  #+begin_src powershell
+  Set-Alias -Name lsd -Value 'D:\Scoop\shims\lsd.exe -l'
+  #+end_src
+- *报错原因*：PowerShell 会将整个字符串 ='D:\Scoop\shims\lsd.exe -l'= 视为文件名去检索，导致提示找不到该命令或路径（ =is not recognized as a name of a cmdlet...= ）。
+
+* 解决方案
+
+** 1. 不带参数的纯命令映射
+直接使用 =Set-Alias= ：
+#+begin_src powershell
+Set-Alias -Name list -Value Get-ChildItem
+Set-Alias -Name np -Value notepad.exe
+#+end_src
+
+** 2. 带参数的命令：使用 Function 替代
+通过定义函数包裹原命令及默认参数，并利用 =@args= 透传后续追加的命令行参数：
+
+#+begin_src powershell
+# 清理可能残留的同名错误别名
+Remove-Item Alias:lsd -ErrorAction SilentlyContinue
+
+# 方式 A：指定完整路径（需使用调用运算符 &）
+function lsd { & 'D:\Scoop\shims\lsd.exe' -l @args }
+
+# 方式 B：命令已在 PATH 环境变量中（推荐）
+function lsd { lsd.exe -l @args }
+#+end_src
+
+*** 关键语法说明
+- * =&= （调用运算符）* ：用于执行引号包裹的可执行文件路径。
+- * =@args= （参数展开）* ：将用户在终端追加的参数（如 =lsd -a D:\Code= ）原封不动传递给底层程序。
+- *防止无限递归*：当函数名与可执行文件同名时，函数体内必须显式加上 =.exe= 后缀（如 =lsd.exe= ），否则函数会无限调用自身导致栈溢出。
+
+* 常用管理命令
+
+| 操作     | 命令示例                              | 说明                                      |
+|----------+---------------------------------------+-------------------------------------------|
+| 查看别名 | =Get-Alias -Name list=                | 查询指定别名指向的真实命令                  |
+| 反向查询 | =Get-Alias -Definition Get-ChildItem= | 查找某命令关联的所有别名                    |
+| 删除别名 | =Remove-Item Alias:lsd=               | 移除当前会话中的别名（或用 =Remove-Alias=） |
+
+* 持久化配置（$PROFILE）
+
+要让自定义的别名与函数在每次启动 PowerShell 时自动生效，需将其写入用户配置文件 =$PROFILE= ：
+
+#+begin_src powershell
+# 1. 检查配置文件路径，若不存在则自动创建
+if (!(Test-Path -Path $PROFILE)) {
+    New-Item -ItemType File -Path $PROFILE -Force
+}
+
+# 2. 使用编辑器打开配置文件并粘贴上述 function / Set-Alias 代码
+notepad $PROFILE
+
+# 3. 保存后，在当前窗口重载配置使其立即生效
+. $PROFILE
+#+end_src

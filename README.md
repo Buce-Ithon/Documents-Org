@@ -35,8 +35,8 @@ My personal org-mode documents repository for daily life management, language le
 [Programming/cpp-polymorphism.org](./Programming/cpp-polymorphism.org)
 [Programming/c-cpp-advanced-macro-forwarding.org](./Programming/c-cpp-advanced-macro-forwarding.org)
 [Programming/c-cpp-macro-stringification.org](./Programming/c-cpp-macro-stringification.org)
-[Programming/cpp-a-little-from-entt-stl-functional.org](./Programming/cpp-a-little-from-entt-stl-functional.org)
 [Programming/cpp-a-little-from-entt-stl-functional\[explanation\].org](<./Programming/cpp-a-little-from-entt-stl-functional[explanation].org>)
+[Programming/cpp-a-little-from-entt-stl-functional.org](./Programming/cpp-a-little-from-entt-stl-functional.org)
 <!-- ORG-LIST:END -->
 
 ## Language learning
@@ -75,6 +75,7 @@ This section is not yet complete.
 [Software Use/emacs-font-scaling.org](<./Software Use/emacs-font-scaling.org>)
 [Software Use/emacs-clangd-eglot-compiler-command.org](<./Software Use/emacs-clangd-eglot-compiler-command.org>)
 [Software Use/emacs-org-mode-shortcuts.org](<./Software Use/emacs-org-mode-shortcuts.org>)
+[Software Use/powershell-alias-function.org](<./Software Use/powershell-alias-function.org>)
 <!-- ORG-LIST:END -->
 
 ## Misc
