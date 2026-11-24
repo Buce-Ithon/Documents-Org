@@ -37,6 +37,7 @@ My personal org-mode documents repository for daily life management, language le
 [Programming/c-cpp-macro-stringification.org](./Programming/c-cpp-macro-stringification.org)
 [Programming/cpp-a-little-from-entt-stl-functional\[explanation\].org](<./Programming/cpp-a-little-from-entt-stl-functional[explanation].org>)
 [Programming/cpp-a-little-from-entt-stl-functional.org](./Programming/cpp-a-little-from-entt-stl-functional.org)
+[Programming/cpp-copy-move-semantics-in-class.org](./Programming/cpp-copy-move-semantics-in-class.org)
 <!-- ORG-LIST:END -->
 
 ## Language learning
