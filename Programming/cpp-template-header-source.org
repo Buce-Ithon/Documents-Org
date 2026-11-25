@@ -1,0 +1,64 @@
+#+TITLE: C++ 模板声明与定义分离问题详解
+#+STARTUP: overview
+#+AUTHOR: Buce-Ithon
+#+DATE: <2026-11-25 周三>
+#+OPTIONS: toc:2 num:t
+
+* 问题背景
+*User:* 模板能不能像函数一样在头文件中写声明、源文件中写定义？
+
+* 结论
+*Assistant:* *通常情况下不能，除非做显式实例化。* 常规做法是 *把模板的声明和定义全部写在头文件（~.h~ / ~.hpp~）里*。
+
+* 为什么不能分开写？
+模板本身不是真正的代码，它只是编译器生成代码的 *“蓝图”*。
+
+1. *编译阶段的隔离：* C++ 编译器是按单个 ~.cpp~ 文件（编译单元）独立编译的。
+2. *找不到定义：* 当 ~main.cpp~ 包含 ~resolve.h~ 并调用 ~resolve("assets", "shaders")~ 时，编译器需要立刻根据传入的实参类型实例化出具体函数。如果定义藏在 ~resolve.cpp~ 里，编译器在编译 ~main.cpp~ 时看不到实现，只能先留一个“未定义符号”的占位符。
+3. *链接失败：* 等编译 ~resolve.cpp~ 时，因为里面没有任何代码调用 ~resolve("assets", "shaders")~，编译器压根不会生成这个版本的二进制代码。最后链接器（Linker）合并目标文件时，就会报经典的 *~undefined reference~ / ~LNK2019~（无法解析的外部符号）* 错误。
+
+* 三种常见处理方式
+
+** 1. 全部写在头文件中（最推荐、95% 的情况）
+直接把实现放在 ~.hpp~ 或 ~.h~ 里。不需要加 ~inline~ 关键字（函数模板默认自带类似 ~inline~ 的链接属性，多个 ~.cpp~ 包含它也不会引起重定义冲突）。
+
+#+begin_src cpp
+// app_paths.hpp
+#pragma once
+#include <filesystem>
+#include <utility>
+
+namespace app_paths {
+    std::filesystem::path basePath(); // 普通函数可以声明在头文件，定义在 .cpp
+
+    // 模板必须把完整定义留在头文件
+    template <typename... Parts>
+    std::filesystem::path resolve(Parts&&... parts) {
+        std::filesystem::path p = basePath();
+        ((p /= std::filesystem::path(std::forward<Parts>(parts))), ...);
+        return p;
+    }
+}
+#+end_src
+
+** 2. 显式实例化（仅适用于参数类型完全固定、已知的情况）
+如果你非常想隐藏实现细节，且 *能穷举所有可能用到的参数组合*，可以在 ~.cpp~ 文件末尾手动要求编译器生成特定版本：
+
+#+begin_src cpp
+// app_paths.cpp
+#include "app_paths.hpp"
+
+template <typename... Parts>
+std::filesystem::path resolve(Parts&&... parts) { /* ... */ }
+
+// 显式实例化：只支持传 1 个或 2 个 const char* 的情况
+template std::filesystem::path resolve<const char*&>(const char*&);
+template std::filesystem::path resolve<const char*&, const char*&>(const char*&, const char*&);
+#+end_src
+
+#+begin_quote
+*缺点：* 像 ~resolve(Parts&&...)~ 这种变参转发引用模板，每次传不同长度的字符串字面量（如 ~"a"~ 是 ~const char[2]~，~"ab"~ 是 ~const char[3]~），推导出的类型都不同， *根本无法穷举*，因此这类模板完全不适合显式实例化。
+#+end_quote
+
+** 3. C++20 模块（Modules）
+如果项目启用了 C++20 模块（~.ixx~ / ~.cppm~），你可以用 ~export template~ 导出模板，这样既不用传统头文件，也能隔离私有辅助函数，但编译器依然会在底层处理实例化逻辑。
