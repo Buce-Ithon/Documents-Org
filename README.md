@@ -39,6 +39,8 @@ My personal org-mode documents repository for daily life management, language le
 [Programming/cpp-a-little-from-entt-stl-functional.org](./Programming/cpp-a-little-from-entt-stl-functional.org)
 [Programming/cpp-copy-move-semantics-in-class.org](./Programming/cpp-copy-move-semantics-in-class.org)
 [Programming/cpp-a-little-about-file-read-function.org](./Programming/cpp-a-little-about-file-read-function.org)
+[Programming/cpp-template-header-source.org](./Programming/cpp-template-header-source.org)
+[Programming/cpp-a-little-about-path-resolve-function.org](./Programming/cpp-a-little-about-path-resolve-function.org)
 <!-- ORG-LIST:END -->
 
 ## Language learning
